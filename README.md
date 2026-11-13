@@ -12,6 +12,14 @@ and upstream links are in `manifest.json`; supplied notices are under `licenses/
 Packages excluded from this snapshot are listed explicitly in the manifest.
 Not every third-party plugin or native Python extension is supported.
 
+## Installation on the matching image
+
+Download `install-feed.sh`, inspect it and run it as root. It checks the XCONN model,
+ARM64, Python 3.14 and glibc 2.44 before writing one feed configuration.
+It refreshes package indexes; it does not upgrade installed packages.
+
+Example check after setup: `opkg install python3-compile` then `python3 -c "import py_compile"`.
+
 ## Feed URLs
 
 - `https://raw.githubusercontent.com/3bdlios/xc-openbh-feed/main/feeds/openbh-6.0/py3.14/all`
