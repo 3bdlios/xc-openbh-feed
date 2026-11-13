@@ -1,0 +1,2176 @@
+Package: python3-appdirs
+Version: 1.4.4-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: a3362ac586abf2318c0144aa76563543
+SHA256sum: 46ee8c01098823f7558543592f2a781b45b6b2c8c97c13a222ab9d789dcf08b4
+Size: 9506
+Filename: python3-appdirs_1.4.4-r0_cortexa55.ipk
+Source: python3-appdirs_1.4.4.bb
+Description: A small Python module for determining appropriate + platform-specific dirs, e.g. a user data dir.
+OE: python3-appdirs
+HomePage: https://github.com/ActiveState/appdirs
+License: MIT
+Priority: optional
+
+Package: python3-asyncio
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core, python3-io, python3-logging, python3-netclient, python3-numbers, python3-stringold
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 64e1961a8c8bb6f989f610d7df34dcec
+SHA256sum: 669c6e8cd924b2aeb3d2cc0b3307913d1ca7eb8a5f15605af241d0dd58788f4c
+Size: 284446
+Filename: python3-asyncio_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python Asynchronous I/O
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-attr
+Version: 0.3.2-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 13219fbe0c06ef25ff5ab73f167a1065
+SHA256sum: e0c293801670e3c81aa6fa8c26df179e403e51a9fbc2714b85df2cc6f4dc3b4f
+Size: 2116
+Filename: python3-attr_0.3.2-r0_cortexa55.ipk
+Source: python3-attr_0.3.2.bb
+Description: python3-attr version 0.3.2-r0
+OE: python3-attr
+HomePage: https://github.com/denis-ryzhkov/attr
+License: MIT
+Priority: optional
+
+Package: python3-attrs
+Version: 26.1.0-r0
+Depends: python3-compression, python3-core, python3-crypt
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4f0bcf8c931c2ec9fd695fddee375e52
+SHA256sum: 67f24a791a9596887461284c7966bc2a87a10058c3c99f557844e8daee1cf962
+Size: 92918
+Filename: python3-attrs_26.1.0-r0_cortexa55.ipk
+Source: python3-attrs_26.1.0.bb
+Description: Classes Without Boilerplate
+OE: python3-attrs
+HomePage: http://www.attrs.org/
+License: MIT
+Priority: optional
+
+Package: python3-audio
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 7ca71c563897f487a98ac377202c7ced
+SHA256sum: 706f4677cc51ca3b73a00e2b0b4647b4146eaeacd702ae5bb2abb445dd63d0c2
+Size: 11384
+Filename: python3-audio_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python Audio Handling
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-automat
+Version: 25.4.16-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 43a7e1d09a42d7781f82828fa5802686
+SHA256sum: bdba6150b58f2216323a884fd3b38015e7ac5d1dc8e847ab1515ddd32c3320bd
+Size: 85366
+Filename: python3-automat_25.4.16-r0_cortexa55.ipk
+Source: python3-automat_25.4.16.bb
+Description: python3-automat version 25.4.16-r0
+OE: python3-automat
+HomePage: https://github.com/glyph/Automat
+License: MIT
+Priority: optional
+
+Package: python3-backports-lzma
+Version: 0.0.14-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), liblzma5 (>= 5.8.4), python3-core
+Section: base
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: fa18644c8ed6bdde0a9b426a09f48fd7
+SHA256sum: 34055e227cdb033df8be1e2527b936e961800684ab26d9660be79ff0d5a7f34b
+Size: 20794
+Filename: python3-backports-lzma_0.0.14-r0_cortexa55.ipk
+Source: python3-backports-lzma_0.0.14.bb
+Description: Backport of Python 3.3's 'lzma' module for XZ/LZMA compressed files
+OE: python3-backports-lzma
+HomePage: https://github.com/peterjc/backports.lzma
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-bcrypt
+Version: 5.0.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgcc1 (>= 16.2.0), python3-cffi, python3-core, python3-ctypes, python3-shell
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 0a62addde48c0c961acf6fdecd72972e
+SHA256sum: 0daf08b9471c5fbf63639bb0fe4be7116dfe71222a354164f5c76ca827f94ba1
+Size: 229538
+Filename: python3-bcrypt_5.0.0-r0_cortexa55.ipk
+Source: python3-bcrypt_5.0.0.bb
+Description: Modern password hashing for your software and your servers.
+OE: python3-bcrypt
+HomePage: https://pypi.org/project/bcrypt/
+License: Apache-2.0
+Priority: optional
+
+Package: python3-certifi
+Version: 2026.10.19-r0
+Depends: python3-core, python3-io
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4f39f0c5c10701eb2182763873e4aee4
+SHA256sum: 06f78d2f3c26940d5ad68e7075e2663c91b36b2af6e16dfb90fc2992d3b8ae2e
+Size: 133672
+Filename: python3-certifi_2026.10.19-r0_cortexa55.ipk
+Source: python3-certifi_2026.10.19.bb
+Description: Python package for providing Mozilla's CA Bundle.
+OE: python3-certifi
+HomePage: http://certifi.io/
+License: ISC
+Priority: optional
+
+Package: python3-cffi
+Version: 2.1.1-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libffi8 (>= 3.8.0), python3-core, python3-ctypes, python3-io, python3-pycparser, python3-shell
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 21a664e5e2b9d048eb4618ccc0aac1a1
+SHA256sum: 06f542955b02ee0d8fb676dafc8f9f58925f33000f6e0197f335019dc0eb0560
+Size: 249998
+Filename: python3-cffi_2.1.1-r0_cortexa55.ipk
+Source: python3-cffi_2.1.1.bb
+Description: Foreign Function Interface for Python calling C code
+OE: python3-cffi
+HomePage: http://cffi.readthedocs.org/
+License: MIT-0
+Priority: optional
+
+Package: python3-charset-normalizer
+Version: 3.5.2-r0
+Depends: python3-codecs, python3-core, python3-json, python3-logging
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 8f2b07516eda21757be8e6d7f838fc49
+SHA256sum: 061c327513383ab2abbab69c1b96c574745317175a4a36df48e29ee730dcee9a
+Size: 87012
+Filename: python3-charset-normalizer_3.5.2-r0_cortexa55.ipk
+Source: python3-charset-normalizer_3.5.2.bb
+Description: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+OE: python3-charset-normalizer
+HomePage: https://github.com/ousret/charset_normalizer
+License: MIT
+Priority: optional
+
+Package: python3-cheetah
+Version: 3.4.0.post5-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core, python3-pickle, python3-pprint
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: d23f2ccccb64372f1139dff74665c759
+SHA256sum: 318f352f6b4f770dcc28ed22ad45b9f28d5bbec482395f379e3f280b94385ca3
+Size: 442718
+Filename: python3-cheetah_3.4.0.post5-r0_cortexa55.ipk
+Source: python3-cheetah_3.4.0.post5.bb
+Description: Python template engine and code generation tool
+OE: python3-cheetah
+HomePage: https://cheetahtemplate.org/
+License: MIT
+Priority: optional
+
+Package: python3-click
+Version: 8.5.0-r0
+Depends: python3-core, python3-io, python3-shell, python3-threading
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 9e74c5bad2c25e2acb388c9259016e2b
+SHA256sum: 2648455d3623bb85559fb858800c893cd91436cefd3b5202cf511c89e6018894
+Size: 219408
+Filename: python3-click_8.5.0-r0_cortexa55.ipk
+Source: python3-click_8.5.0.bb
+Description: A simple wrapper around optparse for powerful command line utilities.
+OE: python3-click
+HomePage: http://click.pocoo.org/
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-codecs
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: b0c2da0cef4ce0cb305b969985b287e0
+SHA256sum: aa1f6acdc4b2b765766d81abae48114a2e980585ec231dd3706e63e639b15175
+Size: 15138
+Filename: python3-codecs_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python codec
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-colorama
+Version: 0.4.6-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 2f0f45bcedc907e693bc49fae3b5b622
+SHA256sum: ea6cdd70fda7085f627631b3661527aa1cb827bb93f5de3e2ad0f1cee43607ab
+Size: 53202
+Filename: python3-colorama_0.4.6-r0_cortexa55.ipk
+Source: python3-colorama_0.4.6.bb
+Description: Cross-platform colored terminal text.
+OE: python3-colorama
+HomePage: https://github.com/tartley/colorama
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-compile
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: dcc1e023e27e1247ac2db3ae6d30dfa8
+SHA256sum: 7964a3522403ad142554176cc32bbb11b95e2cb3a33f0ca9a387927e9562fada
+Size: 4614
+Filename: python3-compile_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python bytecode compilation support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-compression
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libzstd1 (>= 1.5.7), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 15fcfa2b9280a671b7dc9937ed2f787b
+SHA256sum: cce7ea5885624571568ac40e2ed1db786c6401047b69acdf36adf2d039994abf
+Size: 84242
+Filename: python3-compression_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python high-level compression support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-constantly
+Version: 23.10.4-r0
+Depends: python3-core, python3-json
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 51ffd2b9508cb11d7b362b224dbe0f27
+SHA256sum: a0c83b5c5363f520b3e678291021d90bb933446ab5902e8704aa598c1d1eff3f
+Size: 21830
+Filename: python3-constantly_23.10.4-r0_cortexa55.ipk
+Source: python3-constantly_23.10.4.bb
+Description: python3-constantly version 23.10.4-r0
+OE: python3-constantly
+HomePage: https://github.com/twisted/constantly
+License: MIT
+Priority: optional
+
+Package: python3-core
+Version: 3.14.9-r0
+Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.44+git0+34106fee69), liblzma5 (>= 5.8.4), libpython3.14-1.0 (>= 3.14.9), libreadline8 (>= 8.3), libz1 (>= 1.3.2), python3-compression
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 59d1d4e83f4bbb3172c0ca978b996f61
+SHA256sum: edae001901a2e889bbf1b0ca0d3b774748b8399c352617c26f15de9c632f82cf
+Size: 1052768
+Filename: python3-core_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python interpreter and core modules
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-crypt
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), python3-core
+Recommends: ca-certificates, openssl
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4892237e7ea38025c9037898573b59a8
+SHA256sum: 8f5fc0451157701be3f73e2a695eafbb184c0ba5c1e2b549071c9929d21cfcb8
+Size: 74442
+Filename: python3-crypt_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python basic cryptographic and hashing support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-cryptography
+Version: 50.0.2-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libgcc1 (>= 16.2.0), libssl4 (>= 4.1.0), python3-cffi, python3-core, python3-numbers, python3-threading
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: fee094d45289361763201deb6e6ba6b4
+SHA256sum: cdc71ab56264e29d2f7e84b960a44e7939ccb457e2ea18f4342f5f4f422c68b8
+Size: 1670302
+Filename: python3-cryptography_50.0.2-r0_cortexa55.ipk
+Source: python3-cryptography.bb
+Description: Provides cryptographic recipes and primitives to python developers
+OE: python3-cryptography
+HomePage: https://cryptography.io/
+License: Apache-2.0 OR BSD-3-Clause
+Priority: optional
+
+Package: python3-ctypes
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libffi8 (>= 3.8.0), python3-core, python3-io, python3-math
+Recommends: ldconfig
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3b787967f634fd6227a809e6f6d955ea
+SHA256sum: 9dc509c1fd85a09463f495c465f3088caf42cb5b2d1ae137e32c7dcd3f9763b7
+Size: 122248
+Filename: python3-ctypes_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python C types support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-curses
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libncursesw5 (>= 6.6), libpanelw5 (>= 6.6), libtinfo5 (>= 6.6), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 56e3d0ee7691626f650a697e5ebbf65e
+SHA256sum: df83ed2fc616be8d6763b7b16bb4f2134d971cdeaddf2c835ba3ce2807d7c3c2
+Size: 61892
+Filename: python3-curses_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python curses support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-datetime
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e5d685613ca8127a7a1123593251e662
+SHA256sum: fa2b2b88d0bb89a9a59ced730feca4dee742463cfc73e0c0e73bea3327b62019
+Size: 600
+Filename: python3-datetime_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python calendar and time support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-db
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgdbm-compat4 (>= 1.26), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: eb9d4a85e8fd0061d3805d51a7e6bc0c
+SHA256sum: 533255c462b0ab6abd673153f1f59c76e76e3e3a707e1a82459f9a84440e7d7e
+Size: 18738
+Filename: python3-db_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python file-based database support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-dbus
+Version: 1.4.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libdbus-1-3 (>= 1.16.2), libglib-2.0-0 (>= 2.90.0), python3-core, python3-io, python3-logging, python3-stringold, python3-threading, python3-xml
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: cc4df7ed7b05de9d56fb2c52e17c3e96
+SHA256sum: a631fe6d1d2154b29006baafd726b3ac26bd56dcc93d0f3e7468f8cbce3303c8
+Size: 111258
+Filename: python3-dbus_1.4.0-r0_cortexa55.ipk
+Source: python3-dbus_1.4.0.bb
+Description: Python bindings for the DBus inter-process communication system
+OE: python3-dbus
+HomePage: http://www.freedesktop.org/Software/dbus
+License: MIT
+Priority: optional
+
+Package: python3-debugger
+Version: 3.14.9-r0
+Depends: python3-core, python3-pprint, python3-shell, python3-stringold
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4d08e437063dda61f2ad22365a6b7bd7
+SHA256sum: 13129b4cc72c65efc50ad020a6158ced27dfff4db6194ba6188617c266378b0e
+Size: 62316
+Filename: python3-debugger_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python debugger
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-difflib
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 02693a574838576ca939b642c29b768a
+SHA256sum: 349b0923c406ab5566acb6716a1302e03569c89616ad0c2e0267ec97d3c7edf0
+Size: 21662
+Filename: python3-difflib_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python helpers for computing deltas between objects
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-doctest
+Version: 3.14.9-r0
+Depends: python3-core, python3-debugger, python3-difflib, python3-pprint, python3-shell, python3-stringold, python3-unittest
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e58dc11885d75ad09739b9ec4c8cc8d5
+SHA256sum: b5314e5ca05a5aba0489f02fb895a22b15f9e1d593398c569c12cacd3a76982f
+Size: 36440
+Filename: python3-doctest_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python framework for running examples in docstrings
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-email
+Version: 3.14.9-r0
+Depends: python3-core, python3-datetime, python3-io, python3-math, python3-mime, python3-netclient, python3-stringold
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: ee7b06226311c9f26212d212a934aa1b
+SHA256sum: f1ff37c2ab0cff4f67fb3fb84add039115ecd29df86e989a0f70d94e4ce1084f
+Size: 167306
+Filename: python3-email_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python email support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-ensurepip
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 71b4e9c485c6ea8029d2df6253572600
+SHA256sum: 05a69c6ac4c5bf5addd431f651ffc75a3d8369ef276669c48fe78357e375b6fd
+Size: 1747152
+Filename: python3-ensurepip_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Support for bootstrapping the pip installer
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-fcntl
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: de19f036f7dfc2cc342d759a2a2cebbb
+SHA256sum: 2726541f919eda555345b1a7985a51d57a86a89ef7cb365de66e8d39a445413a
+Size: 594
+Filename: python3-fcntl_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python's fcntl interface
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-future
+Version: 1.0.0-r0.2
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 61b70800383750e9406990b257c5747a
+SHA256sum: d83f2b29dd4d6484a671b5acba6b2f0956294a23531514b4583cffdb1ce047b1
+Size: 682186
+Filename: python3-future_1.0.0-r0.2_cortexa55.ipk
+Source: python3-future_1.0.0.bb
+Description: python3-future version 1.0.0-r0.2
+OE: python3-future
+HomePage: https://python-future.org
+License: MIT
+Priority: optional
+
+Package: python3-gdbm
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libgdbm6 (>= 1.26), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 619fe571ce03be9b8dabf02ecd910c13
+SHA256sum: 23aedab9f627386947876e9367c5806f9c05330e4ce31d6d9e56b5bdf1855f55
+Size: 9864
+Filename: python3-gdbm_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python GNU database support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-html
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: cb350b0c3a6fe60df07a94b30ae11021
+SHA256sum: 505391d0a317f14a984e7951cdfbdef5d439637a117cac9852ff67fcaa7437fb
+Size: 55436
+Filename: python3-html_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python HTML processing support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-hyperlink-test
+Version: 21.0.0-r0
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: bf23a048ad9d187a7794a76c3a9845c1
+SHA256sum: 6f5893cb63644e27fb076b6ae7ca3d11dd949a87171bdc1d06e3e93547595b1b
+Size: 38922
+Filename: python3-hyperlink-test_21.0.0-r0_cortexa55.ipk
+Source: python3-hyperlink_21.0.0.bb
+Description: python3-hyperlink version 21.0.0-r0
+OE: python3-hyperlink
+HomePage: https://github.com/python-hyper/hyperlink
+License: MIT
+Priority: optional
+
+Package: python3-hyperlink
+Version: 21.0.0-r0
+Depends: python3-core, python3-idna, python3-netclient, python3-stringold
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: ad94d981aa097ad38efaf528c336f013
+SHA256sum: a984e6fdaeb7965713ea8777825410cc11cc7e856635a78f8f7d259dc8c351d3
+Size: 71526
+Filename: python3-hyperlink_21.0.0-r0_cortexa55.ipk
+Source: python3-hyperlink_21.0.0.bb
+Description: python3-hyperlink version 21.0.0-r0
+OE: python3-hyperlink
+HomePage: https://github.com/python-hyper/hyperlink
+License: MIT
+Priority: optional
+
+Package: python3-idle
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3cf776e2b7f4306b084e84fa59720dc3
+SHA256sum: b22fcd513ab4a49320b197b5ec926e4864c62c3f2d2d62daadce6c67f97cfc22
+Size: 528884
+Filename: python3-idle_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python Integrated Development Environment
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-idna
+Version: 3.20-r0
+Depends: python3-codecs, python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 0a0a8d94f4c9e12f38b1ba9e34aff4ab
+SHA256sum: 61da4391bc5b3cf60425359764f903134e610df1b038cde0dab91fb7dc1e9726
+Size: 83350
+Filename: python3-idna_3.20-r0_cortexa55.ipk
+Source: python3-idna_3.20.bb
+Description: Internationalised Domain Names in Applications
+OE: python3-idna
+HomePage: https://github.com/kjd/idna
+License: BSD-3-Clause AND Python-2.0 AND Unicode-TOU
+Priority: optional
+
+Package: python3-image
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 11337acfd399513c4f6e57838205513c
+SHA256sum: d00baeb1710c9858b2f50eb12268aa6b86725b19bb254e49a87f9f895678dac3
+Size: 2740
+Filename: python3-image_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python graphical image handling
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-incremental-tests
+Version: 24.11.0-r0
+Depends: python3-incremental-scripts, python3-twisted
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e599f92be4f17632edb7bcfe1c48f6d4
+SHA256sum: 9060345fb40f7e31d29e30d9eac2c6141556de4da51b78ced8f258c622513380
+Size: 17282
+Filename: python3-incremental-tests_24.11.0-r0_cortexa55.ipk
+Source: python3-incremental_24.11.0.bb
+Description: python3-incremental version 24.11.0-r0
+OE: python3-incremental
+HomePage: https://github.com/twisted/incremental
+License: MIT
+Priority: optional
+
+Package: python3-incremental
+Version: 24.11.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 1274c725c6efe75720be19bb2bfdb1d6
+SHA256sum: cfd04a69b99a42555b910df4430493437edb81ff3a5afec9b94a165487f074d1
+Size: 16614
+Filename: python3-incremental_24.11.0-r0_cortexa55.ipk
+Source: python3-incremental_24.11.0.bb
+Description: python3-incremental version 24.11.0-r0
+OE: python3-incremental
+HomePage: https://github.com/twisted/incremental
+License: MIT
+Priority: optional
+
+Package: python3-iniconfig
+Version: 2.3.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: b993db794f4d3cd76443045d26ac9fa0
+SHA256sum: 20541fc182935c54ce342132edd1f3702a91dd8235dff5cf1e0194c62bf6ea93
+Size: 16386
+Filename: python3-iniconfig_2.3.0-r0_cortexa55.ipk
+Source: python3-iniconfig_2.3.0.bb
+Description: A small and simple INI-file parser module
+OE: python3-iniconfig
+HomePage: https://pypi.org/project/iniconfig/
+License: MIT
+Priority: optional
+
+Package: python3-io
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libssl4 (>= 4.1.0), python3-core, python3-math, python3-netclient
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: f99fc4511221b154657e72a6b5d466f2
+SHA256sum: 06e7aa720cc568d3204226c5b0c54ccb8b6d57cca3a962d695fec7f53eab32b7
+Size: 133874
+Filename: python3-io_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python low-level I/O
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-ipaddress
+Version: 1.0.23-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e5e390458110e0fa4bb79b1f809ecbf2
+SHA256sum: 20f60ff169ee69f78199bd5e7eb3cdb6628de21c86c9eb32259847bd7aaf01cb
+Size: 33070
+Filename: python3-ipaddress_1.0.23-r0_cortexa55.ipk
+Source: python3-ipaddress_1.0.23.bb
+Description: Python 3.3+'s ipaddress for Python 2.6, 2.7, 3.2.
+OE: python3-ipaddress
+HomePage: https://github.com/phihag/ipaddress
+License: Python-2.0
+Priority: optional
+
+Package: python3-json
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: aed2554aaab72670dc5d8476b5fc7a2d
+SHA256sum: d721c9459fdacbfd47286f06ea33e3c0e228290b5fea10245567efbaa7caa251
+Size: 34680
+Filename: python3-json_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python JSON support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-logging
+Version: 3.14.9-r0
+Depends: python3-core, python3-io, python3-netserver, python3-pickle, python3-stringold, python3-threading
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 7ae1d48b0a7f1e51ef32fa6bbefd6352
+SHA256sum: 6eaf594304f1597cd0d0ca0685b6a575d8713e58bb8f9315a7e9908820a98868
+Size: 67798
+Filename: python3-logging_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python logging support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-mailbox
+Version: 3.14.9-r0
+Depends: python3-core, python3-datetime, python3-email, python3-io, python3-math, python3-mime, python3-netclient, python3-stringold
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 072ac8f4c4002c23df2f2f81df4c2e15
+SHA256sum: 485d8ba0f796262fa0eac539d5290f1da6f4c14365f561aaf0606f61de8420bb
+Size: 40292
+Filename: python3-mailbox_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python mailbox format support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-math
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 000016eea7c36d9c4ca6b267a19ea2f7
+SHA256sum: 70ca18d721a5a925cc683bc62f867ff5e27782574eefa109f58e61699d16d3a4
+Size: 31068
+Filename: python3-math_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python math support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-mime
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4bb6ce7b2189b56cc03ccb69b5e81d2c
+SHA256sum: 405950ba26d0638429cfe81334c4b75f44fd4d6588f97facbb2e2f9135f4d2fc
+Size: 5208
+Filename: python3-mime_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python MIME handling APIs
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-misc
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-audio, python3-codecs, python3-core, python3-email, python3-numbers, python3-pickle, python3-pydoc
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: c5a8fc83c895d112b5578c453d1973e1
+SHA256sum: 72b0009ae8a96d604301719fef58fb2ac3864294b1e8d885cd75e609a2287b1b
+Size: 2262476
+Filename: python3-misc_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: The Python Programming Language
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-mmap
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: abf07f5fd1bbb57b2984ae18fc7954d6
+SHA256sum: 160850a12351da50e0f03be910fd15d9d65344295f30f446eefeb4bc0a5e8c01
+Size: 13166
+Filename: python3-mmap_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python memory-mapped file support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-modules
+Version: 3.14.9-r0
+Depends: python3-asyncio, python3-audio, python3-codecs, python3-compile, python3-compression, python3-core, python3-crypt, python3-ctypes, python3-curses, python3-datetime, python3-db, python3-debugger, python3-difflib, python3-doctest, python3-email, python3-ensurepip, python3-fcntl, python3-gdbm, python3-html, python3-idle, python3-image, python3-io, python3-json, python3-logging, python3-mailbox, python3-math, python3-mime, python3-misc, python3-mmap, python3-multiprocessing, python3-netclient, python3-netserver, python3-numbers, python3-pickle, python3-pkgutil, python3-plistlib, python3-pprint, python3-profile, python3-pydoc, python3-resource, python3-shell, python3-sqlite3, python3-statistics, python3-stringold, python3-syslog, python3-terminal, python3-threading, python3-tkinter, python3-tomllib, python3-unittest, python3-unixadmin, python3-venv, python3-xml, python3-xmlrpc, python3-zoneinfo
+Provides: python3
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e7bf2aa8185151b1be502fb094bbd5b0
+SHA256sum: feb4bc8b6ccee74b02682881dee99adc1616a102526f5157e76e1a0265ad5a15
+Size: 878
+Filename: python3-modules_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: All Python modules
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-multipart
+Version: 1.3.1-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 535babeac1cb549797e48b5d7eea3412
+SHA256sum: 0b8b2e68dc22586673272240dde15f45b277bcf2e6e8c227b88357300290e8b8
+Size: 35770
+Filename: python3-multipart_1.3.1-r0_cortexa55.ipk
+Source: python3-multipart_1.3.1.bb
+Description: Parser for multipart/form-data
+OE: python3-multipart
+HomePage: https://multipart.readthedocs.io/
+License: MIT
+Priority: optional
+
+Package: python3-multiprocessing
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core, python3-crypt, python3-ctypes, python3-io, python3-math, python3-mmap, python3-netclient, python3-pickle, python3-threading
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3b9bc6c608036641661d151d0f26833c
+SHA256sum: 91128a3de3b153f1bfe9701ba3ddad4e86061e7d490c73af7814a02ec57460bf
+Size: 165854
+Filename: python3-multiprocessing_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python multiprocessing support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-netclient
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libuuid1 (>= 2.42.4), python3-core, python3-crypt, python3-datetime, python3-email, python3-io, python3-math, python3-mime, python3-stringold
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 43bb5bf0652e15ca68f9ab930e9c8b15
+SHA256sum: 86eaf4aeada9aa488570b9622c6e0e422cf5f8912ab49b670bad35ec91aab7ae
+Size: 102532
+Filename: python3-netclient_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python Internet Protocol clients
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-netifaces
+Version: 0.11.0-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: a5908cd59fd8ed51704998354c4ffbd4
+SHA256sum: c632e890b1191bd847fc8402532da81bca4d84edc1b3a3505263cd04d21e93cc
+Size: 8140
+Filename: python3-netifaces_0.11.0-r0_cortexa55.ipk
+Source: python3-netifaces_0.11.0.bb
+Description: python3-netifaces version 0.11.0-r0
+OE: python3-netifaces
+HomePage: https://www.openbh.net
+License: MIT
+Priority: optional
+
+Package: python3-netserver
+Version: 3.14.9-r0
+Depends: python3-core, python3-io
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4c9574cbbd793b0bb63907414765fda5
+SHA256sum: 465d591b324742ce381f542aed365ea60f8c0c1e26586b4a457e18f8d25652c8
+Size: 10730
+Filename: python3-netserver_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python Internet Protocol servers
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-numbers
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 7851d9b1b6a70b2232de58a407c884b0
+SHA256sum: 11946d869dec57e6f81a4a30fbb021a0aea3e65e97bc947df387b99c4af6e8d9
+Size: 102754
+Filename: python3-numbers_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python number APIs
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-outcome
+Version: 1.3.0.post0-r0
+Depends: python3-asyncio, python3-attrs, python3-core, python3-pytest, python3-typing-extensions
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 14d8db50f5427b2f584074b5562ddfe9
+SHA256sum: 217fb8f96514e30581fd1c361aa0f1ef80ceccffdb4152d61368f1e4287371e4
+Size: 15408
+Filename: python3-outcome_1.3.0.post0-r0_cortexa55.ipk
+Source: python3-outcome_1.3.0.post0.bb
+Description: Capture the outcome of Python function calls.
+OE: python3-outcome
+HomePage: https://github.com/python-trio/outcome
+License: Apache-2.0 AND MIT
+Priority: optional
+
+Package: python3-packaging
+Version: 26.3-r0
+Depends: python3-core, python3-profile
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: ab0c6834ebe4647f90458765df69224f
+SHA256sum: 10a49e38ec547b09c30e1c6203e4b469849d16cf83b04a0a82c53e76d6c1eb67
+Size: 304384
+Filename: python3-packaging_26.3-r0_cortexa55.ipk
+Source: python3-packaging_26.3.bb
+Description: Core utilities for Python packages
+OE: python3-packaging
+HomePage: https://github.com/pypa/packaging
+License: Apache-2.0 OR BSD-2-Clause
+Priority: optional
+
+Package: python3-pbkdf2
+Version: 1.3-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: b0a4ae9fb5975525ecf0b84fddb5d516
+SHA256sum: d9eb1727fe1d4cce113f86869fad94562fe775cccea923ba21a3c8eb3ef0c8f6
+Size: 6724
+Filename: python3-pbkdf2_1.3-r0_cortexa55.ipk
+Source: python3-pbkdf2_1.3.bb
+Description: This module implements the password-based key derivation function, PBKDF2, specified in RSA PKCS#5 v2.0.
+OE: python3-pbkdf2
+HomePage: https://www.dlitz.net/software/python-pbkdf2/
+License: MIT
+Priority: optional
+
+Package: python3-pexpect
+Version: 4.9.0-r0
+Depends: python3-core, python3-fcntl, python3-io, python3-ptyprocess, python3-resource, python3-terminal
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 68e4ecd377acd28f1dec0cbee0ad68ec
+SHA256sum: 336e652748deb44461b09e53e647b170d40498bbc2525d7483ac1cc6edc7a08a
+Size: 81552
+Filename: python3-pexpect_4.9.0-r0_cortexa55.ipk
+Source: python3-pexpect_4.9.0.bb
+Description: A Pure Python Expect like Module for Python
+OE: python3-pexpect
+HomePage: https://pexpect.readthedocs.org/
+License: ISC
+Priority: optional
+
+Package: python3-pickle
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 7828e0f13e840141acfc13790c22c9f8
+SHA256sum: 2caf490aa3bf301266c4211bbf96c929c26df57382af63683a627b4a0d3c2cb8
+Size: 43974
+Filename: python3-pickle_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python serialisation/persistence support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-pillow
+Version: 12.3.0-r0.3
+Depends: libavif16 (>= 1.4.2), libc6 (>= 2.44+git0+34106fee69), libfreetype6 (>= 2.15.0), libjpeg62 (>= 3.2.0), liblcms2-2 (>= 2.19.1), libtiff6 (>= 4.7.2), libwebp (>= 1.6.0), libxcb, libz1 (>= 1.3.2), openjpeg (>= 2.5.4), python3-core, python3-logging, python3-misc, python3-numbers
+Provides: python3-imaging
+Section: base
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3295a715acdc449dec924b386006315c
+SHA256sum: b4e8a0ca6630fc3bfbbe9245c057f2b00adddc761335891e79a9d3265752a5e2
+Size: 820232
+Filename: python3-pillow_12.3.0-r0.3_cortexa55.ipk
+Source: python3-pillow_12.3.0.bb
+Description: python3-pillow version 12.3.0-r0.3
+OE: python3-pillow
+HomePage: https://pillow.readthedocs.io
+License: MIT-CMU
+Priority: optional
+
+Package: python3-pkgutil
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: c4bf2b0a30d30f60ef1d1ae9f67e8e1c
+SHA256sum: 5a2906f2db9076b11b22d17b85325aca7a1a56b066569ba2a6b635b85aa7b0fb
+Size: 602
+Filename: python3-pkgutil_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python package extension utility support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-plistlib
+Version: 3.14.9-r0
+Depends: python3-core, python3-datetime, python3-xml
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3bbed3288d56c005f706de66595f60e4
+SHA256sum: 172dcacf4107e4ab35232c9da76e7d99f2570a143aadd07425625a9734c65983
+Size: 17848
+Filename: python3-plistlib_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Generate and parse Mac OS X .plist files
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-pluggy
+Version: 1.6.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 786bd13cb2d1b30e630fd22e88ee74f6
+SHA256sum: f4d4ac3d93084f317441319e70476343f908505a911e99d08c4faef876268ba7
+Size: 49922
+Filename: python3-pluggy_1.6.0-r0_cortexa55.ipk
+Source: python3-pluggy_1.6.0.bb
+Description: Plugin and hook calling mechanisms for python
+OE: python3-pluggy
+HomePage: https://github.com/pytest-dev/pluggy
+License: MIT
+Priority: optional
+
+Package: python3-pprint
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: f98bb3aa78bde2f70ef731ed4df6473a
+SHA256sum: d56c2f72e5d12fcc18efd18facc3e058f476bdb6407cedb6d7acab67bd5ad884
+Size: 12464
+Filename: python3-pprint_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python pretty-print support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-profile
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e8c15152eb06d0af45d25bff9c2ba5a1
+SHA256sum: 8f56976768f22699c5f2cfac96b9da2ded1b02e1c7fecee7743e03bebc717c00
+Size: 27584
+Filename: python3-profile_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python basic performance profiling support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-ptyprocess
+Version: 0.7.0-r0
+Depends: python3-core, python3-fcntl, python3-resource, python3-terminal
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e04a211425068ff22e65b2d645dcfa16
+SHA256sum: 8d2b7e60781f9caa5c766ff352a22b829d6e019306ce32098ef57b82e37064a8
+Size: 19662
+Filename: python3-ptyprocess_0.7.0-r0_cortexa55.ipk
+Source: python3-ptyprocess_0.7.0.bb
+Description: Run a subprocess in a pseudo terminal
+OE: python3-ptyprocess
+HomePage: https://ptyprocess.readthedocs.io/en/latest/
+License: ISC
+Priority: optional
+
+Package: python3-pyasn1-modules
+Version: 0.4.2-r0
+Depends: python3-core, python3-pyasn1
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 79bd8fea5114493ff3d84657ab01ae4f
+SHA256sum: acea3758554c5be2cb01a6ddf6ef036f7ca8531550e2847196ca99166bac54eb
+Size: 233876
+Filename: python3-pyasn1-modules_0.4.2-r0_cortexa55.ipk
+Source: python3-pyasn1-modules_0.4.2.bb
+Description: A collection of ASN.1-based protocols modules.
+OE: python3-pyasn1-modules
+HomePage: https://github.com/etingof/pyasn1-modules
+License: BSD-2-Clause
+Priority: optional
+
+Package: python3-pyasn1
+Version: 0.6.4-r0
+Depends: python3-codecs, python3-core, python3-logging, python3-math, python3-shell
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 68c39698047ab41afe072afb331a3835
+SHA256sum: c07f779668089d0a5fba7061b712b9eb18958d51abcc09a785fa8083385c6ea6
+Size: 140010
+Filename: python3-pyasn1_0.6.4-r0_cortexa55.ipk
+Source: python3-pyasn1_0.6.4.bb
+Description: Python library implementing ASN.1 types.
+OE: python3-pyasn1
+HomePage: http://pyasn1.sourceforge.net/
+License: BSD-2-Clause
+Priority: optional
+
+Package: python3-pycparser
+Version: 3.11-r0
+Depends: python3-core, python3-netclient
+Suggests: cpp, cpp-symlinks
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: f558654e986064d8f1319471c7a4a994
+SHA256sum: 1722980d6a8b9b9c78c005dc8a5343e0686930e0d4d6b34a08570d43ec4dd1db
+Size: 90706
+Filename: python3-pycparser_3.11-r0_cortexa55.ipk
+Source: python3-pycparser_3.11.bb
+Description: Parser of the C language, written in pure Python
+OE: python3-pycparser
+HomePage: https://github.com/eliben/pycparser
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pydoc
+Version: 3.14.9-r0
+Depends: python3-core, python3-io
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 26ced3d0b5746a09dbae1b86a4e249e1
+SHA256sum: 90a54d30e413f48ca15e3b5895a11fe458dc9b4e24579664db6305d636263de7
+Size: 153132
+Filename: python3-pydoc_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python interactive help support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-pygments
+Version: 2.21.0-r0
+Depends: python3-core, python3-html
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: a70d516b1052033c1fbc89c3225a0965
+SHA256sum: 74b96ba32374fbfbd362584480836f90b06e1b35fab22d01e852634e101f1aba
+Size: 2594888
+Filename: python3-pygments_2.21.0-r0_cortexa55.ipk
+Source: python3-pygments_2.21.0.bb
+Description: Pygments is a syntax highlighting package written in Python.
+OE: python3-pygments
+HomePage: http://pygments.org/
+License: BSD-2-Clause
+Priority: optional
+
+Package: python3-pyhamcrest
+Version: 2.1.0-r0
+Depends: python3-asyncio, python3-core, python3-numbers
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: d510648cbe1998db8c5fa60c536e57c6
+SHA256sum: 4a2b063b58b1d9b1401ba9638b48865907da79a67a4be58817cc7ae5efc8aa7d
+Size: 57260
+Filename: python3-pyhamcrest_2.1.0-r0_cortexa55.ipk
+Source: python3-pyhamcrest_2.1.0.bb
+Description: Hamcrest framework for matcher objects
+OE: python3-pyhamcrest
+HomePage: https://github.com/hamcrest/PyHamcrest
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pyopenssl
+Version: 26.4.0-r0
+Depends: python3-core, python3-cryptography, python3-threading
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: fd08c67104ab3fcce6d60c06eff93543
+SHA256sum: e17cf6c65f2f232b3f1cc73dc6f49162aa0069def0b2da92adc22b53a160aea8
+Size: 88134
+Filename: python3-pyopenssl_26.4.0-r0_cortexa55.ipk
+Source: python3-pyopenssl_26.4.0.bb
+Description: Simple Python wrapper around the OpenSSL library
+OE: python3-pyopenssl
+HomePage: https://pyopenssl.org/
+License: Apache-2.0
+Priority: optional
+
+Package: python3-pyserial-java
+Version: 3.5-r0
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 1601d77543cb833b1750537c9dba52dc
+SHA256sum: cd70ffcfb79e9a9016c3bec7649f34814c60ae16f195397d77ee929d47d2f0ee
+Size: 6080
+Filename: python3-pyserial-java_3.5-r0_cortexa55.ipk
+Source: python3-pyserial_3.5.bb
+Description: Serial Port Support for Python
+OE: python3-pyserial
+HomePage: https://www.openbh.net
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pyserial-osx
+Version: 3.5-r0
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: d9b8ebfd99712daf097176e709f12f16
+SHA256sum: e7664376383938f428a6bce215a5dbcfa61cce5248187a6a5eefb7e08fdde094
+Size: 6206
+Filename: python3-pyserial-osx_3.5-r0_cortexa55.ipk
+Source: python3-pyserial_3.5.bb
+Description: Serial Port Support for Python
+OE: python3-pyserial
+HomePage: https://www.openbh.net
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pyserial-win32
+Version: 3.5-r0
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4e9be5cff9ad7df7a8a8c9e5157fe34f
+SHA256sum: efb108e1c832febc497e7035667aee0ac37ff1db983924fdd965a8559d0f8924
+Size: 47078
+Filename: python3-pyserial-win32_3.5-r0_cortexa55.ipk
+Source: python3-pyserial_3.5.bb
+Description: Serial Port Support for Python
+OE: python3-pyserial
+HomePage: https://www.openbh.net
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pyserial
+Version: 3.5-r0
+Depends: python3-core, python3-fcntl, python3-io, python3-logging, python3-netclient, python3-numbers, python3-shell, python3-stringold, python3-threading
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 33a24de89d673621914a3a745a0969ab
+SHA256sum: 0339908d06ee8bd265bf2fe2f9411ad3c245394b9289cb70c88ddb99ef7443c8
+Size: 85330
+Filename: python3-pyserial_3.5-r0_cortexa55.ipk
+Source: python3-pyserial_3.5.bb
+Description: Serial Port Support for Python
+OE: python3-pyserial
+HomePage: https://www.openbh.net
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pysocks
+Version: 1.7.1-r0
+Depends: python3-core, python3-email, python3-io, python3-logging, python3-netclient, python3-shell
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 1b962344881d436f3e704bcb4abd420d
+SHA256sum: c746632bb560c7e4cabd94f9b424f409deeda120963783e17a840cad80ab8440
+Size: 20404
+Filename: python3-pysocks_1.7.1-r0_cortexa55.ipk
+Source: python3-pysocks_1.7.1.bb
+Description: A Python SOCKS client module
+OE: python3-pysocks
+HomePage: http://python-requests.org
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-pytest
+Version: 9.1.1-r0
+Depends: python3-colorama, python3-core, python3-debugger, python3-doctest, python3-iniconfig, python3-json, python3-packaging, python3-pluggy, python3-pygments, python3-tomllib, python3-xml, update-alternatives-opkg
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 084e4d30f71769f4c338cc172b42dc66
+SHA256sum: 0185be217e846d2de10e350e7ebfc9f92ddd8645f37bd96cf8dc1dd164aad7b7
+Size: 1006780
+Filename: python3-pytest_9.1.1-r0_cortexa55.ipk
+Source: python3-pytest_9.1.1.bb
+Description: Simple powerful testing with python
+OE: python3-pytest
+HomePage: https://pypi.org/project/pytest/
+License: MIT
+Priority: optional
+
+Package: python3-pyusb
+Version: 1.3.1-r0
+Depends: libusb1, python3-core, python3-ctypes, python3-logging
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 209a47568d720fb04683752d3af96db5
+SHA256sum: e985504c5ad3482acd13fbe3ecbdee143053add283e91b5c745b3700a432138e
+Size: 79342
+Filename: python3-pyusb_1.3.1-r0_cortexa55.ipk
+Source: python3-pyusb_1.3.1.bb
+Description: PyUSB provides USB access on the Python language
+OE: python3-pyusb
+HomePage: http://pyusb.sourceforge.net/
+License: BSD-3-Clause
+Priority: optional
+
+Package: python3-requests
+Version: 2.33.1-r0
+Depends: python3-certifi, python3-chardet, python3-charset-normalizer, python3-compression, python3-core, python3-email, python3-idna, python3-json, python3-netserver, python3-pysocks, python3-urllib3
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: b5ceb744485c8f13ffbeb3436e9901d1
+SHA256sum: f86748550bda883604e9203d7d7792d68d4500147eabc005d9c02a7e01a2257c
+Size: 89354
+Filename: python3-requests_2.33.1-r0_cortexa55.ipk
+Source: python3-requests_2.34.2.bb
+Description: Python HTTP for Humans.
+OE: python3-requests
+HomePage: https://requests.readthedocs.io
+License: Apache-2.0
+Priority: optional
+
+Package: python3-resource
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 6138ab33ce536aeb86ff5bce2a1f51bf
+SHA256sum: c7ccdd56fe75b805ea0b28364a0bac9114becec67130679715bfa0ceb7249534
+Size: 6780
+Filename: python3-resource_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python resource control interface
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-service-identity
+Version: 26.1.0-r0
+Depends: python3-attr, python3-core, python3-cryptography, python3-pyasn1-modules
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 9d2ca6d9a0463638bbc351e5a42b4e50
+SHA256sum: 38324405e3e40f3161622b5ef80af2b591c93c4bed34d952f80fae0126303941
+Size: 22274
+Filename: python3-service-identity_26.1.0-r0_cortexa55.ipk
+Source: python3-service-identity_26.1.0.bb
+Description: python3-service-identity version 26.1.0-r0
+OE: python3-service-identity
+HomePage: https://pypi.org/project/service-identity
+License: MIT
+Priority: optional
+
+Package: python3-setuptools
+Version: 84.0.0-r0.1
+Depends: python3-compile, python3-compression, python3-core, python3-ctypes, python3-email, python3-html, python3-json, python3-netserver, python3-numbers, python3-pickle, python3-pkgutil, python3-plistlib, python3-shell, python3-stringold, python3-threading, python3-unittest, python3-unixadmin, python3-xml
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 6afe50e5b96d83ce22e7572ac3b2f965
+SHA256sum: d552d144cfaeff9bc1a972847ace4c8ec49eb0ef7ea5e04e3b742a9767a5230b
+Size: 1148932
+Filename: python3-setuptools_84.0.0-r0.1_cortexa55.ipk
+Source: python3-setuptools_84.0.0.bb
+Description: Download, build, install, upgrade, and uninstall Python packages
+OE: python3-setuptools
+HomePage: https://pypi.org/project/setuptools
+License: MIT
+Priority: optional
+
+Package: python3-shell
+Version: 3.14.9-r0
+Depends: python3-core, python3-stringold
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 6fd6c2a3b103ee5851f99389cc06f6ee
+SHA256sum: 25b4b6c6603aa55706a0efc43b6718f788196217de5b54a4ceecc674509d1562
+Size: 7380
+Filename: python3-shell_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python shell-like functionality
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-six
+Version: 1.17.0-r0
+Depends: python3-core, python3-io
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e3087f31dd678078dea4314ce162a1fa
+SHA256sum: b7888d4b9ff5f8b9a366b6e113a471b6f2bd4ffb2702403ef06e21afdec69486
+Size: 19882
+Filename: python3-six_1.17.0-r0_cortexa55.ipk
+Source: python3-six_1.17.0.bb
+Description: Python 2 and 3 compatibility library
+OE: python3-six
+HomePage: https://pypi.org/project/six/
+License: MIT
+Priority: optional
+
+Package: python3-sniffio
+Version: 1.3.1-r0
+Depends: python3-core, python3-numbers
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3c054d3189fbc1be152e597e14296b13
+SHA256sum: 61b52cef32bee6707239a3e0295a6294276293908eda785e585f5f8c03f8ef92
+Size: 4244
+Filename: python3-sniffio_1.3.1-r0_cortexa55.ipk
+Source: python3-sniffio_1.3.1.bb
+Description: Sniff out which async library your code is running under
+OE: python3-sniffio
+HomePage: https://www.openbh.net
+License: Apache-2.0 OR MIT
+Priority: optional
+
+Package: python3-sortedcontainers
+Version: 2.4.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: aced6bac4b37704b8bbef1b2f4884aec
+SHA256sum: f36976b32191ba3f8ae275fdc363ae9736b62bed2b1aa01288879053d3011b82
+Size: 42792
+Filename: python3-sortedcontainers_2.4.0-r0_cortexa55.ipk
+Source: python3-sortedcontainers_2.4.0.bb
+Description: Sorted Containers is an Apache2 licensed sorted collections library, written in pure-Python, and fast as C-extensions.
+OE: python3-sortedcontainers
+HomePage: http://www.grantjenks.com/docs/sortedcontainers/
+License: Apache-2.0
+Priority: optional
+
+Package: python3-sqlite3
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libsqlite3-0 (>= 3.54.1), python3-core, python3-datetime
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: f8aaa4336c3fac1da2d3091b3d4c9a0b
+SHA256sum: b0e053dd4f6417dd8b887b5d27e9f9da0cca8155fcf5408ee1ec95a2f981044c
+Size: 52778
+Filename: python3-sqlite3_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python Sqlite3 database support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-statistics
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core, python3-math, python3-numbers
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e103c80b8905afa56fc5425b6f177d91
+SHA256sum: ffac7ac55051c937aac42774cba8ad788548807bf1cdb613092eb42b0f351d82
+Size: 26330
+Filename: python3-statistics_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Basic statistics module
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-stringold
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: cb5b36c8b314cb5ade96421f597889ca
+SHA256sum: 994fd37d33ea4257c6247082c50550d72703c6ae62d4ca11138c83d728b4e320
+Size: 7182
+Filename: python3-stringold_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Common string operations
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-syslog
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 66f68d9473f61a99f1823804fdf31741
+SHA256sum: 90c655bae3ea7e9a0c806d5709115d0b8e110473d289b4192397bac398d382e3
+Size: 6092
+Filename: python3-syslog_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python syslog interface
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-terminal
+Version: 3.14.9-r0
+Depends: python3-core, python3-io
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 14d18070fa9e50006d43aa50fe5f9da9
+SHA256sum: 737fbe61eaf86f384be0ac00e3693b2d85a5d049be6ec49b4e0e91f13621b2f6
+Size: 1956
+Filename: python3-terminal_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python terminal controlling support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-tests
+Version: 3.14.9-r0
+Depends: bash, python3-core, python3-modules
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 32dbbf9c061e3e60e21d51238d00f42a
+SHA256sum: 8563ee2283ae48e21375b51139a0f35122bb6309b80906bbb2e6d52b69c48240
+Size: 257102
+Filename: python3-tests_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python test suite
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-threading
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e7765a70e479ff395815b080aa63ab4f
+SHA256sum: 5aaec7818c95e3e5229e135eaa9f9b60867d54e4caa425117d558a4868ae2c4d
+Size: 12264
+Filename: python3-threading_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python threading & synchronization support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-tkinter
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4f29ef0a353603225bc364ef1f9898a6
+SHA256sum: 0e784eb72468e5aee743e4e932728b98634042209d17502f610554fdc455a497
+Size: 107984
+Filename: python3-tkinter_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python Tcl/Tk bindings
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-tomllib
+Version: 3.14.9-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: ceebb435ecd6c5409a86bd2ec6b68281
+SHA256sum: ba47734329f4783fb728a9e37fd26f17e77dc9fae67be10a5228fdde74b7857f
+Size: 18478
+Filename: python3-tomllib_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Provides an interface for parsing TOML
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-treq
+Version: 25.5.0-r0
+Depends: python3-attrs, python3-core, python3-hyperlink, python3-incremental, python3-multipart, python3-requests, python3-twisted, python3-typing-extensions
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 8631511fcab5693a3725fd99643119fc
+SHA256sum: 4ec41bbc36b323c0b8f98dd147ef480de23a34b882b91b5b499f8da19338539a
+Size: 138022
+Filename: python3-treq_25.5.0-r0_cortexa55.ipk
+Source: python3-treq_25.5.0.bb
+Description: High-level Twisted HTTP Client API
+OE: python3-treq
+HomePage: https://github.com/twisted/treq
+License: MIT
+Priority: optional
+
+Package: python3-trio-test
+Version: 0.34.0-r0
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: d19e0a6024f9d7184ce5326a231a8350
+SHA256sum: d645c937052597336f6cac463766fd37a4ec34ce138649ec950cce39a75faa01
+Size: 514248
+Filename: python3-trio-test_0.34.0-r0_cortexa55.ipk
+Source: python3-trio_0.34.0.bb
+Description: A friendly Python library for async concurrency and I/O
+OE: python3-trio
+HomePage: https://github.com/python-trio/trio
+License: Apache-2.0 AND MIT
+Priority: optional
+
+Package: python3-trio
+Version: 0.34.0-r0
+Depends: python3-attrs, python3-core, python3-idna, python3-outcome, python3-sniffio, python3-sortedcontainers
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 9fffc7ebec78dd84ef43c58e5ca86535
+SHA256sum: 7a7d82e8cf7f9a5bcfbd192a3a3f88e4e7c9aba8a101602ffa9c5e89ae470e16
+Size: 406992
+Filename: python3-trio_0.34.0-r0_cortexa55.ipk
+Source: python3-trio_0.34.0.bb
+Description: A friendly Python library for async concurrency and I/O
+OE: python3-trio
+HomePage: https://github.com/python-trio/trio
+License: Apache-2.0 AND MIT
+Priority: optional
+
+Package: python3-twisted-conch
+Version: 26.4.0-r8
+Depends: python3-appdirs, python3-bcrypt, python3-cryptography, python3-pickle, python3-twisted-core, python3-twisted-protocols
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 95ab6d01761ba340376dcf546478637b
+SHA256sum: d8b41be108a919b3a49677c2567fdf5b5157ddda438c5f9ae1caafe3c1dac211
+Size: 357546
+Filename: python3-twisted-conch_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-core
+Version: 26.4.0-r8
+Depends: python3-asyncio, python3-attrs, python3-automat, python3-constantly, python3-core, python3-debugger, python3-hyperlink, python3-incremental, python3-pyserial, python3-service-identity, python3-typing-extensions, python3-unixadmin, python3-zopeinterface
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 26a322b82187e0a1050d2af3a867a25d
+SHA256sum: 300b920a22da9429859d79ab10d3285f83b7adb6d0eb9fa6ad96272c74a77328
+Size: 1104142
+Filename: python3-twisted-core_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-mail
+Version: 26.4.0-r8
+Depends: python3-twisted-core, python3-twisted-protocols
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 8455fb97b9186281df95ea0dad51b88d
+SHA256sum: 6704e796ab9359c300dcf05b3147a2b25df2f44ca9d9399d4c5b033a62c40fc0
+Size: 261396
+Filename: python3-twisted-mail_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-names
+Version: 26.4.0-r8
+Depends: python3-twisted-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3f05c0e8a1ab7a0b894758360a196311
+SHA256sum: 47087b2c82399c35a534cbc4a546015937fdf1604d8791f1d588fa07572aa549
+Size: 111628
+Filename: python3-twisted-names_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-pair
+Version: 26.4.0-r8
+Depends: python3-twisted-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: eec0a12b4e947034b72650476831a00c
+SHA256sum: 0f1532b81d7265d65e1b12c778cefdda9cad0d42a1a8b9dab0a05cde10411530
+Size: 21498
+Filename: python3-twisted-pair_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-protocols
+Version: 26.4.0-r8
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: abbc5cc8b148c58e950e1b718cda7b3d
+SHA256sum: 273919d5201a5aff9b7309d18b0cabece95bf7e72e55e4957fd3fcec1d03b8c0
+Size: 222366
+Filename: python3-twisted-protocols_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-runner
+Version: 26.4.0-r8
+Depends: python3-twisted-core, python3-twisted-protocols
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: cf155f7e21e44d2880830e724d7fec66
+SHA256sum: 2f60872a0eb7c8ca5dbe480038cad1ba3b5b436a1d30ded747feaec0bc833cd7
+Size: 19556
+Filename: python3-twisted-runner_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-test
+Version: 26.4.0-r8
+Depends: python3-pyhamcrest, python3-twisted
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: ee47dfd642d240cb1fc292a74cc1cdd2
+SHA256sum: a59ca3e85a2d6821a9543b9cd6abf5e3d6927c9cd8b9d1276a800d89402c8d91
+Size: 3247962
+Filename: python3-twisted-test_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-web
+Version: 26.4.0-r8
+Depends: python3-twisted-core, python3-twisted-protocols
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3ee36b4e5246a26f11b965d1ed6de1b2
+SHA256sum: 8e1bec0a0d0b7e88d9411bd2d332bdaa40a8bf620a471465c1d6e6d74971edd6
+Size: 333888
+Filename: python3-twisted-web_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-words
+Version: 26.4.0-r8
+Depends: python3-twisted-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 15035060866cc2ba6ff3435c8de01a9d
+SHA256sum: 109737310e0ac77f330c4eeb678def3530de23b0bacc8a4f2ff8803ce3347373
+Size: 212914
+Filename: python3-twisted-words_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted-zsh
+Version: 26.4.0-r8
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 16c9cf4757955b5e114efb77328532cf
+SHA256sum: 3d3a9fcad3c30dac967fa79d04e308736b9dd8370bd26311ff6661ba3e5b1dc4
+Size: 1598
+Filename: python3-twisted-zsh_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-twisted
+Version: 26.4.0-r8
+Depends: python3-core, python3-twisted-conch, python3-twisted-core, python3-twisted-mail, python3-twisted-names, python3-twisted-pair, python3-twisted-protocols, python3-twisted-runner, python3-twisted-web, python3-twisted-words, python3-twisted-zsh
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 1baf2b7a0553f28c0678452bdc659305
+SHA256sum: baf9818c26ac2c59edaf0d2c54103bd3315adf79d466f7bada8bf611cc0a3eb5
+Size: 728
+Filename: python3-twisted_26.4.0-r8_cortexa55.ipk
+Source: python3-twisted_26.4.0.bb
+Description: python3-twisted version 26.4.0-r8
+OE: python3-twisted
+HomePage: https://twisted.org
+License: MIT
+Priority: optional
+
+Package: python3-typing-extensions
+Version: 4.16.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 87c2eff4f0142f6b36fdb5d28e11c208
+SHA256sum: e5eecad4860d4eed06fd2c2157f3f56a63fb50329b70d15f0a2384fc60c820ab
+Size: 74728
+Filename: python3-typing-extensions_4.16.0-r0_cortexa55.ipk
+Source: python3-typing-extensions_4.16.0.bb
+Description: Backported and Experimental Type Hints for Python 3.7+
+OE: python3-typing-extensions
+HomePage: https://github.com/python/typing_extensions
+License: PSF-2.0
+Priority: optional
+
+Package: python3-unittest
+Version: 3.14.9-r0
+Depends: python3-asyncio, python3-core, python3-difflib, python3-io, python3-logging, python3-netclient, python3-numbers, python3-pprint, python3-stringold
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 6ac57c488cb21a12f0681cb3f5bbfa78
+SHA256sum: 1d81e43d463a8b49f45e5b793d582260e0438a2430bfa4ee95f0c25eb9ae6454
+Size: 113908
+Filename: python3-unittest_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python unit testing framework
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-unixadmin
+Version: 3.14.9-r0
+Depends: python3-core, python3-io
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 7a51600c181d7ca03c8c3a3eb321baba
+SHA256sum: 244abf703d0d0b32088ad227f789ebd1b184b8d98fb64a42aa61275c00a0475f
+Size: 5266
+Filename: python3-unixadmin_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python Unix administration support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-urllib3
+Version: 2.8.0-r0
+Depends: python3-core, python3-email, python3-idna, python3-json, python3-logging, python3-netclient, python3-threading
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: d2c335e9341243706d4ac8bb92daa4c7
+SHA256sum: 3477c3abb20afb43d78dd3f2a7a3568a34cd2bcc90bebc3c4600c97ca2dd41fd
+Size: 208544
+Filename: python3-urllib3_2.8.0-r0_cortexa55.ipk
+Source: python3-urllib3_2.8.0.bb
+Description: Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more
+OE: python3-urllib3
+HomePage: https://github.com/urllib3/urllib3
+License: MIT
+Priority: optional
+
+Package: python3-venv
+Version: 3.14.9-r0
+Depends: python3-core, python3-logging, python3-stringold
+Provides: python3-pyvenv
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e78fcd59ee5e5f7d4f0f3bfb9c3e2f9d
+SHA256sum: 6dcd0357e8ffdb52af9cfdcc8df25d27bc7e84c622339066afdac29f0d17991b
+Size: 20352
+Filename: python3-venv_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Provides support for creating lightweight virtual environments with their own site directories, optionally isolated from system site directories.
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-xml
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), libexpat1 (>= 2.9.0), python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 666113b82ece928c2aff03cbd57091af
+SHA256sum: 51aa335476adf725b726144464abd3fd17608115c31281862002b052585c834c
+Size: 169504
+Filename: python3-xml_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python basic XML support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-xmlrpc
+Version: 3.14.9-r0
+Depends: python3-compression, python3-core, python3-datetime, python3-email, python3-html, python3-io, python3-mime, python3-netclient, python3-netserver, python3-numbers, python3-pydoc, python3-stringold, python3-xml
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 2fef3a8d6045fba8347c041ee191b718
+SHA256sum: e525963036cb1e398b3f54b68a4c86705eb1a1b408f438d8a87d784e9c507763
+Size: 35170
+Filename: python3-xmlrpc_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Python XML-RPC support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-zipapp
+Version: 3.14.9-r0
+Depends: python3-compression, python3-core
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: b089303843a73b8230f538907c7d20ef
+SHA256sum: 9a908c4458dafdc76d04e2eb33df82913cd438088af8f2f61b6959fa8c557fd8
+Size: 5962
+Filename: python3-zipapp_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: Tools to manage the creation of zip files containing Python code
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-zoneinfo
+Version: 3.14.9-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core, python3-datetime
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: e865f211559ca09532039030b594d270
+SHA256sum: 5b47beead561898d9fc2a921bd1afaf230f1eae171e40e9930de53d068a54978
+Size: 35674
+Filename: python3-zoneinfo_3.14.9-r0_cortexa55.ipk
+Source: python3_3.14.7.bb
+Description: IANA time zone support
+OE: python3
+HomePage: http://www.python.org
+License: PSF-2.0
+Priority: optional
+
+Package: python3-zopeinterface-test
+Version: 8.2-r0
+Depends: python3-doctest, python3-unittest
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 3c78800028160f5268cca68bdc70e438
+SHA256sum: b96c1be67ecb98fc5739704c83872dbbcd835574306df8e1b91d453445cd0aac
+Size: 189746
+Filename: python3-zopeinterface-test_8.2-r0_cortexa55.ipk
+Source: python3-zopeinterface_8.6.bb
+Description: Interface definitions for Zope products
+OE: python3-zopeinterface
+HomePage: https://www.openbh.net
+License: ZPL-2.1
+Priority: optional
+
+Package: python3-zopeinterface
+Version: 8.2-r0
+Depends: libc6 (>= 2.44+git0+34106fee69), python3-core, python3-datetime
+Provides: zope-interfaces
+Section: devel/python
+Architecture: cortexa55
+Maintainer: OpenBh
+MD5Sum: 4291db1a646848116b94d36a978480c3
+SHA256sum: 78fffc8543e92c9bb1690ffec208ff8540d699f56cf419cc113c28fcf1070d61
+Size: 134668
+Filename: python3-zopeinterface_8.2-r0_cortexa55.ipk
+Source: python3-zopeinterface_8.6.bb
+Description: Interface definitions for Zope products
+OE: python3-zopeinterface
+HomePage: https://www.openbh.net
+License: ZPL-2.1
+Priority: optional
+
