@@ -1,0 +1,5222 @@
+{
+ "target": "XCONN X-CYBER OpenBH 6.0 (XC)",
+ "packages": [
+  {
+   "Package": "alsa-ucm-conf",
+   "Version": "1.2.16.1-r0",
+   "Architecture": "all",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "2cee8cdcd6c818b60b743532bb5a2c7ce120f4b71c229400b8c0c7ebfe89c7b6",
+   "Size": 123192
+  },
+  {
+   "Package": "ca-certificates",
+   "Version": "20260816-r0",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later AND MPL-2.0",
+   "SHA256sum": "ea2575c6cc282bc0986db18d4a6c0d9973d28f1e443cd3d3340f745ee7da96a6",
+   "Size": 112360
+  },
+  {
+   "Package": "enigma2-plugin-settings-defaultsat",
+   "Version": "6.0+git1+6b809e40+6b809e4e4d-r0",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "f24b09abb753c9f057792bb1b45485e65d4c38753d997de53677e4730fa0981e",
+   "Size": 47876
+  },
+  {
+   "Package": "enigma2-plugin-skins-mxslimlinenp",
+   "Version": "3.0+git1+75c17760+75c177624c-r3",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "3004eda382eac67272cc3ccecf2e1e533cd8c402eaf1a1ac72ce3b6f09cbd7a0",
+   "Size": 2230832
+  },
+  {
+   "Package": "enigma2-skindefault",
+   "Version": "1.0+git1+50f7e020+50f7e02fd9-r3",
+   "Architecture": "all",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "f329ea5bef66204929c75771cac0147b439f0a15a90854a0ee6b3b5e9aff2053",
+   "Size": 746988
+  },
+  {
+   "Package": "epgimport-sources",
+   "Version": "0.0-git1+4eaaa700+4eaaa70fca-r0",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "7c1019b1a9a8ac08c676fa12dfc725c708c8c11b3b28896d187805445565ba53",
+   "Size": 4216
+  },
+  {
+   "Package": "font-roboto-enigma",
+   "Version": "1.0+git1+50f7e020+50f7e02fd9-r3",
+   "Architecture": "all",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "b894537ed9655df36c67fa9040c4e3b26d8978c172729ee4827b4a3d2e5b970f",
+   "Size": 191170
+  },
+  {
+   "Package": "font-valis-enigma",
+   "Version": "2009.11.12-r0",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "c63c470cc7101ab123ca073765793ec4c637b7512960c130037b26f588bbfeca",
+   "Size": 37372
+  },
+  {
+   "Package": "fstrim-cron-obh",
+   "Version": "1.0-r0",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "e8ce6a73cf419ce5889f13022145084044f22c19951673bf277b5d8c2cc5934e",
+   "Size": 1506
+  },
+  {
+   "Package": "netbase",
+   "Version": "1:6.6-r0.3",
+   "Architecture": "all",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "0b9bccff93505dec850c339327c92091ab925c116e25355aa123bf5bf253ea31",
+   "Size": 10098
+  },
+  {
+   "Package": "oe-alliance-3rdparty-feed",
+   "Version": "1.0-r0",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "81c0eff42b1145d19ac5af9e7a8e39ee31a1d899c9b9e08f656dccd84ab88c4a",
+   "Size": 766
+  },
+  {
+   "Package": "openbh-extra-feed-opkg-conf",
+   "Version": "6.0-r3",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "2668a9483f58fce88f46136cc016367f60082a8c8e5225f806d5a592eeb20235",
+   "Size": 664
+  },
+  {
+   "Package": "openbh-picon-feed-opkg-conf",
+   "Version": "6.0-r1",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "24705b3e3466e6154a4b8473115053369daf5e83010c98d8314ab98d25d31ea0",
+   "Size": 664
+  },
+  {
+   "Package": "openbh-spinner",
+   "Version": "1.0-r12",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "c4d96546c0307d15fe3f1bd82f1a7697de64b0801765cba3193d126a60cdd1a4",
+   "Size": 65844
+  },
+  {
+   "Package": "packagegroup-oea-multimedia",
+   "Version": "1.0-r0",
+   "Architecture": "all",
+   "License": "MIT",
+   "SHA256sum": "fc3923f39497e08d3fb3e24e67dd111f2c4367de11b9ce4021a4903b63ac5ac0",
+   "Size": 820
+  },
+  {
+   "Package": "packagegroup-oea-network-core",
+   "Version": "1.0-r0",
+   "Architecture": "all",
+   "License": "MIT",
+   "SHA256sum": "61575a768347587113fe26aee46535393c4f667c981f3b63b1197039330029ec",
+   "Size": 602
+  },
+  {
+   "Package": "packagegroup-oea-network-ssh",
+   "Version": "1.0-r0",
+   "Architecture": "all",
+   "License": "MIT",
+   "SHA256sum": "f31efa418264c3fb06ca65f4af465d977c4a3710bc59f2228717549226ad9756",
+   "Size": 580
+  },
+  {
+   "Package": "packagegroup-oea-python-core",
+   "Version": "1.0-r0",
+   "Architecture": "all",
+   "License": "MIT",
+   "SHA256sum": "cad8024ba3b4c24c232428b3db2a3748cd30c3132e556f0c28304ae8dc9a551c",
+   "Size": 628
+  },
+  {
+   "Package": "run-postinsts",
+   "Version": "1.0-r0",
+   "Architecture": "all",
+   "License": "MIT",
+   "SHA256sum": "238212b6ddd4453bcfd05b5a676b82f6d8f1aafa223b0b3c4b8ac005d7c72e21",
+   "Size": 1968
+  },
+  {
+   "Package": "tuxbox-common",
+   "Version": "1.0+git1+8153ef90+8153ef9c8d-r0",
+   "Architecture": "all",
+   "License": "LicenseRef-Proprietary",
+   "SHA256sum": "22136741178599ab7bf37914b3924066d16fbcb986f19e20ca1b6afe35329b6c",
+   "Size": 76642
+  },
+  {
+   "Package": "tzdata",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "c5a074abd98118bb274388929a93919c4fd180919712863d24327a442bd91a85",
+   "Size": 942
+  },
+  {
+   "Package": "tzdata-africa",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "59dd8c742d5d7e57d9e733e7077845eb24cc76c144dcf40329be161e587d1f3d",
+   "Size": 3928
+  },
+  {
+   "Package": "tzdata-americas",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "9d60a7ab9cb73477177b7443e5e645be429b9576414ce13098ad3063a19bb89b",
+   "Size": 22044
+  },
+  {
+   "Package": "tzdata-antarctica",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "a6e9093f97178737069e28b1ccfc3f3336496d631055d85cc5722bd869746ae5",
+   "Size": 2808
+  },
+  {
+   "Package": "tzdata-arctic",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "80592ea472b330e63d52e40c3800f546f2f84f01ab22986e5cba1942c9a5dcaa",
+   "Size": 1122
+  },
+  {
+   "Package": "tzdata-asia",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "a8400b46d81357a86622f6aec53c27ce67130cb47aca69d371765cc5a963f727",
+   "Size": 14020
+  },
+  {
+   "Package": "tzdata-atlantic",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "00c1e53b7f6c3bbbea8bfb7eec268996a31b135a83b1965919d7d06fb44172ce",
+   "Size": 3532
+  },
+  {
+   "Package": "tzdata-australia",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "d97d8ad9f7659af48805094a7263207d934183d7dbb438147ea9534e7d775a3d",
+   "Size": 2678
+  },
+  {
+   "Package": "tzdata-core",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "1e8b35b7993fa2a18fe47a7cfba6b1fac1f541bfcaddcb2559c1a72eb5c32dcb",
+   "Size": 57566
+  },
+  {
+   "Package": "tzdata-europe",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "9e13fbadcfe70d950019e850f105c4d7aed903676191fca69a0cb95810f6ddb9",
+   "Size": 8532
+  },
+  {
+   "Package": "tzdata-misc",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "4f9f0cc42ca8b5ad203c3c2cc036b9f155e65ed413b6537fce7bd435d2aa9438",
+   "Size": 6868
+  },
+  {
+   "Package": "tzdata-pacific",
+   "Version": "2026e-r1",
+   "Architecture": "all",
+   "License": "BSD-3-Clause AND LicenseRef-PD",
+   "SHA256sum": "900360e5632399de69e941553eb97f225809f7b41b5a4fefdfde6c63678d4485",
+   "Size": 4654
+  },
+  {
+   "Package": "update-rc.d",
+   "Version": "0.8+git0+b8f9501050-r0",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "eb7bc933eb22daf88a689662563eafdc1faf6b8c7b4f3761605c3d4f2ed7b0b9",
+   "Size": 3142
+  },
+  {
+   "Package": "volatile-media",
+   "Version": "2.0-r0",
+   "Architecture": "all",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "f33b5a8c5b33aa1577faf3c52e8e7388ce0a71fc787ebae71eaf125b7e5c4474",
+   "Size": 874
+  },
+  {
+   "Package": "wireless-regdb-static",
+   "Version": "2026.09.03-r0",
+   "Architecture": "all",
+   "License": "ISC",
+   "SHA256sum": "cdca7761dd60c98a393789bf9ff875330a690a8bee971edd5f69c833460af078",
+   "Size": 4446
+  },
+  {
+   "Package": "7zip",
+   "Version": "26.05-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND BSD-3-Clause AND LGPL-2.1-or-later AND UnRAR AND LicenseRef-PD",
+   "SHA256sum": "cac60278bffb1104904281f1c7c9739e59c8d55ae52c75fa321f30e7a9db05b8",
+   "Size": 612776
+  },
+  {
+   "Package": "aio-grab",
+   "Version": "2.0+git1+383708b0+383708b123-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "872a8ccbaa3cea560cb0199d27841bf99ae8573bd542952ed0288c2948d3bbe7",
+   "Size": 38514
+  },
+  {
+   "Package": "alsa-conf",
+   "Version": "1.2.16.1-r1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "07b5301c3dad483e4f24bb4d38b3a3f20ce0100dbd751390b679b08544f562b1",
+   "Size": 18162
+  },
+  {
+   "Package": "alsa-plugins",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "31f4111f69ad03fbf4ae7c4c90d9ad0bae82d8d25f6c8230786317540ce612ad",
+   "Size": 732
+  },
+  {
+   "Package": "alsa-utils-alsactl",
+   "Version": "1.2.16-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "88e9772c2ff038f4a1d74eeb25948ebc509e7db561adeafc4419eb9a9febe0e1",
+   "Size": 62418
+  },
+  {
+   "Package": "alsa-utils-amixer",
+   "Version": "1.2.16-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "aa0d435f2d7765f6d8733db2fcf8ad67dfea49dc052bc0441c37ed64933a5ae8",
+   "Size": 20542
+  },
+  {
+   "Package": "alsa-utils-aplay",
+   "Version": "1.2.16-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "4b685502125f4cefa001ead87cbb69be4f9e350a5c33126b0e2280343a587411",
+   "Size": 30528
+  },
+  {
+   "Package": "autofs",
+   "Version": "5.1.9-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "1a41c51eac401e79a311e0aacad00171027f434da22836f17c50690c9ed53108",
+   "Size": 242148
+  },
+  {
+   "Package": "avahi-daemon",
+   "Version": "0.9~rc5-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "5d2e65d1c2450ef84c5b9d6a867c9576477e3b1b258e5ed4267d99e77a1f398d",
+   "Size": 58160
+  },
+  {
+   "Package": "avahi-libnss-mdns",
+   "Version": "0.15.1-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "4945152d59306d57d0785d7ad14146962a799706d5cc51b19e4c39e4822a105b",
+   "Size": 12486
+  },
+  {
+   "Package": "base-passwd",
+   "Version": "3.6.8-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "7acd92fe0d1aebb2a3a854cf87aa32d536eef1a1306590742cd2dee1582f2ac7",
+   "Size": 1260
+  },
+  {
+   "Package": "bash",
+   "Version": "5.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "2a8ad81a7ba1dcc32e8467683f637b6c73773d7a96cc45ec2247573aa3333a1b",
+   "Size": 536002
+  },
+  {
+   "Package": "bash-locale-de",
+   "Version": "5.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "1d531c98dea9274120d6e2ae371700c6d586686710f00de1a8cccf17a62e4224",
+   "Size": 60730
+  },
+  {
+   "Package": "bash-locale-fr",
+   "Version": "5.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "98d835291fe9e209d399959f2e550b520c6e80d6d5a8640a8fc31e628a1d4b2a",
+   "Size": 62310
+  },
+  {
+   "Package": "blackhole-base",
+   "Version": "1.0-r21",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "c554ed84b3a44af9bd680fe96a4377d4dfa84a027b7d2b8aa6d93cd5a75722ef",
+   "Size": 2114
+  },
+  {
+   "Package": "blackholesocker",
+   "Version": "0.1-r1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "2f705b25813a5bd24fa028a7afed531601c26f731f019cc3090e31c326dba082",
+   "Size": 3924
+  },
+  {
+   "Package": "busybox",
+   "Version": "1.38.0-r0.7",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND bzip2-1.0.6",
+   "SHA256sum": "89cbec366d97272e64a817406ca2cb7dcda26df4c9c542836f21de1d45e19190",
+   "Size": 496988
+  },
+  {
+   "Package": "busybox-inetd",
+   "Version": "1.38.0-r0.7",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND bzip2-1.0.6",
+   "SHA256sum": "f7108b72b68baf3d493567a7536a40e5e0d4d4c100245f4259beabf18ebfd33c",
+   "Size": 1820
+  },
+  {
+   "Package": "busybox-syslog",
+   "Version": "1.38.0-r0.7",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND bzip2-1.0.6",
+   "SHA256sum": "0798fc9d61f62f45d5038ce22d01cd64823539c14511273fbe325efffccbfaf0",
+   "Size": 2686
+  },
+  {
+   "Package": "busybox-telnetd",
+   "Version": "1.38.0-r0.7",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND bzip2-1.0.6",
+   "SHA256sum": "e5f304989dbcf4c98fc8cbf7c005cf4c3b526368734fee2c2759e33b1ae12f7b",
+   "Size": 1506
+  },
+  {
+   "Package": "busybox-udhcpc",
+   "Version": "1.38.0-r0.7",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND bzip2-1.0.6",
+   "SHA256sum": "a298533a90b5c49a3b1465f65b2163a9b1cbd3232e943b19b2755310f16052f5",
+   "Size": 1750
+  },
+  {
+   "Package": "bzip2",
+   "Version": "1.0.8-r0",
+   "Architecture": "cortexa55",
+   "License": "bzip2-1.0.6",
+   "SHA256sum": "8196681aef706462019c96c9af9815d1144179f6319366562d0dea809cefd897",
+   "Size": 20906
+  },
+  {
+   "Package": "coreutils-truefalse",
+   "Version": "9.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "d8b216aad65944e4df8b6c5973fe6fdd0595a8988688da952f7ff4b5ea586980",
+   "Size": 22966
+  },
+  {
+   "Package": "cronie",
+   "Version": "1.7.2-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND BSD-3-Clause AND GPL-2.0-or-later AND ISC",
+   "SHA256sum": "8d5c4863f8451dd8cf9d5836372316c594601fc556193ae68f5487b8b0def57f",
+   "Size": 50286
+  },
+  {
+   "Package": "curl",
+   "Version": "8.23.0-r0",
+   "Architecture": "cortexa55",
+   "License": "curl",
+   "SHA256sum": "69ea2730d2eb33c27cd5c5f79e2ac935c96408892f1789ec13dbb84e76fed303",
+   "Size": 99114
+  },
+  {
+   "Package": "dav1d",
+   "Version": "1.5.4-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause",
+   "SHA256sum": "0931e8a03d80fe70c6c1eac3b7e1a07082c97a95db155a131352e8710955a3cb",
+   "Size": 390644
+  },
+  {
+   "Package": "dbus-1",
+   "Version": "1.16.2-r0.3",
+   "Architecture": "cortexa55",
+   "License": "AFL-2.1 OR GPL-2.0-or-later",
+   "SHA256sum": "5dd504f74f584011f0b8d44f5a42db86415f1c3c4fd5f17d4edf25297fd18640",
+   "Size": 114620
+  },
+  {
+   "Package": "dbus-common",
+   "Version": "1.16.2-r0.3",
+   "Architecture": "cortexa55",
+   "License": "AFL-2.1 OR GPL-2.0-or-later",
+   "SHA256sum": "75f6f40ef44fd9ce99326e92f56eb357880bb7a732c84a41f70723eea1667db3",
+   "Size": 5502
+  },
+  {
+   "Package": "dbus-tools",
+   "Version": "1.16.2-r0.3",
+   "Architecture": "cortexa55",
+   "License": "AFL-2.1 OR GPL-2.0-or-later",
+   "SHA256sum": "15a7d6c4aa80cdcbd0bb6d8becaa9c0f18080f64f65ed9ae176d2d980015fac9",
+   "Size": 19924
+  },
+  {
+   "Package": "dosfstools",
+   "Version": "4.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "9fa418c39c6f7ad6f2e6567acf06113d74892b7041a2676bf77bba6e92163f75",
+   "Size": 59104
+  },
+  {
+   "Package": "dropbear",
+   "Version": "2026.94-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND BSD-3-Clause AND MIT AND Unlicense AND WTFPL",
+   "SHA256sum": "1d2533e16e5683ab275313376687215833fd3cdea5ebd3c720e6a3d0d4874acd",
+   "Size": 189754
+  },
+  {
+   "Package": "dvbsnoop",
+   "Version": "1.4.56+git1+5b236b10+5b236b178e-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "55bdb9ab46a69cb23e7dca534dedec96413f73546c02b38225dc4b44ebbaa07b",
+   "Size": 142996
+  },
+  {
+   "Package": "e2fsprogs",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND GPL-2.0-only AND LGPL-2.0-only AND MIT",
+   "SHA256sum": "86b872e17448478df07c15b6767f1e32ce95adcac92a377aa0ebbc46f68d0759",
+   "Size": 140574
+  },
+  {
+   "Package": "e2fsprogs-badblocks",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "1e01aaa95a7f7a6d59d7c330c03930e9a3b71360550b68837c900bc33608c777",
+   "Size": 12462
+  },
+  {
+   "Package": "e2fsprogs-dumpe2fs",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "1f4c265673f5ae0cbbc801f4c77cd90603568943108af909146504e3fa667156",
+   "Size": 12016
+  },
+  {
+   "Package": "e2fsprogs-e2fsck",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "dab1e469e44905539485cfe870c4194f1d6d4d2dec05f882ea49f1121e886491",
+   "Size": 141316
+  },
+  {
+   "Package": "e2fsprogs-mke2fs",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "6b67c3652f8e76527c56b9401baf977313b92c495432c30371ab31e306bd28b2",
+   "Size": 61232
+  },
+  {
+   "Package": "e2fsprogs-tune2fs",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "529cc020fbf12afff251fc0891bb896876d8e0c622a31332ea86a3b2d9d7aa45",
+   "Size": 49914
+  },
+  {
+   "Package": "early-configure",
+   "Version": "20101009-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "7fc3a7475ebd36e38ef5bf084e5a39acf450794aaba56120d290765509b06c32",
+   "Size": 714
+  },
+  {
+   "Package": "edid-decode",
+   "Version": "1.0+git1+5332a3b0+5332a3b760-r3",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "6dbe3c7046af208a37afe5e861142e04c9e2e1650ecf955ab66a959f684e95c9",
+   "Size": 126532
+  },
+  {
+   "Package": "elfutils",
+   "Version": "0.197-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "fe8a80603efa8409b3f8514f553b4271c3eb80b79f2bd2a8da30a55df1bae7b5",
+   "Size": 374418
+  },
+  {
+   "Package": "elfutils-locale-de",
+   "Version": "0.197-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later AND (GPL-2.0-or-later OR LGPL-3.0-or-later)",
+   "SHA256sum": "d2d792a375a5ce04b47105b73440af08421d7dc14f23779a5ecd7ed6f9f25c2b",
+   "Size": 8566
+  },
+  {
+   "Package": "enigma2-plugin-drivers-exfat",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "c070d82ff1af79a0add84ab3bbf01afa6ea525ce5d9deb9b80d48caa6ab236e8",
+   "Size": 546
+  },
+  {
+   "Package": "enigma2-plugin-drivers-ntfs-3g",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "0c2fa47bf8c91231e240de682fdaa35de99bf10f437d4bc6e143f09a815ee850",
+   "Size": 548
+  },
+  {
+   "Package": "enigma2-plugin-extensions-autotimer",
+   "Version": "V0.0-git1+8b7e54f0+8b7e54fd69-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "cc06cbe76215b359d52a884d1d56a50f8d9e263963c6fa19f9cb39ab7ccd5fab",
+   "Size": 388276
+  },
+  {
+   "Package": "enigma2-plugin-extensions-epgimport",
+   "Version": "1.1+git1+764ec3a0+764ec3a4b5-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "20b0d808083ae9e3739136b2e6609a23ef79476d5a9ef067cfcd8b1f5b790538",
+   "Size": 132398
+  },
+  {
+   "Package": "enigma2-plugin-extensions-epgsearch",
+   "Version": "V0.0-git1+64e48160+64e4816157-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "6a46d7a5719f75080cc4549a0a3efdce7391a0c4e8ee720cd184b21df35a0165",
+   "Size": 70434
+  },
+  {
+   "Package": "enigma2-plugin-extensions-imdb",
+   "Version": "V0.0-git1+461dd310+461dd315e1-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "5c38f2703e375137c9a562bcf28cde68c90d79979fa79168c5f077b6f068ab5b",
+   "Size": 76166
+  },
+  {
+   "Package": "enigma2-plugin-extensions-openwebif",
+   "Version": "0.0-git1+7a7bb630+7a7bb63ba1-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "fbaff35c61a737aa729ba6f74beef4a2778f6d52f03ef81e718558dfcfd10deb",
+   "Size": 1378364
+  },
+  {
+   "Package": "enigma2-plugin-extensions-openwebif-themes",
+   "Version": "0.0-git1+7a7bb630+7a7bb63ba1-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "03a7d0a262d36cd9d9e434bd61a4c03a6d65190b8c577064407d0128680f9ac3",
+   "Size": 798364
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-autobouquetsmaker",
+   "Version": "0.0-git1+a2d198b0+a2d198b510-r0",
+   "Architecture": "cortexa55",
+   "License": "LicenseRef-Proprietary",
+   "SHA256sum": "20a5d4d067288d0dd2dc2ae3ebc11b28570f1def8dbc91f4910df98f099a2a34",
+   "Size": 380610
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-mphelp",
+   "Version": "V0.0-git1+632eb4c0+632eb4cfa7-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "1448c46f64284e7bfa70e4c47fb5bd53863ceec48cbef8869ce07b1a324d2024",
+   "Size": 34234
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-networkbrowser",
+   "Version": "V0.0-git1+9217ef50+9217ef52f1-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "1a4516438eac98c08f667cee8c0fbc1218e2daf499fa1c216f55114802314c77",
+   "Size": 150188
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-toolkit",
+   "Version": "V0.0-git1+c891f390+c891f398db-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "40e73492396b63e655bc923ae873b99681d91d0b999c976d455f8c375df8c5f6",
+   "Size": 5636
+  },
+  {
+   "Package": "ethtool",
+   "Version": "7.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "40fc78df2a37aa34a8c22c4b312dc9f8054342e08d0778398737c6bc4b1b09ed",
+   "Size": 268302
+  },
+  {
+   "Package": "eudev",
+   "Version": "3.2.15-r0.1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+   "SHA256sum": "41922db9467162316cc3db480db4a55fc350adea2f0ad55b614e87e637f8e471",
+   "Size": 316934
+  },
+  {
+   "Package": "eudev-hwdb",
+   "Version": "3.2.15-r0.1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+   "SHA256sum": "e1d7074361ce87d0769ba1ccb987b772d9dcec9cb47d727afd7e0c9dd7fdc4ce",
+   "Size": 1508918
+  },
+  {
+   "Package": "exfat-dump",
+   "Version": "1.4.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "9547d54c6dc49fe8dac7fa1446286de6863047734336a450bc173d925aebac67",
+   "Size": 28494
+  },
+  {
+   "Package": "exfat-fsck",
+   "Version": "1.4.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "9d1a0ac2208f3499871631f6095ba08d84dee6c2961cad5a65bf1d5fdebf58c2",
+   "Size": 41700
+  },
+  {
+   "Package": "exfat-label",
+   "Version": "1.4.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "916683a2fae020bfce6440d2308890bdbf8220739ba84599cadb5def87814e30",
+   "Size": 23012
+  },
+  {
+   "Package": "exfat-mkfs",
+   "Version": "1.4.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "2d24cd203716faa54310488ba04565b7512d1a1cb55d9e243715396fe4b22bdb",
+   "Size": 864
+  },
+  {
+   "Package": "exfatprogs",
+   "Version": "1.4.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "0814bad52ee1b3f3af3bf9aa02e5b9eaabc0ee71bb116717f66488038f26726a",
+   "Size": 69274
+  },
+  {
+   "Package": "faad2",
+   "Version": "2.11.4-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "f8d503505992ec13f3e221fbdfb3bab3839351b73adcaa29528dcefe211e80ba",
+   "Size": 228362
+  },
+  {
+   "Package": "fake-hwclock",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "73456bbe0741879e710056622a9e2acafe1ed8ccec4387d904e28fce6d54c10d",
+   "Size": 2196
+  },
+  {
+   "Package": "ffmpeg",
+   "Version": "9.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "0f018259282131bff4e4dd4499278889191650a57acada99a4ffa58f2cf876bd",
+   "Size": 254428
+  },
+  {
+   "Package": "fuse-exfat",
+   "Version": "1.4.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "56ded803e76387d9745c9462422584912b38334f270da6ce2ffe78b8a94b7dad",
+   "Size": 23904
+  },
+  {
+   "Package": "fuse-utils",
+   "Version": "2.9.9-r0.1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.0-only",
+   "SHA256sum": "788e785301bdfc66e8f6404bf7943216b0cbcab77152e367ca8a6c507f5bc46f",
+   "Size": 19882
+  },
+  {
+   "Package": "glib-networking",
+   "Version": "2.90.0-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "ef895f0553250f400547cc95bf597c7d0767a278de2b07001805faafc981ad8a",
+   "Size": 52010
+  },
+  {
+   "Package": "glibc-gconv",
+   "Version": "2.44+git-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-or-later",
+   "SHA256sum": "999fedc35edc4223bcb61cd4a5e4acc4e7868f5e5a9d889b1646dc90f6f40ff0",
+   "Size": 10402
+  },
+  {
+   "Package": "glibc-gconv-cp1250",
+   "Version": "2.44+git-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-or-later",
+   "SHA256sum": "c0bfcd449466ad9fffdd652862de7299a6e94ab8143e2ff5c49b2989dddb571d",
+   "Size": 5994
+  },
+  {
+   "Package": "glibc-gconv-iso8859-15",
+   "Version": "2.44+git-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-or-later",
+   "SHA256sum": "d7d22fe3aaab90912b1f35c99c7162260c2dbaa2268551726e46f4fb0a8ff35d",
+   "Size": 5836
+  },
+  {
+   "Package": "glibc-gconv-utf-16",
+   "Version": "2.44+git-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-or-later",
+   "SHA256sum": "233212c9b48edba5b99f63563d64d1a1636874e46d95754ecdb28e4156a9314c",
+   "Size": 6168
+  },
+  {
+   "Package": "glibc-locale-de",
+   "Version": "2.44+git-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-or-later",
+   "SHA256sum": "0bf4bd7b946b3a45897b3c1804856cb380463b8d3ef9d49a386fa7e12f1e2c31",
+   "Size": 802
+  },
+  {
+   "Package": "glibc-locale-fr",
+   "Version": "2.44+git-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-or-later",
+   "SHA256sum": "c80cb6dba3074acf4ea897389d3a115fafbebd6abda2af9716d08e33334325aa",
+   "Size": 800
+  },
+  {
+   "Package": "gstreamer1.0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "e1c610fc97f0af85cbb7e2928c9db1989c816ffe1eca37446bd69ab11a8ccefd",
+   "Size": 1115004
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-autoconvert",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "e237cc9c747578b96df125b2ca79e22940f5a713c5540f10c32aab18f3dfc727",
+   "Size": 23054
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-dash",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "94f9959bd59e3b1c63318497b9cdebec5eb5deff312ec6f90d08b4535eba2d65",
+   "Size": 84942
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-faad",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "450b8b0ef7aa698d11e5fe829e2fc0a1a44fc1733ee209b513c5838cf310b46e",
+   "Size": 9922
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-hls",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "035643a4d29315b9e18ce75ec622240beb1c19eda7253f8e4068ce414417830e",
+   "Size": 43334
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-mpegpsdemux",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "2700e28133aa96d8588cc71307f2e36f35432ba451a8b2fb5b85f59c2448d55a",
+   "Size": 31758
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-mpegtsdemux",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "4fdad87bccd8de6158860438d6bf24c9752563fa53e94d4864b9c684b10abb90",
+   "Size": 74714
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-opusparse",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "1045990028dc1a1b35dc131b8c44172b94a96a0db925a4361320b165e90b6fb7",
+   "Size": 6962
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-rtmp",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "18bec987580776ead2762c69c215afa53ae52e196e33eb6668bb2c9b29b4e212",
+   "Size": 12920
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-smoothstreaming",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "0fa4d315900977d19cf8294eb2f1b36507d32f5672e84c5c909a5b49cf896b11",
+   "Size": 19208
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-subenc",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "1e838e0d8afc849479531c79196462489cb8be46fd223e7599679b2bebfe674f",
+   "Size": 7172
+  },
+  {
+   "Package": "gstreamer1.0-plugins-bad-videoparsersbad",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "08367e2de4402bcddbcf0e2474218ea3dd21d418544dcc551762b9ca93cf3f6a",
+   "Size": 121004
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-alsa",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "8e570c8167f4381238a8d2aa60ffc04f6a9d7366f989731f29cb4958a66d3da2",
+   "Size": 38730
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-app",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "b0731ba621793b6ce396605653b4c01b419ec0a8b7623cf5a17d3f44f87bb94d",
+   "Size": 2746
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-audioconvert",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "be938d01a460d07aec9fa129361df7fe60d801878f55cad9ee19132d1384f73b",
+   "Size": 13620
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-audiorate",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "fae75ca6bdaf27f885ff72a2f721ec4fdeab6415c3e88cd41cad72aa81ee4772",
+   "Size": 9760
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-audioresample",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "d785a7a23af13097b52343057450a781268f1f6a8c313a9ac0c17a247e62fc45",
+   "Size": 12834
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-ivorbisdec",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "ea0a69b35fca5e8c406c87beb81af238ed262665bbd43a1a018755c0a2e35179",
+   "Size": 9850
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-ogg",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "5d6442c22cda26d74b15d9d160ec7b0824b9f26202c6fa5389aa88d51aafe996",
+   "Size": 86874
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-opus",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "33fba76a2f55214ffcde501627feff964d04d25da08ba42eca0804ddd4942a9f",
+   "Size": 24830
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-playback",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "b147c26add141aa1fa38ba212cb6bd2f909ab1e5d827e9d2eb0515b3d76f2d42",
+   "Size": 230254
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-rawparse",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "514378ab8c5fc44bf40a3540d1ff9c5703f251ee7bb6b2c1f1b9a22ba0f310d3",
+   "Size": 21318
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-subparse",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "cc81ed2aa91a3ebb37c2aa110272900749b10aaa93da6630bded0482d3bafe05",
+   "Size": 37784
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-typefindfunctions",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "6ef0db6792b6db9cc26de84d90451905d7eb8b1cfcb1298c8455afe0c85eef7c",
+   "Size": 49938
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-videoconvertscale",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "e943d57b9c1a7b57b037502b7d39a31ad73ae28e5cbff0c7db9a3de9664ea22f",
+   "Size": 20322
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-volume",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "2731996943fa781cf01673464acad2990e53ce85701f0d303721a95a73af6f87",
+   "Size": 12678
+  },
+  {
+   "Package": "gstreamer1.0-plugins-base-vorbis",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "cc1983d4c03bd5e5314feeb79c16fa10c16a2cf996b9c355caac456973721182",
+   "Size": 22346
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-amrnb",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "60e2f9594c72d902670994790fa3b6300d724ba992f4b46f2bb016d45a9b52fd",
+   "Size": 7814
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-amrwbdec",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "d404a948f8d0ed2f681638af01743d43efca01fcf168689b998464e31b55a527",
+   "Size": 5390
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-apetag",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "f4846f20edf9e37b91c94dcee164075dd0d856b85305a798117bee26cb67cef3",
+   "Size": 7248
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-audioparsers",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "e91d19a936540a86842e44c379c0883968eca88d4149f2b96df38232a7f63b56",
+   "Size": 57394
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-autodetect",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "bc3b9b3a4fa0031b699dd22a6042807b8eca83328765253d48231853d20cf55e",
+   "Size": 10270
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-avi",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "fd5e8a93ff56660bb6f3e89f7492a3ffb6a2ed125207f71a9d36b51af382764d",
+   "Size": 65730
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-flac",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "696670694e953c423a0e7d15ae68125d8d6b8152b064d0783f41904ef7aadae5",
+   "Size": 27146
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-flv",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "76ff7c529aea6f15a86bf2caaba49644cbd7bc4132cece32a184edaf3370db38",
+   "Size": 61246
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-icydemux",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "b6c188aac983e3a9c284f70bd753fbb47017f523d7277a4320a990c5680ca8eb",
+   "Size": 8570
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-id3demux",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "f102f535698ca2e64d1210b9fc836f0dfdb22d087e89a7e209766c1a3d8adf57",
+   "Size": 6818
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-isomp4",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "fd6e1d29c7d8194a2a4709a9c2bd3b9ad8c6dc2efca8be381b45aeac5a0f97c9",
+   "Size": 252870
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-matroska",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "288df737b5f08e215b5b2cac74025ab7ae4d70d3647949e94c9a4957912a49e5",
+   "Size": 132378
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-mpg123",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "7a4af5306bb8d18e85468a6ffd0bddfdc6b6355685808a221216ef1eadccd209",
+   "Size": 10640
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-rtp",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "0c06f49e53d0ac6140b596d14fd5d8bd07a676c53958d1667b6698e3384f6c94",
+   "Size": 238538
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-rtpmanager",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "c451e8164773348486eda50f827d6bf028ffe4c4ce0c073f056f479699e88a51",
+   "Size": 195150
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-rtsp",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "dee74824e1f473c9a3bd6a8233e54ed658913f99ffcda0780f72034a1ce3add8",
+   "Size": 77688
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-soup",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "20784d1a14472b6e2bdf9877633f74ed652399258da6e392e17d84798f44b449",
+   "Size": 37954
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-udp",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "acea3f62b3cccf8b6555df1d9846a55ff6bd1ddfefa2bb67d39e7bcf7f2dae88",
+   "Size": 34858
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-wavpack",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "05eedbecf47ebd92a8864b43a8625de6474ba0525994f856a3241c8b04568a13",
+   "Size": 17920
+  },
+  {
+   "Package": "gstreamer1.0-plugins-good-wavparse",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "890fa0b4629d290760fcebdb284f539dfc344f5020eabe7447cd5468b841946f",
+   "Size": 25876
+  },
+  {
+   "Package": "gstreamer1.0-plugins-ugly-asf",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "1b22ce3bdbe4da8d5100887545648d4ae3f0aa676682f3786c2a61061093ce91",
+   "Size": 54908
+  },
+  {
+   "Package": "gstreamer1.0-plugins-ugly-cdio",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "d0fc61858ce26925143e030dbb706522ff1ca588c45e8f8e93a2a1e23e5c534f",
+   "Size": 8236
+  },
+  {
+   "Package": "gstreamer1.0-plugins-ugly-dvdsub",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "2cc274bb76b3074ab2d28d85820c7d0c6ca0ed09515dd147867fc2e0ecf1143a",
+   "Size": 14272
+  },
+  {
+   "Package": "hddtemp",
+   "Version": "0.3-beta15-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "492b65027742adf8e2a24a99718cc19aab038c898cbd501be0fab04a7e97dd10",
+   "Size": 23648
+  },
+  {
+   "Package": "hdparm",
+   "Version": "9.65-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND hdparm",
+   "SHA256sum": "38eea36094addf235d0277166eed1e2d0c68006afc23b05d8754cdba8c04ff9d",
+   "Size": 54890
+  },
+  {
+   "Package": "inadyn-mt",
+   "Version": "v.02.24.44-r0.2",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "93d3422e5a415c8f9c997e50bbb290f8dfd8062a3fd26ac4a0d53ce1db750416",
+   "Size": 43380
+  },
+  {
+   "Package": "initscripts",
+   "Version": "1.0-r0.11",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "6dd8a7c2229109369fa1eaa0594a6ec8d611951e9dae2f3bbb495b9b3fa977f4",
+   "Size": 12476
+  },
+  {
+   "Package": "initscripts-functions",
+   "Version": "1.0-r0.11",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "f36806bec375ff4b3b3d9f7b30a9dc64d862274f6197aaf074a88b14cb269950",
+   "Size": 1906
+  },
+  {
+   "Package": "iproute2",
+   "Version": "7.3.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "46d5aff6883ebbbcd10f7f3682d4de0c6a1bda25ba90d32477d8176a52e42c2e",
+   "Size": 44216
+  },
+  {
+   "Package": "iproute2-ip",
+   "Version": "7.3.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "e100572ef5917154e45f0137115ea909692692722d5a80cb6e808adf9e67e5a3",
+   "Size": 293256
+  },
+  {
+   "Package": "ir-keytable",
+   "Version": "1.32.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-only",
+   "SHA256sum": "563a1e9b46423ded2643df2f3ac5571d90cb6a73b1b87f1a3f9821b54d4f21aa",
+   "Size": 37174
+  },
+  {
+   "Package": "iw",
+   "Version": "6.17-r0",
+   "Architecture": "cortexa55",
+   "License": "ISC",
+   "SHA256sum": "c323bdfb656591789bc489f8d0efcfafbd325b56b6f803f5ca7db400576900ff",
+   "Size": 108294
+  },
+  {
+   "Package": "kmod",
+   "Version": "34.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+   "SHA256sum": "175badb4470b83f03d4f9733f91243dd11243a2852791e4ef6931fef707d07b3",
+   "Size": 68286
+  },
+  {
+   "Package": "ldconfig",
+   "Version": "2.44+git0+34106fee69-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-or-later",
+   "SHA256sum": "4ab65c504918c702cb102f6bf75d6bb5ce9a0900e907671bef8747c4d1a44729",
+   "Size": 361974
+  },
+  {
+   "Package": "libaacs0",
+   "Version": "0.11.1+git1+37b8a480+37b8a4807a-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "3a97c67dca262375995055ffbe243069e14efe416cdf1b321915ead995fac35d",
+   "Size": 60700
+  },
+  {
+   "Package": "libacl1",
+   "Version": "2.4.0-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "8a0b2a890b27d071201bf4f3bb4eb9d2c4f3207d7601faebf9c17304283132e4",
+   "Size": 18784
+  },
+  {
+   "Package": "libarchive",
+   "Version": "3.8.10-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause",
+   "SHA256sum": "c1a03f3126c336218d1e69290eee3481827e50f576f8643f178b0abfe505ae68",
+   "Size": 342608
+  },
+  {
+   "Package": "libasm1",
+   "Version": "0.197-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+   "SHA256sum": "d61a11b648dca060e57465fbcaa331a473b2ff46880e094225b5947b2e010b7a",
+   "Size": 13702
+  },
+  {
+   "Package": "libasound-module-conf-pulse",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "51c2c59b6f80bf470ad8e330387c80b5456e1ac52045238a753fb30b406ecb4b",
+   "Size": 2880
+  },
+  {
+   "Package": "libasound-module-ctl-arcam-av",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "874322c5ff213bd917d051337dade76076c6d1e104ee58a06d7b9f278f96ce00",
+   "Size": 10702
+  },
+  {
+   "Package": "libasound-module-ctl-oss",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "12df7687db93d5fc5f4a441c79e5d3fc962d96ee09ca3cb78e7fba4f22dfbad0",
+   "Size": 6294
+  },
+  {
+   "Package": "libasound-module-ctl-pulse",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "64d6ffb23d67198cddcc5ffe8c7c1d63011115bd3252466ee354644cdc619b1c",
+   "Size": 8894
+  },
+  {
+   "Package": "libasound-module-pcm-oss",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "c5ee1c77c42da7eca1048659a8bf8c3f66dc24d8082f81def4c74f2119a6edb6",
+   "Size": 6162
+  },
+  {
+   "Package": "libasound-module-pcm-pulse",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "8bd548f6363250b84cf8917148dc03f28afdee250fe1b956a14a53b9d56ab909",
+   "Size": 10674
+  },
+  {
+   "Package": "libasound-module-pcm-speex",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "5577d52eb79f92bb174360eae8e29b71ff246736195125bf13162378ae116f66",
+   "Size": 5638
+  },
+  {
+   "Package": "libasound-module-pcm-upmix",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "305440ab2d86c0132103b647cd66fdec6d51d1f3767f050f79f59859129c9222",
+   "Size": 6288
+  },
+  {
+   "Package": "libasound-module-pcm-usb-stream",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "b0015cb9597fb2f3aeb7b7bbd0fc3651e301563072b5dafb5681fc461f3238cc",
+   "Size": 6222
+  },
+  {
+   "Package": "libasound-module-pcm-vdownmix",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "a65968ff96cc867418eaf3219f1a9e60c704993b0997be261b0683a8992c1e94",
+   "Size": 5296
+  },
+  {
+   "Package": "libasound-module-rate-samplerate",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "1ee3eca96cacbd3ce535db07ea783716c54a6c9732b42da82685e92fe825f89f",
+   "Size": 4508
+  },
+  {
+   "Package": "libasound-module-rate-speexrate",
+   "Version": "1.2.12-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "ce0ed0564c25eb2987f5d1d2910d8e66e755637e84b760cb15d974254ec9d00c",
+   "Size": 4050
+  },
+  {
+   "Package": "libasound2",
+   "Version": "1.2.16.1-r1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-only",
+   "SHA256sum": "563b998779d4a59ed699f76d3a5c7874e6b42a5b2083a825e909c6920f840db2",
+   "Size": 415452
+  },
+  {
+   "Package": "libavahi-client3",
+   "Version": "0.9~rc5-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "b7af782cb3d92da27856803d6ca080124d928d76b988d55a0d231488483f40fa",
+   "Size": 25118
+  },
+  {
+   "Package": "libavahi-common3",
+   "Version": "0.9~rc5-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "9f7a133e8166b4fde11c561c9277df45cc5cc762b904193edbb31cac865b5443",
+   "Size": 21796
+  },
+  {
+   "Package": "libavahi-core7",
+   "Version": "0.9~rc5-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "b77843242d4a24629257a03c38f407f8203157c7d673a65d10a53cfac778fc30",
+   "Size": 89526
+  },
+  {
+   "Package": "libavcodec63",
+   "Version": "9.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "2e534f4ed8ab760769b8e67a705d3a0754cdd4130ef04ae83136d7298664e684",
+   "Size": 7395904
+  },
+  {
+   "Package": "libavdevice63",
+   "Version": "9.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "cfd497443d33b14b783d42da01394ccbd0b7a08fe051a3b33767d867a344772a",
+   "Size": 43954
+  },
+  {
+   "Package": "libavfilter12",
+   "Version": "9.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "24512f940740e5d1d7cb6627cb9c9f3ab69d4e68f4a00a1334fa533bedb38c19",
+   "Size": 2322666
+  },
+  {
+   "Package": "libavformat63",
+   "Version": "9.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "bf46bf8309903effe30a9fa195333a8f6f7e9814cd7eaf918b4e8da12db703ad",
+   "Size": 1324756
+  },
+  {
+   "Package": "libavif16",
+   "Version": "1.4.2-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND BSD-3-Clause AND IJG",
+   "SHA256sum": "b75a7470328934518e2b5f2a4c7d16398fb0476f4c4255909fa38f5f36179005",
+   "Size": 245554
+  },
+  {
+   "Package": "libavutil61",
+   "Version": "9.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "332efbbacdba34ea9d7584c052c09bafe0def6ecbbc2c2e47657f77a371b57b5",
+   "Size": 425974
+  },
+  {
+   "Package": "libblkid1",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "1df6e303b696a0c914b6e856638b722bd6b24b349efdf576876b95a993081091",
+   "Size": 169048
+  },
+  {
+   "Package": "libbluray",
+   "Version": "v1.4.0+git1+7121a000+7121a00c53-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "a779da285ffbc8a04504d8c3d634a3b43828755e361289ef18229e6432dbfbc9",
+   "Size": 137780
+  },
+  {
+   "Package": "libbz2-1",
+   "Version": "1.0.8-r0",
+   "Architecture": "cortexa55",
+   "License": "bzip2-1.0.6",
+   "SHA256sum": "2b91673b06705ad2621a8ebce53e9749802d7261b496bc411b0416ab97817045",
+   "Size": 29498
+  },
+  {
+   "Package": "libc6",
+   "Version": "2.44+git0+34106fee69-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-or-later",
+   "SHA256sum": "9aa8ed63aa0b0e6d78812cf25f89fde5ca18886a1a3776f81b2552982d1226f3",
+   "Size": 1326660
+  },
+  {
+   "Package": "libcap",
+   "Version": "2.78-r0",
+   "Architecture": "cortexa55",
+   "License": "(BSD-3-Clause OR GPL-2.0-only) AND (BSD-3-Clause OR LGPL-2.0-or-later)",
+   "SHA256sum": "f8dda64f2e07abc0057203b0fd4df1c744f5e3033d07cf3e8d3708d5c2db3192",
+   "Size": 27688
+  },
+  {
+   "Package": "libcap-ng",
+   "Version": "0.9.6-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+   "SHA256sum": "d64cf71496ab4444786713715d8db3e93ee6cf7359aa60b476b22025269b6de7",
+   "Size": 13166
+  },
+  {
+   "Package": "libcdio21",
+   "Version": "2.4.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "65cc05f676ff31058181e22258445d44b74a983de6dcd702d3d3b6990e7bf667",
+   "Size": 65666
+  },
+  {
+   "Package": "libcom-err2",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND GPL-2.0-only AND LGPL-2.0-only AND MIT",
+   "SHA256sum": "cd88e9483a4936a21cf080df10f464e79e6db6e031f503fa15329dc2d4768f80",
+   "Size": 5850
+  },
+  {
+   "Package": "libcrypt2",
+   "Version": "4.5.2-r0",
+   "Architecture": "cortexa55",
+   "License": "0BSD AND BSD-3-Clause AND LGPL-2.1-only",
+   "SHA256sum": "e48a90f60a650d15017e7ed3e58e1bedb91fa1d68fd97a0e6e7c0fecf526e459",
+   "Size": 95334
+  },
+  {
+   "Package": "libcrypto-compat-0.9.7",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "b2a59eaa8cd2b9abf03b7f775985cf8ac6afa32f32f46ec65573ab4f9b6a466e",
+   "Size": 716
+  },
+  {
+   "Package": "libcrypto-compat-1.0.0",
+   "Version": "1.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "46cfe00058ada83a71ae57e5e540831e4765986fb765f178ec90fe51155716c1",
+   "Size": 714
+  },
+  {
+   "Package": "libcrypto1.0.2",
+   "Version": "1.0.2u-r0",
+   "Architecture": "cortexa55",
+   "License": "OpenSSL",
+   "SHA256sum": "5c7db8d343886ff74a97429b017ed83aa53af1879ece984efac0e8d32e5224a3",
+   "Size": 746490
+  },
+  {
+   "Package": "libcrypto4",
+   "Version": "4.1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "eb12c316863b8749853c5e5d27eb886711e9132d7b94231f6ec3833cc9311341",
+   "Size": 2464012
+  },
+  {
+   "Package": "libcurl4",
+   "Version": "8.23.0-r0",
+   "Architecture": "cortexa55",
+   "License": "curl",
+   "SHA256sum": "d7b4ca8dc920e3a70a866332a1ca021c0f7c2df865e3665e1528a3dc8fd339c4",
+   "Size": 367508
+  },
+  {
+   "Package": "libdaemon0",
+   "Version": "0.14-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "a278d0be440aa220816e2cefa92bbf53ff631d99d42183778ec9e8efd0b97e1d",
+   "Size": 11840
+  },
+  {
+   "Package": "libdbus-1-3",
+   "Version": "1.16.2-r0.3",
+   "Architecture": "cortexa55",
+   "License": "AFL-2.1 OR GPL-2.0-or-later",
+   "SHA256sum": "91db93f14076ca35c593094873ef9f4d6feef8a03c913a01ce81db7ebb2156b2",
+   "Size": 142594
+  },
+  {
+   "Package": "libdca",
+   "Version": "0.0.7+git1+95c4bd80+95c4bd8bae-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "a54a266679aad80c3c6e7626143f51255970b9bb9f79dae9fb7d5f6d152bf8c1",
+   "Size": 113712
+  },
+  {
+   "Package": "libdebuginfod1",
+   "Version": "0.197-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+   "SHA256sum": "f5894248320fc1909705a7c4e0e9c1fd81de867045692122fb84c2ad47a4986c",
+   "Size": 17644
+  },
+  {
+   "Package": "libdreamdvd0",
+   "Version": "1.1+git1+975333a0+975333a755-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "1752ff0d19c730792866556fa64e9cde3776d8fb269057b98e6b6b95556f87ad",
+   "Size": 67880
+  },
+  {
+   "Package": "libdvbsi++1",
+   "Version": "0.3.9+git1+f3c40ea0+f3c40ea6da-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "84aecc34bdac17608f9958ceced82be1683755a1632863ec33827ff43d0ce13f",
+   "Size": 90450
+  },
+  {
+   "Package": "libdvdcss2",
+   "Version": "1.6.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "44f1c6105a0b1f33fbb67469f5655a84ca7eb78b0f311e28d52113c0ca4a8699",
+   "Size": 22956
+  },
+  {
+   "Package": "libdvdnav4",
+   "Version": "7.0.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "d4b1e2dae78d350d8fe4b6b25de0d944ce9e7a5c1500b2d0ed4193bd7d7ae914",
+   "Size": 38976
+  },
+  {
+   "Package": "libdvdread8",
+   "Version": "7.1.1-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "bbd850827c50cb2192654f3a67770dcdeab5485e0de684daae69dc14656ca794",
+   "Size": 60630
+  },
+  {
+   "Package": "libdw1",
+   "Version": "0.197-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+   "SHA256sum": "3be7c38dd7e90c608171b68a8c81ab7f69d89cbd21a2dbd6728cb6847d03b98c",
+   "Size": 241372
+  },
+  {
+   "Package": "libe2p2",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND GPL-2.0-only AND LGPL-2.0-only AND MIT",
+   "SHA256sum": "18c9b392073893c322248780e12f383e708d4747267d5c6ef5c053dbff97fd3f",
+   "Size": 15970
+  },
+  {
+   "Package": "libelf1",
+   "Version": "0.197-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+   "SHA256sum": "ed103db4e4e334f5922cddf5f521dee167c70b59cfe231937d911ce8266b628c",
+   "Size": 43524
+  },
+  {
+   "Package": "libexpat1",
+   "Version": "2.9.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "4f998bd51ceef8643a09da71f7b0dc7ef08149ff90bd3e606a8139368ba9e612",
+   "Size": 66452
+  },
+  {
+   "Package": "libext2fs2",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND GPL-2.0-only AND LGPL-2.0-only AND MIT",
+   "SHA256sum": "be76a6f37a41a2b8d7b7d0287b4e6e0e59f46b26fcbbf1f5c10f8da263008a17",
+   "Size": 207256
+  },
+  {
+   "Package": "libfdisk1",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "0aa518201f9bd182e4f0e248c536dd1144626301a55e665495e0e8963118f09d",
+   "Size": 206702
+  },
+  {
+   "Package": "libffi8",
+   "Version": "3.8.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "bd8eed6e2c7373d5cf8761706d5d56c0b88b4e2099865b797287e0fbdd667ea0",
+   "Size": 23174
+  },
+  {
+   "Package": "libflac14",
+   "Version": "1.5.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GFDL-1.3-no-invariants-or-later AND GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause",
+   "SHA256sum": "abc2dfb9b4ecd85f23c540d56c82e8cf6b955c6ee98b4b3c9f728055b87e142b",
+   "Size": 263760
+  },
+  {
+   "Package": "libfreetype6",
+   "Version": "2.15.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT AND (FTL OR GPL-2.0-or-later)",
+   "SHA256sum": "53748ff8344fbef48a2bd958116c06a24d9e0a1e0d7d95fb85ca6bb846deb108",
+   "Size": 357098
+  },
+  {
+   "Package": "libfribidi0",
+   "Version": "1.0.17-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "86fdfe56b3486916dbb1c7ac9eb0a244f649e23cb513fc1505cdcffb9bf7513d",
+   "Size": 23786
+  },
+  {
+   "Package": "libfuse2",
+   "Version": "2.9.9-r0.1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.0-only",
+   "SHA256sum": "b8d7ed911ab4346fae51b2280cc76e64f5e3ba188fad68a054c30f98f0dc3ec4",
+   "Size": 75272
+  },
+  {
+   "Package": "libgcc1",
+   "Version": "16.2.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later WITH GCC-exception-3.1",
+   "SHA256sum": "04ca484060854a737aceb484d5795abf61f6f53c3c78d3c4f1ae6bf41e5baff2",
+   "Size": 70130
+  },
+  {
+   "Package": "libgcrypt",
+   "Version": "1.12.4-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND LGPL-2.1-or-later",
+   "SHA256sum": "66895b322ef543b7cf19909c8f2cef9d94be80a52d43ffdb07172b8ebff8baf4",
+   "Size": 719508
+  },
+  {
+   "Package": "libgif7",
+   "Version": "6.1.3-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "1cc8b2a100e22fac90941c1b0c9ff9548a914ef8fd5a4e44aec53e601eb1be7f",
+   "Size": 21420
+  },
+  {
+   "Package": "libglib-2.0-0",
+   "Version": "1:2.90.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND GCR-docs AND LGPL-2.1-or-later",
+   "SHA256sum": "bd982a842d526c45c60126bc4e484a02cd060ef71c03a5d1a8cfe11414db6a58",
+   "Size": 1660704
+  },
+  {
+   "Package": "libglib-2.0-locale-de",
+   "Version": "1:2.90.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND GCR-docs AND LGPL-2.1-or-later",
+   "SHA256sum": "6bd1de68c3b6dc58ec34c056691f1c80dc853f92e7097d8fdadfe08302b96869",
+   "Size": 50624
+  },
+  {
+   "Package": "libglib-2.0-locale-fr",
+   "Version": "1:2.90.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND GCR-docs AND LGPL-2.1-or-later",
+   "SHA256sum": "90355b4ee1698c1dfd327161806ecdb4158f5e0988845d3b3d20bb773088d22b",
+   "Size": 51646
+  },
+  {
+   "Package": "libgmp10",
+   "Version": "6.3.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+   "SHA256sum": "10a28bdc95c1d640b817676509eddeeff9806d5cfd41cef352bc0bb8482dd376",
+   "Size": 233708
+  },
+  {
+   "Package": "libgnutls30",
+   "Version": "3.8.13-r1",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "6935699e1195496b3560a824a7f7e26a7ea353da0ca358ab26d8f14d65cc62ff",
+   "Size": 811242
+  },
+  {
+   "Package": "libgomp1",
+   "Version": "16.2.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later WITH GCC-exception-3.1",
+   "SHA256sum": "d0306623c6044ad5b8a272ae897b8bb36e1008d2529c02c8cbd78a9b9c4a0636",
+   "Size": 125852
+  },
+  {
+   "Package": "libgpg-error",
+   "Version": "1.61-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+   "SHA256sum": "180f9d4034aa92815a88af03cefe0ee62a4233435409b055e6f9820b89dbc5d0",
+   "Size": 88348
+  },
+  {
+   "Package": "libgstadaptivedemux-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "faf2f3a8aad3a9da49394949d481db86f55e43df6f9d31d94989b9dc48ac1f77",
+   "Size": 38808
+  },
+  {
+   "Package": "libgstallocators-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "b9760c7198d53427b40fc86001d31a59d6720fc8214fa721bdf4868134e56f50",
+   "Size": 11190
+  },
+  {
+   "Package": "libgstapp-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "58aadfb688f7abedae39597e6a37731a4a53f2d47e17ebabd96448bec53feafd",
+   "Size": 33600
+  },
+  {
+   "Package": "libgstaudio-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "9238985e8f27f63b0601117b4a12bf322effbe8a1346e52661f865f2450d2dd3",
+   "Size": 182508
+  },
+  {
+   "Package": "libgstcodecparsers-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "3dff685c099ed20c2fa45f4c48ea138f36cb6d9df8aa180bdcdefb4bb809b58c",
+   "Size": 254478
+  },
+  {
+   "Package": "libgstisoff-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "255711e338644e8dfda294d1435c0fbc0992b2555f4712915482deff397baab8",
+   "Size": 8032
+  },
+  {
+   "Package": "libgstmpegts-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "d8309f3f68a5663d0669de50add0c1424a365842f13cb1bdb0d0564725f7af72",
+   "Size": 71392
+  },
+  {
+   "Package": "libgstpbutils-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "356196650929c397b0f54d541031d79e9ee737cee6418f089c1477ab8c81d4e8",
+   "Size": 97984
+  },
+  {
+   "Package": "libgstriff-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "7b8dba2b8c071054e9d874eb553cacda0ac23b4ea243d629378438ca9a1b3920",
+   "Size": 24434
+  },
+  {
+   "Package": "libgstrtp-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "e48f1b2d69af6ac5021078983923ff2bbefc0f222baafa4adf7d1e1957cdbb75",
+   "Size": 65692
+  },
+  {
+   "Package": "libgstrtsp-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "11c158d423e3552424395d94a1c4b7f4a4eaf23ac85a2ab56a14307cfd397162",
+   "Size": 60440
+  },
+  {
+   "Package": "libgstsdp-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "6f9a726b61b67b49fe4502355a3411bdef1b5651a9240d9a53b71cea4a12c71b",
+   "Size": 39268
+  },
+  {
+   "Package": "libgsttag-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "463bb8f3ab1d70eb65b5fa5f036d00508c90a08b903396a9b1a5145daf4d9c4b",
+   "Size": 112202
+  },
+  {
+   "Package": "libgsturidownloader-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "22bd7d8ea4e4c6790b4d98234ab46f1b6128e5e4fae15b35ca2c422a3ff31ca4",
+   "Size": 11184
+  },
+  {
+   "Package": "libgstvideo-1.0-0",
+   "Version": "1.28.8-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "6049c79193fd1c3c7be9f4e5cedcbe57de9071eae7d8beeb50715070a8c980ad",
+   "Size": 290532
+  },
+  {
+   "Package": "libidn2-0",
+   "Version": "2.3.8-r0",
+   "Architecture": "cortexa55",
+   "License": "Unicode-DFS-2016 AND (GPL-2.0-or-later OR LGPL-3.0-only)",
+   "SHA256sum": "d6b9e971f7d88e4e54d81e395bdae312259e0719d37d0c543c1ad0323e4130e5",
+   "Size": 109308
+  },
+  {
+   "Package": "libjpeg62",
+   "Version": "1:3.2.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND IJG AND Zlib",
+   "SHA256sum": "cfcf8885075c4fb72627b3b20ee2c7bd7d53f0433c84f38c3ac5bd9515e55b28",
+   "Size": 167584
+  },
+  {
+   "Package": "libjson-c5",
+   "Version": "0.19-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "07f2d5ebf5f50ec4b0fe3d980daa83a9d04c5997e5745012f574ca4d58172e62",
+   "Size": 32602
+  },
+  {
+   "Package": "libkmod2",
+   "Version": "34.2-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "6cf0a9d2e8124e476d94ee22a7d16110cda6ce4595b71268418e7d5f30fd0183",
+   "Size": 37998
+  },
+  {
+   "Package": "liblcms2-2",
+   "Version": "2.19.1-r0.4",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "7cc28e6744eaf64ec355004dbb70a385270300f2b6a0ea8df96aec8635d91351",
+   "Size": 169544
+  },
+  {
+   "Package": "liblzma5",
+   "Version": "5.8.4-r0",
+   "Architecture": "cortexa55",
+   "License": "0BSD",
+   "SHA256sum": "519ae3569269b2ad46b36d56b16eb229074cbe9efe31b03c2f4ac20f2630852a",
+   "Size": 87112
+  },
+  {
+   "Package": "liblzo2-2",
+   "Version": "2.10-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "8d621231f4ac65ac7381dc997e7fcc818c000514628a37b67c0c3c8aab2cf724",
+   "Size": 41622
+  },
+  {
+   "Package": "libmicrohttpd12",
+   "Version": "1.0.10-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "deaa1c92441a12807f7b08bc670539c1bf90ede012391c8d47a85699550d33a8",
+   "Size": 85476
+  },
+  {
+   "Package": "libmnl0",
+   "Version": "1.0.5-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "77b7822cd87e756c2db77bd67695eeeb0b420e92bbfe7a4834465f2fe582cce5",
+   "Size": 9130
+  },
+  {
+   "Package": "libmount1",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "2c8833f4ee1e4fb5bff54d336848a9cd005cb3d2b6e768ea86175e118b0f1621",
+   "Size": 207148
+  },
+  {
+   "Package": "libncursesw5",
+   "Version": "6.6-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "24c119bc8cbc253ca19fa1ad5f6fd89ff5901ae2b3ac04caf53217c4a6c8d0a1",
+   "Size": 78808
+  },
+  {
+   "Package": "libndr-nbt0",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "6dc4b3aa0117da923cc02550d90f70ed0fac3af9fdded8c109081359864a2bcf",
+   "Size": 58868
+  },
+  {
+   "Package": "libndr-standard0",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "0547e68721d50806eca3ec632ab57909d8fea1a3cfdd5c4b88143cd6e45e18d6",
+   "Size": 901100
+  },
+  {
+   "Package": "libndr6",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "2958d982a28608ed6fea62f406a992fde8bee4b903c79100a15598ace82fad22",
+   "Size": 45266
+  },
+  {
+   "Package": "libne10-10",
+   "Version": "1.2.1+git0+18c4c982a5-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "b9b424b7b37c8e3dd424c204df2861096d30e26fd5f07a8921122132631fb066",
+   "Size": 95148
+  },
+  {
+   "Package": "libnl-3-200",
+   "Version": "1:3.12.0-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "f92e5daf0b9d75942cc523b13adf15c9162be5e780b1d82c87fbee1600074a64",
+   "Size": 60342
+  },
+  {
+   "Package": "libnl-genl-3-200",
+   "Version": "1:3.12.0-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "cebe2b31b8dfe8458c88ab4d38eea0b319bb75f7aaf7c43bb97905a43d543ce6",
+   "Size": 11118
+  },
+  {
+   "Package": "libnl-route-3-200",
+   "Version": "1:3.12.0-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "e91286f099faf1be3a6af13e708dd227e6aed90e313c7eba7c49eddd5ba71a45",
+   "Size": 216626
+  },
+  {
+   "Package": "libnsl3",
+   "Version": "2.0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "7eda05529a38f78db8aa1d90f2196662276bf7dc5c36825edef98a37f3598c3d",
+   "Size": 11734
+  },
+  {
+   "Package": "libnss-llmnr",
+   "Version": "git1+34725070+347250714c-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "b93d5eca473c73e5f500b27456e80aaa8f7cc2fff3a2faa373282568b6891825",
+   "Size": 14930
+  },
+  {
+   "Package": "libntfs-3g91",
+   "Version": "2026.9.28-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.0-only",
+   "SHA256sum": "82f56ae448c48f53eb15254f0f57e38392d21ee35c033af54a7c187d26623421",
+   "Size": 144006
+  },
+  {
+   "Package": "libogg0",
+   "Version": "1.3.6-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "7346d67b0466ae13e6f80e73e10bc51237ea25577d54bbd637905f657f40193f",
+   "Size": 22130
+  },
+  {
+   "Package": "libopkg1",
+   "Version": "1:0.10.0-r11",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "c2bac3e05ebb25b37a985cbbeacf31573773204cbfbc12dd0017fd1110e99f3c",
+   "Size": 86772
+  },
+  {
+   "Package": "libopus0",
+   "Version": "1.6.1-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "5fcf504451033a9f33800b4139ffd44c71e924bd220610484ef79beb6dd0b890",
+   "Size": 220204
+  },
+  {
+   "Package": "liborc-0.4-0",
+   "Version": "0.4.44-r0.1",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND BSD-3-Clause",
+   "SHA256sum": "4867a92ed679138a466d2ec2b099a3b10c1882ce2967e91ba7a8b26bc5a7fc84",
+   "Size": 324512
+  },
+  {
+   "Package": "libpam",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "6686d47ed587736d4751b283466bce4b8a37292eab14e3c61b40caf5044fc857",
+   "Size": 33292
+  },
+  {
+   "Package": "libpam-runtime",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "4ff433424d6abaa372e5773375864315c4224929972fb915b0ef085ac456c1c0",
+   "Size": 39330
+  },
+  {
+   "Package": "libpcap1",
+   "Version": "1.11.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "f0a57b491398c1b798b422ff9b23e7675bc0fc50094fb0cc12b9ebafb2d6c43c",
+   "Size": 123306
+  },
+  {
+   "Package": "libpcre2",
+   "Version": "10.49-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "56b353bebc4e3ba1ee4a0f3425ccbcfdcb4e8364e30ecb55c2d96462d7a2b308",
+   "Size": 142542
+  },
+  {
+   "Package": "libpng16-16",
+   "Version": "1.6.59-r0",
+   "Architecture": "cortexa55",
+   "License": "Libpng",
+   "SHA256sum": "1b58c6ec21e5010242301aa80695215441899753f695d984c5aac82e7c4d3d5c",
+   "Size": 147150
+  },
+  {
+   "Package": "libpopt0",
+   "Version": "1.19-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "6cea9dfd9720d5f5d659e52e1c731da9163b5882667ba20b3f5b14fd361c5456",
+   "Size": 23900
+  },
+  {
+   "Package": "libpsl5",
+   "Version": "0.23.3-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "d41d9ce9709eccdb829a2a81ac81a47e2d4236e0a09aedb30dafcfde33d716c5",
+   "Size": 60932
+  },
+  {
+   "Package": "libpulse-simple0",
+   "Version": "17.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND LGPL-2.1-or-later AND MIT",
+   "SHA256sum": "b6560eb5f674744abe3ad38f343684f07b941f2853c20605bc506c5c0278547e",
+   "Size": 6374
+  },
+  {
+   "Package": "libpulse0",
+   "Version": "17.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND LGPL-2.1-or-later AND MIT",
+   "SHA256sum": "00ae82b168b67a4a53453c1b2fa570bcc513e3d145f6e2f5fd7fb378c4da8a31",
+   "Size": 103350
+  },
+  {
+   "Package": "libpulsecommon",
+   "Version": "17.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND LGPL-2.1-or-later AND MIT",
+   "SHA256sum": "249dc8fb10b086fe5c719b6955a8fbe3b5d75187d080a06c160d5ab7e1b19419",
+   "Size": 182140
+  },
+  {
+   "Package": "libpython3.14-1.0",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "de97dcacb325e3ca9a9c3195d8198ab5f3fad5567ce3a709b07f8d2a54c1cc8f",
+   "Size": 1640128
+  },
+  {
+   "Package": "libreadline8",
+   "Version": "8.3-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "a9f3d2d8917030ad4f1988f2a555860d8b7cd68003bbe8ff0c5c3cf93ae12737",
+   "Size": 148650
+  },
+  {
+   "Package": "libsamba-credentials1",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "6fe485f335a4e68e4f8d932a46398508dc2ea6ba71c66ea74541cf56700bbd10",
+   "Size": 37980
+  },
+  {
+   "Package": "libsamba-errors1",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "da3e51be2b1b782a8babff1693a0008a4034f465fec1171b80e988c04660bd55",
+   "Size": 275958
+  },
+  {
+   "Package": "libsamba-hostconfig0",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "0ab2682abf58f750426fd1b7104ca59b8a72a3c61fa1384611a201277897f359",
+   "Size": 67212
+  },
+  {
+   "Package": "libsamba-passdb0",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "3f320a09bf453ecc93d5b3a1e487da8edca54e170ff46a89f6014d4f26c33e34",
+   "Size": 97638
+  },
+  {
+   "Package": "libsamba-util0",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "64794715c686b3d8a2a8a9c45f843a40a38660417fbc13df29ef41374d01f600",
+   "Size": 210850
+  },
+  {
+   "Package": "libsamplerate0",
+   "Version": "0.2.2-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause",
+   "SHA256sum": "edae967940cae4fde664fa45ba419377a85bb2672874caf426347e5b8d74ce84",
+   "Size": 1341378
+  },
+  {
+   "Package": "libsigc-3.0-0",
+   "Version": "3.6.0-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-3.0-only",
+   "SHA256sum": "e0e2125af57acec976c8226e9435b75f41fba66478c5da25b1907e1e0ff40cc6",
+   "Size": 13780
+  },
+  {
+   "Package": "libsmartcols1",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "c55895cbe47a3196dfe49772eca58d173cadba17440f188630e12cfe10a2320c",
+   "Size": 138492
+  },
+  {
+   "Package": "libsmbconf0",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "6b3e48eb9a698bcf409982a9aac2875428804635a20bf5e00dddb78df68c337f",
+   "Size": 215666
+  },
+  {
+   "Package": "libsndfile1",
+   "Version": "1.2.2-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "5763ea3ba5b0d8995ac67eaaab3c41174c41ef1d4decbfcef51e86ed53341b85",
+   "Size": 184298
+  },
+  {
+   "Package": "libsolv1",
+   "Version": "0.7.40-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "cf0a0aa6892247c28c6b9c0e6cefc8ebd4dd4f926edf9575a08a35b789ed429c",
+   "Size": 249644
+  },
+  {
+   "Package": "libsoup-2.4",
+   "Version": "2.74.3-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.0-only",
+   "SHA256sum": "0ff5e20c3de588f5874f2b977cbeb9cebe39579ef04233917924db17664a8a99",
+   "Size": 260952
+  },
+  {
+   "Package": "libspeexdsp1",
+   "Version": "1.2.1-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "3c7ac3102d569904a812292b3753f7d6828260e95cc93b22b36061e770e5cb09",
+   "Size": 37454
+  },
+  {
+   "Package": "libsqlite3-0",
+   "Version": "3:3.54.1-r0",
+   "Architecture": "cortexa55",
+   "License": "blessing",
+   "SHA256sum": "52ee142ebd6e5afe4a93ee1b910e119b9f3b28b11ab603233b8d1eb8740bdd5a",
+   "Size": 635348
+  },
+  {
+   "Package": "libsrt1.5",
+   "Version": "1.5.7-r0",
+   "Architecture": "cortexa55",
+   "License": "MPL-2.0",
+   "SHA256sum": "1dcee0be58eb961806717172a949268e140d7cf047cbbde24a8e4d0806280234",
+   "Size": 275344
+  },
+  {
+   "Package": "libss2",
+   "Version": "1.47.4-r0.0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND GPL-2.0-only AND LGPL-2.0-only AND MIT",
+   "SHA256sum": "1ae5d9d48c66a42895868d64a2a1a69c6f0ea2db0f9cc9d894cc3a6f7d0cbf31",
+   "Size": 11152
+  },
+  {
+   "Package": "libssl1.0.2",
+   "Version": "1.0.2u-r0",
+   "Architecture": "cortexa55",
+   "License": "OpenSSL",
+   "SHA256sum": "f646e171e88be0ebbe0b29ec118d5eeddfd2502b660d41e937b5ad5cd1dad917",
+   "Size": 158290
+  },
+  {
+   "Package": "libssl4",
+   "Version": "4.1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "3912c80c1e11b28c1963435751ddf11ef3b9174d5db17cce7faed7f43117588e",
+   "Size": 458972
+  },
+  {
+   "Package": "libstdc++6",
+   "Version": "16.2.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later WITH GCC-exception-3.1",
+   "SHA256sum": "bee06585ad7cd915f08ea24262e093d390cf847f90a40887202bb827a5e22eb2",
+   "Size": 655302
+  },
+  {
+   "Package": "libswresample7",
+   "Version": "9.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "0ce637d538e037e529bd86dc3fdf37158fe7fbacdfc67d9a78d7d2f7c37d1187",
+   "Size": 60774
+  },
+  {
+   "Package": "libswscale10",
+   "Version": "9.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "b03c266fe2eeb66385f5e29ae9f3260061ef24dbf4d61e6da1a1f1ecb67c8d9c",
+   "Size": 677126
+  },
+  {
+   "Package": "libtalloc2",
+   "Version": "2.5.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "057fe7a773f2dcdd78f6fd5063e9792c9c6a7aa69fe49c653c846cf1f691d794",
+   "Size": 17842
+  },
+  {
+   "Package": "libtasn1-6",
+   "Version": "4.21.0-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "b2cc7bd3c6f1b603d21d7c2b1ccbe699195709e0d45bb5e66cb020042b9693bd",
+   "Size": 36342
+  },
+  {
+   "Package": "libtiff6",
+   "Version": "4.7.2-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-4.3TAHOE AND libtiff",
+   "SHA256sum": "9a3d5ae8241d487306383bdeff50dce46806ed8fee3cd228858cdd562a664636",
+   "Size": 179456
+  },
+  {
+   "Package": "libtinfo5",
+   "Version": "6.6-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "74b91587cc074470f9a8dd381efcc0070ae64d56a050579193b753c50449320f",
+   "Size": 66686
+  },
+  {
+   "Package": "libtirpc3",
+   "Version": "1.3.8-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "496330648ea7a2d3cbb5e2568daaf987b3287a21c9d40a653b22c7368cd9907f",
+   "Size": 70300
+  },
+  {
+   "Package": "libudev1",
+   "Version": "3.2.15-r0.1",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "468bb0a319a594fa764985d9eb65e978db1e5d388e630f9b7a75f7031a6c5ef2",
+   "Size": 71670
+  },
+  {
+   "Package": "libudfread3",
+   "Version": "1.2.0+git1+139a2190+139a219452-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "4eb3addc8119c1cc5e65ce812d82a1b7e0ae64b0a2eaab8b104413066ba8793d",
+   "Size": 14640
+  },
+  {
+   "Package": "libulockmgr1",
+   "Version": "2.9.9-r0.1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.0-only",
+   "SHA256sum": "abfb64dc1b6237e16f537c624c08261dc2c9ef26eb2044edfadff23c00387424",
+   "Size": 4976
+  },
+  {
+   "Package": "libunistring5",
+   "Version": "1.5-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+   "SHA256sum": "b621b7252205f747aa96f8094fca73e062c1d18d48969e7cb4bab53fbd1eab36",
+   "Size": 710022
+  },
+  {
+   "Package": "libusb-1.0-0",
+   "Version": "1.0.30-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-or-later",
+   "SHA256sum": "723f5ae9e9d41ab150689839f1125085aa1e9457e3415c3eb75d5cdec8ff486e",
+   "Size": 53802
+  },
+  {
+   "Package": "libuuid1",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "399414499cc27bcf4ef5cf02d84a0a655af89a21add3e19b688eba32d5bf58e0",
+   "Size": 15962
+  },
+  {
+   "Package": "libvorbis",
+   "Version": "1.3.7-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "b4a4e7d47db769c2bfc170a8e9606fb4b09f1207012d4552cb15fda2d7ab99ff",
+   "Size": 268172
+  },
+  {
+   "Package": "libvorbisidec1",
+   "Version": "20180319-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "b36eda32e7e1437c47df3496281c3a908d09d77bda0e352a195de13aeb5b5642",
+   "Size": 96466
+  },
+  {
+   "Package": "libwavpack1",
+   "Version": "5.6.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "e315161e9cdfdd7bd2b5a8c2f2c5f599d3ee74a015b83fe9c046bb80752dd8c3",
+   "Size": 72308
+  },
+  {
+   "Package": "libwbclient0",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "cea43fdbe5abd5893ff50dc46e112f80e18baaaf6b2c1269e94ca09ec81a9d06",
+   "Size": 29586
+  },
+  {
+   "Package": "libwebp",
+   "Version": "1.6.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "3d71acc19740fe68a7659ec27cea9b0f0aa69684ef5685ddec5f163ec9d2ed43",
+   "Size": 191986
+  },
+  {
+   "Package": "libx11-6",
+   "Version": "1:1.8.13-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-1-Clause AND HPND AND HPND-sell-variant AND ISC AND MIT",
+   "SHA256sum": "536ecf651199557b118918d28723ddc0624b3a55fa6abc506a6454ef89769b81",
+   "Size": 666488
+  },
+  {
+   "Package": "libx264-165",
+   "Version": "r3039+git0+0480cb05fa-r1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "eb60f8a90e48f5c731e54ffcb391da6c9d1482ebbe36e792d41838f8e51427a0",
+   "Size": 497568
+  },
+  {
+   "Package": "libxau6",
+   "Version": "1:1.0.12-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "2ce75a6b4b5c1206ca9181b1194b537fc9e459a79d2516a669eaa25714805a06",
+   "Size": 5652
+  },
+  {
+   "Package": "libxcb-shape0",
+   "Version": "1.17.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "f6e870b9ae144e30fab270b46b2f988a5ec820476549c2dbb36d567c5b5b1885",
+   "Size": 4622
+  },
+  {
+   "Package": "libxcb-shm0",
+   "Version": "1.17.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "7dd0e7545bb4a636baf021bf23813cc83194dc5de548bb4ae103343457061c8d",
+   "Size": 4172
+  },
+  {
+   "Package": "libxcb-xfixes0",
+   "Version": "1.17.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "005a8e04931fd80b85b4c3cb4f58505c0571ea3abf336c0764063e65e12e940c",
+   "Size": 8890
+  },
+  {
+   "Package": "libxcb1",
+   "Version": "1.17.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "9ff7310f36d5d99a5f3e762ffaef62c7345d75dd9dc174b8bd6958affc4865a2",
+   "Size": 50456
+  },
+  {
+   "Package": "libxcrypt-compat",
+   "Version": "4.5.2-r0",
+   "Architecture": "cortexa55",
+   "License": "0BSD AND BSD-3-Clause AND LGPL-2.1-only",
+   "SHA256sum": "8e2338b36ccb82f32e8d5fb074dd5dac6245324958bbde4314b1107bb2103832",
+   "Size": 96026
+  },
+  {
+   "Package": "libxdmcp6",
+   "Version": "1:1.1.5-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "1dd1103af9f7bab9e33cc18a4746d9a2afffdece93017e9437a468c7db9789e5",
+   "Size": 9590
+  },
+  {
+   "Package": "libxext6",
+   "Version": "1:1.3.7-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "68511a7287b98e3ab8b7cfb80b1d22f135c79f432716f84a0a7c61515b69541c",
+   "Size": 27544
+  },
+  {
+   "Package": "libxml2",
+   "Version": "2.15.4-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "e7cca377a0fbf60bf0d5176f6040ea689a546d906d80f7e987b3bd28150ac471",
+   "Size": 486988
+  },
+  {
+   "Package": "libxmuu1",
+   "Version": "1:1.3.1-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "8616fb6f7430e086190450e8f6183980cf4a23cc961d0f4aadaa51b841cedec3",
+   "Size": 7026
+  },
+  {
+   "Package": "libxv1",
+   "Version": "1.0.13-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "e3a4ce8360b4f7c5b51a7ae9e15361c369b15e117008bdeed603768f2897d30f",
+   "Size": 8336
+  },
+  {
+   "Package": "libz1",
+   "Version": "1.3.2-r0",
+   "Architecture": "cortexa55",
+   "License": "Zlib",
+   "SHA256sum": "ea3580298cdf4d2c5399ae237eecbc24809ba308ccffcbc2c43ef7d74f8d1fec",
+   "Size": 59280
+  },
+  {
+   "Package": "libzstd1",
+   "Version": "1.5.7-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-only",
+   "SHA256sum": "b23e9f77a9635233fb2d13c636f9993c37398098b3497a6a8f05f054a5101ca5",
+   "Size": 230966
+  },
+  {
+   "Package": "llmnrd",
+   "Version": "git1+c1e74290+c1e74297da-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "bbd76e9eab540f833184a86e1def42db408a97c19f4c44a780d0c11605a4186b",
+   "Size": 11528
+  },
+  {
+   "Package": "lz4",
+   "Version": "1:1.10.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "df9f9af29bc89f7b45b6d8d83bd398026ba25012b2c6f7cca1f755c9b617ca8e",
+   "Size": 110984
+  },
+  {
+   "Package": "mc",
+   "Version": "4.8.33-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "f8719b55316f70371e1a081fc55c9c90f5d70516b3936d9677b0b60dab9c7a5e",
+   "Size": 976356
+  },
+  {
+   "Package": "mc-helpers",
+   "Version": "4.8.33-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "aa17d58a32c29ab768e4bfae88ed5f37adb38f99f4ffa460f0bd8d01054f56bf",
+   "Size": 35712
+  },
+  {
+   "Package": "mc-locale-de",
+   "Version": "4.8.33-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "6bb39a91e53d9cf47fcfc6c164998ea7398c92b631b314c6beb4131fd5543643",
+   "Size": 39368
+  },
+  {
+   "Package": "mc-locale-fr",
+   "Version": "4.8.33-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "0e7fa6c6c179d8ba5425fbbd7ec0ce1f0073efbef0778e09b7ca4cdc10cf7bb3",
+   "Size": 40790
+  },
+  {
+   "Package": "mc-shell",
+   "Version": "4.8.33-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "4c6703b49dcc4d7d2e802bdc0d2e43cffe3b59316a337cc48c1bf3cac50bfad5",
+   "Size": 6006
+  },
+  {
+   "Package": "minilocale",
+   "Version": "2.44-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "47201dd17fdbb97fae312ac9e6c2bcfcaed6d9b34d10309dcf0f381657fdfa35",
+   "Size": 818124
+  },
+  {
+   "Package": "modutils-initscripts",
+   "Version": "1.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "44f7c3c179acf730733d2b0cc069ed1895fa4cd3c52f0c1d86dd7e7628e80c81",
+   "Size": 1570
+  },
+  {
+   "Package": "modutils-loadscript",
+   "Version": "2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "c63f8d1de073f9530050d45d0f3d02c9a4863964bb333dd12d40931f77d5dcbd",
+   "Size": 1070
+  },
+  {
+   "Package": "mpg123",
+   "Version": "1.33.7-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "fa6ec05ca3bfeb3d4e65ded374b0f386fd7088cb7c9dc6dd5edabadfc5b27ab6",
+   "Size": 292478
+  },
+  {
+   "Package": "mtd-utils",
+   "Version": "2.0.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "c61a5a2ef26594019e27e75897955e51f5abccce5a9c3dbdd9ea7464e74fba7d",
+   "Size": 62998
+  },
+  {
+   "Package": "mtd-utils-ubifs",
+   "Version": "2.0.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "2b850b8f85b0c9f16159a2c5c52dc5295feb34cf57e4e6050d9d9b22175ba5c8",
+   "Size": 113556
+  },
+  {
+   "Package": "nano",
+   "Version": "9.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "eedfc69aea32f0ea9f865dd4cb87688e65ebe887d792e74228382b3bb32950bd",
+   "Size": 198416
+  },
+  {
+   "Package": "nano-locale-de",
+   "Version": "9.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "16d755ae285de445076bdeb91bbb5a5bb2346b72eb778b02be6cc32d005f129d",
+   "Size": 25948
+  },
+  {
+   "Package": "nano-locale-fr",
+   "Version": "9.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "928d4e04f1a7af099641bfc4573a2833d61d82144f88db214456ce656ac177b3",
+   "Size": 25792
+  },
+  {
+   "Package": "ncurses-terminfo-base",
+   "Version": "6.6-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "575b5d62a5633969677676669af4fe8e69732b751190c7c497bd04976a6765d3",
+   "Size": 9828
+  },
+  {
+   "Package": "nettle",
+   "Version": "4.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+   "SHA256sum": "9454e9291367f730e8c5f864d82a49fe9e08258c9ae71b618a3e5458658f5ce0",
+   "Size": 368352
+  },
+  {
+   "Package": "nmap",
+   "Version": "7.31-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "fcddc37414fed3e39958f92fc1bec6a2c333c4075aaf367e8cd9c7bc451a25bc",
+   "Size": 639194
+  },
+  {
+   "Package": "ntfs-3g",
+   "Version": "2026.9.28-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.0-only",
+   "SHA256sum": "58f44ed6226da2499573f748374233f9cbf63573b7697bc012cb54c9f49df791",
+   "Size": 61566
+  },
+  {
+   "Package": "ntfsprogs",
+   "Version": "2026.9.28-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.0-only",
+   "SHA256sum": "e03166f987e45f30fbd911fbb9fb2b1a96be9e4b1e1620403036cfcce036c9bf",
+   "Size": 196786
+  },
+  {
+   "Package": "odhcp6c",
+   "Version": "git1+f2521b20+f2521b296b-4",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "6108c000c8a92c63f21a95e5a8a420c503ecc3af0d2272b6bd5ead063c4ff930",
+   "Size": 32958
+  },
+  {
+   "Package": "oe-alliance-botfeed-configs",
+   "Version": "1.0-r1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "979088fc02d49d32b42eba24352af04fc685eb5614013d03c6c431dc6c2566e5",
+   "Size": 806
+  },
+  {
+   "Package": "ofgwrite",
+   "Version": "5.x+git1+2d32dc50+2d32dc5bb9-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "a8780fc087808675699ec523e0cf4a6d28f844e66dddaf954b7cdf3c3c1f8eb7",
+   "Size": 2601852
+  },
+  {
+   "Package": "opencore-amr",
+   "Version": "0.1.6-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "a0e553c34a6688fd6f5dafb96fdff63566a6316abdf90833d40356c923160dc1",
+   "Size": 133904
+  },
+  {
+   "Package": "openjpeg",
+   "Version": "2.5.4-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause",
+   "SHA256sum": "49a7f5943b80e4c14ec140e78c579c9826329075b74e1fd10a5575149ecf93ab",
+   "Size": 234188
+  },
+  {
+   "Package": "openssh-sftp-server",
+   "Version": "10.6p1-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT",
+   "SHA256sum": "d94195009b8a9e4626ddf19047e1c271b9010c06e9523176ef9ca288490daefe",
+   "Size": 69280
+  },
+  {
+   "Package": "openssl",
+   "Version": "4.1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "6492442bb85f6f929f2900c4b5e54a569e726930d37bdf894c7067abe6168cec",
+   "Size": 1060
+  },
+  {
+   "Package": "openssl-bin",
+   "Version": "4.1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "4b158c9b7fde55927de092466f6382f6e388982c72278c28e2729906dbe22094",
+   "Size": 353962
+  },
+  {
+   "Package": "openssl-conf",
+   "Version": "4.1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "f46d494f0ef31416a55c20ce274db5dd1bd296298e4071600ceeba07154b102a",
+   "Size": 5750
+  },
+  {
+   "Package": "openssl10-conf",
+   "Version": "1.0.2u-r0",
+   "Architecture": "cortexa55",
+   "License": "OpenSSL",
+   "SHA256sum": "5ce102cc8f28e30d4b7adb32d9c0afb18736f0eb8b795a57693394a80ac9b73d",
+   "Size": 4534
+  },
+  {
+   "Package": "openvpn",
+   "Version": "2.7.8-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "de1f9c62c992e35a5ca4c4278d250638bbce038d5f16043061cecb6f7c0134fc",
+   "Size": 401914
+  },
+  {
+   "Package": "opkg",
+   "Version": "1:0.10.0-r11",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "d45f37bea633d981a650e8c952da6e1d783b6a3b25a5664d827b7502258d5e36",
+   "Size": 10174
+  },
+  {
+   "Package": "pam-plugin-access",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "a08cd98b6d320846f230d5fa735dc210197d4e42e4ef86d72084b4e38769f7c0",
+   "Size": 9400
+  },
+  {
+   "Package": "pam-plugin-deny",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "bc1950d31fb9c8653ad6edddb0833fa2492d1f6c01af086620b1c3c3cc6911bb",
+   "Size": 2236
+  },
+  {
+   "Package": "pam-plugin-env",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "fd8626eecadc4da679b60a31d3a6a974a4e5d04efc141a4e50f47ff93852cc05",
+   "Size": 8438
+  },
+  {
+   "Package": "pam-plugin-faildelay",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "bcebaca4a70690464e6f2312e562775a81460168d00d3f6af529d3496989d5bf",
+   "Size": 3290
+  },
+  {
+   "Package": "pam-plugin-group",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "7751315dc4573a413f26375f6506bb922ed16cf437c18c7bef1a078940ae8bfe",
+   "Size": 6626
+  },
+  {
+   "Package": "pam-plugin-limits",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "ba9aadec7c826e6950b31a76979cb46469ce38ef6ea2cfc95e81f98f11749d30",
+   "Size": 9984
+  },
+  {
+   "Package": "pam-plugin-listfile",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "9fa4ea312170bb5c83702166dc6d10bcbcdf239fd9e43edeb4512cf71f740f88",
+   "Size": 4622
+  },
+  {
+   "Package": "pam-plugin-loginuid",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "f3f5ee6fa3f4d1b09b87ed57277ffa4ab36e865a9e40e08a553a600183691591",
+   "Size": 3452
+  },
+  {
+   "Package": "pam-plugin-mail",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "6b75ebc3bfe6ce1de1d01c0a7a17779f5b8859601d3ee7345bc4cff6fb237c31",
+   "Size": 5120
+  },
+  {
+   "Package": "pam-plugin-motd",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "1c2d2c27be295aaeaf4ec2ee0c2c41cd67c39cd5cc9a7cbbf253c2a9c413ef1b",
+   "Size": 5480
+  },
+  {
+   "Package": "pam-plugin-nologin",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "cfcca566f53eafda66461641e0c3f7b4a786e6d58561b4e817bfce4e09841d89",
+   "Size": 3582
+  },
+  {
+   "Package": "pam-plugin-permit",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "da8ba750a262cf2314d5b25f8f9f83d9ef1a3c5f5abe8c09dd1974cd2ac2371a",
+   "Size": 2730
+  },
+  {
+   "Package": "pam-plugin-rootok",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "9d6b2ba77b02dca289e4cd53b3f0f975bb9c5be62dd82c9a99fdf4aad32c6bb5",
+   "Size": 2786
+  },
+  {
+   "Package": "pam-plugin-securetty",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "e461ee00f47eb8d34efb069344c86b558fb649418f1f258a1fcb4464b0629a71",
+   "Size": 4618
+  },
+  {
+   "Package": "pam-plugin-shells",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "5ecc9607fe9ff050a104f4002abbe8a3a80156a3e65c154141312a22334d7988",
+   "Size": 3244
+  },
+  {
+   "Package": "pam-plugin-unix",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "eb1314c3fc03a904b0ed9782d13654275183e64e74d494c1ca813d88437ce0a7",
+   "Size": 21644
+  },
+  {
+   "Package": "pam-plugin-warn",
+   "Version": "1.7.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause OR GPL-2.0-or-later",
+   "SHA256sum": "009112f153e35ba9d1ec3415953c00b72a6b60d10b71e92276f76ccc1002ca30",
+   "Size": 2996
+  },
+  {
+   "Package": "pam-pluginsmbpass",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "831ce3e1374823cd0f831c7528ba056c7d26e3d585d5e21f489af37f2d183d1d",
+   "Size": 11106
+  },
+  {
+   "Package": "parted",
+   "Version": "3.8-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "58f65b0455f53f6f95273d5e83e44895f9432e07bd53e83a8211d1c20f25d011",
+   "Size": 245248
+  },
+  {
+   "Package": "pbzip2",
+   "Version": "1.1.13-r0",
+   "Architecture": "cortexa55",
+   "License": "bzip2-1.0.6",
+   "SHA256sum": "cc7021500ef3e32226098f6bb9839ec7b09a89ea153bc0699b697dd02eeb63a6",
+   "Size": 32368
+  },
+  {
+   "Package": "python3-appdirs",
+   "Version": "1.4.4-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "46ee8c01098823f7558543592f2a781b45b6b2c8c97c13a222ab9d789dcf08b4",
+   "Size": 9506
+  },
+  {
+   "Package": "python3-asyncio",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "669c6e8cd924b2aeb3d2cc0b3307913d1ca7eb8a5f15605af241d0dd58788f4c",
+   "Size": 284446
+  },
+  {
+   "Package": "python3-attr",
+   "Version": "0.3.2-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "e0c293801670e3c81aa6fa8c26df179e403e51a9fbc2714b85df2cc6f4dc3b4f",
+   "Size": 2116
+  },
+  {
+   "Package": "python3-attrs",
+   "Version": "26.1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "67f24a791a9596887461284c7966bc2a87a10058c3c99f557844e8daee1cf962",
+   "Size": 92918
+  },
+  {
+   "Package": "python3-audio",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "706f4677cc51ca3b73a00e2b0b4647b4146eaeacd702ae5bb2abb445dd63d0c2",
+   "Size": 11384
+  },
+  {
+   "Package": "python3-automat",
+   "Version": "25.4.16-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "bdba6150b58f2216323a884fd3b38015e7ac5d1dc8e847ab1515ddd32c3320bd",
+   "Size": 85366
+  },
+  {
+   "Package": "python3-backports-lzma",
+   "Version": "0.0.14-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "34055e227cdb033df8be1e2527b936e961800684ab26d9660be79ff0d5a7f34b",
+   "Size": 20794
+  },
+  {
+   "Package": "python3-bcrypt",
+   "Version": "5.0.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "0daf08b9471c5fbf63639bb0fe4be7116dfe71222a354164f5c76ca827f94ba1",
+   "Size": 229538
+  },
+  {
+   "Package": "python3-certifi",
+   "Version": "2026.10.19-r0",
+   "Architecture": "cortexa55",
+   "License": "ISC",
+   "SHA256sum": "06f78d2f3c26940d5ad68e7075e2663c91b36b2af6e16dfb90fc2992d3b8ae2e",
+   "Size": 133672
+  },
+  {
+   "Package": "python3-cffi",
+   "Version": "2.1.1-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT-0",
+   "SHA256sum": "06f542955b02ee0d8fb676dafc8f9f58925f33000f6e0197f335019dc0eb0560",
+   "Size": 249998
+  },
+  {
+   "Package": "python3-chardet",
+   "Version": "6.0.0.post1-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "2d30b92818d29f01f371ac670e2931a67e05de17f572018d22cccf485bb06466",
+   "Size": 496590
+  },
+  {
+   "Package": "python3-charset-normalizer",
+   "Version": "3.5.2-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "061c327513383ab2abbab69c1b96c574745317175a4a36df48e29ee730dcee9a",
+   "Size": 87012
+  },
+  {
+   "Package": "python3-cheetah",
+   "Version": "3.4.0.post5-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "318f352f6b4f770dcc28ed22ad45b9f28d5bbec482395f379e3f280b94385ca3",
+   "Size": 442718
+  },
+  {
+   "Package": "python3-codecs",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "aa1f6acdc4b2b765766d81abae48114a2e980585ec231dd3706e63e639b15175",
+   "Size": 15138
+  },
+  {
+   "Package": "python3-colorama",
+   "Version": "0.4.6-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "ea6cdd70fda7085f627631b3661527aa1cb827bb93f5de3e2ad0f1cee43607ab",
+   "Size": 53202
+  },
+  {
+   "Package": "python3-compat2",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "eab929cff5e5c48b0c2463ea0eb7a7278b7e0b42ecae0c8004277be30c789754",
+   "Size": 636
+  },
+  {
+   "Package": "python3-compression",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "cce7ea5885624571568ac40e2ed1db786c6401047b69acdf36adf2d039994abf",
+   "Size": 84242
+  },
+  {
+   "Package": "python3-constantly",
+   "Version": "23.10.4-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "a0c83b5c5363f520b3e678291021d90bb933446ab5902e8704aa598c1d1eff3f",
+   "Size": 21830
+  },
+  {
+   "Package": "python3-core",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "edae001901a2e889bbf1b0ca0d3b774748b8399c352617c26f15de9c632f82cf",
+   "Size": 1052768
+  },
+  {
+   "Package": "python3-crypt",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "8f5fc0451157701be3f73e2a695eafbb184c0ba5c1e2b549071c9929d21cfcb8",
+   "Size": 74442
+  },
+  {
+   "Package": "python3-cryptography",
+   "Version": "50.0.2-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0 OR BSD-3-Clause",
+   "SHA256sum": "cdc71ab56264e29d2f7e84b960a44e7939ccb457e2ea18f4342f5f4f422c68b8",
+   "Size": 1670302
+  },
+  {
+   "Package": "python3-ctypes",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "9dc509c1fd85a09463f495c465f3088caf42cb5b2d1ae137e32c7dcd3f9763b7",
+   "Size": 122248
+  },
+  {
+   "Package": "python3-datetime",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "fa2b2b88d0bb89a9a59ced730feca4dee742463cfc73e0c0e73bea3327b62019",
+   "Size": 600
+  },
+  {
+   "Package": "python3-debugger",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "13129b4cc72c65efc50ad020a6158ced27dfff4db6194ba6188617c266378b0e",
+   "Size": 62316
+  },
+  {
+   "Package": "python3-difflib",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "349b0923c406ab5566acb6716a1302e03569c89616ad0c2e0267ec97d3c7edf0",
+   "Size": 21662
+  },
+  {
+   "Package": "python3-doctest",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "b5314e5ca05a5aba0489f02fb895a22b15f9e1d593398c569c12cacd3a76982f",
+   "Size": 36440
+  },
+  {
+   "Package": "python3-email",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "f1ff37c2ab0cff4f67fb3fb84add039115ecd29df86e989a0f70d94e4ce1084f",
+   "Size": 167306
+  },
+  {
+   "Package": "python3-fcntl",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "2726541f919eda555345b1a7985a51d57a86a89ef7cb365de66e8d39a445413a",
+   "Size": 594
+  },
+  {
+   "Package": "python3-future",
+   "Version": "1.0.0-r0.2",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "d83f2b29dd4d6484a671b5acba6b2f0956294a23531514b4583cffdb1ce047b1",
+   "Size": 682186
+  },
+  {
+   "Package": "python3-html",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "505391d0a317f14a984e7951cdfbdef5d439637a117cac9852ff67fcaa7437fb",
+   "Size": 55436
+  },
+  {
+   "Package": "python3-hyperlink",
+   "Version": "21.0.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "a984e6fdaeb7965713ea8777825410cc11cc7e856635a78f8f7d259dc8c351d3",
+   "Size": 71526
+  },
+  {
+   "Package": "python3-idna",
+   "Version": "3.20-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause AND Python-2.0 AND Unicode-TOU",
+   "SHA256sum": "61da4391bc5b3cf60425359764f903134e610df1b038cde0dab91fb7dc1e9726",
+   "Size": 83350
+  },
+  {
+   "Package": "python3-image",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "d00baeb1710c9858b2f50eb12268aa6b86725b19bb254e49a87f9f895678dac3",
+   "Size": 2740
+  },
+  {
+   "Package": "python3-incremental",
+   "Version": "24.11.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "cfd04a69b99a42555b910df4430493437edb81ff3a5afec9b94a165487f074d1",
+   "Size": 16614
+  },
+  {
+   "Package": "python3-iniconfig",
+   "Version": "2.3.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "20541fc182935c54ce342132edd1f3702a91dd8235dff5cf1e0194c62bf6ea93",
+   "Size": 16386
+  },
+  {
+   "Package": "python3-io",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "06e7aa720cc568d3204226c5b0c54ccb8b6d57cca3a962d695fec7f53eab32b7",
+   "Size": 133874
+  },
+  {
+   "Package": "python3-ipaddress",
+   "Version": "1.0.23-r0",
+   "Architecture": "cortexa55",
+   "License": "Python-2.0",
+   "SHA256sum": "20f60ff169ee69f78199bd5e7eb3cdb6628de21c86c9eb32259847bd7aaf01cb",
+   "Size": 33070
+  },
+  {
+   "Package": "python3-json",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "d721c9459fdacbfd47286f06ea33e3c0e228290b5fea10245567efbaa7caa251",
+   "Size": 34680
+  },
+  {
+   "Package": "python3-logging",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "6eaf594304f1597cd0d0ca0685b6a575d8713e58bb8f9315a7e9908820a98868",
+   "Size": 67798
+  },
+  {
+   "Package": "python3-math",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "70ca18d721a5a925cc683bc62f867ff5e27782574eefa109f58e61699d16d3a4",
+   "Size": 31068
+  },
+  {
+   "Package": "python3-mime",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "405950ba26d0638429cfe81334c4b75f44fd4d6588f97facbb2e2f9135f4d2fc",
+   "Size": 5208
+  },
+  {
+   "Package": "python3-misc",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "72b0009ae8a96d604301719fef58fb2ac3864294b1e8d885cd75e609a2287b1b",
+   "Size": 2262476
+  },
+  {
+   "Package": "python3-mmap",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "160850a12351da50e0f03be910fd15d9d65344295f30f446eefeb4bc0a5e8c01",
+   "Size": 13166
+  },
+  {
+   "Package": "python3-multipart",
+   "Version": "1.3.1-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "0b8b2e68dc22586673272240dde15f45b277bcf2e6e8c227b88357300290e8b8",
+   "Size": 35770
+  },
+  {
+   "Package": "python3-netclient",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "86eaf4aeada9aa488570b9622c6e0e422cf5f8912ab49b670bad35ec91aab7ae",
+   "Size": 102532
+  },
+  {
+   "Package": "python3-netifaces",
+   "Version": "0.11.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "c632e890b1191bd847fc8402532da81bca4d84edc1b3a3505263cd04d21e93cc",
+   "Size": 8140
+  },
+  {
+   "Package": "python3-netserver",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "465d591b324742ce381f542aed365ea60f8c0c1e26586b4a457e18f8d25652c8",
+   "Size": 10730
+  },
+  {
+   "Package": "python3-numbers",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "11946d869dec57e6f81a4a30fbb021a0aea3e65e97bc947df387b99c4af6e8d9",
+   "Size": 102754
+  },
+  {
+   "Package": "python3-outcome",
+   "Version": "1.3.0.post0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0 AND MIT",
+   "SHA256sum": "217fb8f96514e30581fd1c361aa0f1ef80ceccffdb4152d61368f1e4287371e4",
+   "Size": 15408
+  },
+  {
+   "Package": "python3-packaging",
+   "Version": "26.3-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0 OR BSD-2-Clause",
+   "SHA256sum": "10a49e38ec547b09c30e1c6203e4b469849d16cf83b04a0a82c53e76d6c1eb67",
+   "Size": 304384
+  },
+  {
+   "Package": "python3-pbkdf2",
+   "Version": "1.3-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "d9eb1727fe1d4cce113f86869fad94562fe775cccea923ba21a3c8eb3ef0c8f6",
+   "Size": 6724
+  },
+  {
+   "Package": "python3-pexpect",
+   "Version": "4.9.0-r0",
+   "Architecture": "cortexa55",
+   "License": "ISC",
+   "SHA256sum": "336e652748deb44461b09e53e647b170d40498bbc2525d7483ac1cc6edc7a08a",
+   "Size": 81552
+  },
+  {
+   "Package": "python3-pickle",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "2caf490aa3bf301266c4211bbf96c929c26df57382af63683a627b4a0d3c2cb8",
+   "Size": 43974
+  },
+  {
+   "Package": "python3-pillow",
+   "Version": "12.3.0-r0.3",
+   "Architecture": "cortexa55",
+   "License": "MIT-CMU",
+   "SHA256sum": "b4e8a0ca6630fc3bfbbe9245c057f2b00adddc761335891e79a9d3265752a5e2",
+   "Size": 820232
+  },
+  {
+   "Package": "python3-pkgutil",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "5a2906f2db9076b11b22d17b85325aca7a1a56b066569ba2a6b635b85aa7b0fb",
+   "Size": 602
+  },
+  {
+   "Package": "python3-pluggy",
+   "Version": "1.6.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "f4d4ac3d93084f317441319e70476343f908505a911e99d08c4faef876268ba7",
+   "Size": 49922
+  },
+  {
+   "Package": "python3-pprint",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "d56c2f72e5d12fcc18efd18facc3e058f476bdb6407cedb6d7acab67bd5ad884",
+   "Size": 12464
+  },
+  {
+   "Package": "python3-process",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "9f23bb58bf64257195e21ee207330dca614c259a0328315c727229035ae0063e",
+   "Size": 2728
+  },
+  {
+   "Package": "python3-profile",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "8f56976768f22699c5f2cfac96b9da2ded1b02e1c7fecee7743e03bebc717c00",
+   "Size": 27584
+  },
+  {
+   "Package": "python3-ptyprocess",
+   "Version": "0.7.0-r0",
+   "Architecture": "cortexa55",
+   "License": "ISC",
+   "SHA256sum": "8d2b7e60781f9caa5c766ff352a22b829d6e019306ce32098ef57b82e37064a8",
+   "Size": 19662
+  },
+  {
+   "Package": "python3-puremagic",
+   "Version": "2.2.0-r0",
+   "Architecture": "cortexa55",
+   "License": "LGPL-3.0-only",
+   "SHA256sum": "0789515fa2c96b6ebcb5fb2e77c1fab39c474ad16774467e01c64d9030841554",
+   "Size": 89798
+  },
+  {
+   "Package": "python3-pyasn1",
+   "Version": "0.6.4-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause",
+   "SHA256sum": "c07f779668089d0a5fba7061b712b9eb18958d51abcc09a785fa8083385c6ea6",
+   "Size": 140010
+  },
+  {
+   "Package": "python3-pyasn1-modules",
+   "Version": "0.4.2-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause",
+   "SHA256sum": "acea3758554c5be2cb01a6ddf6ef036f7ca8531550e2847196ca99166bac54eb",
+   "Size": 233876
+  },
+  {
+   "Package": "python3-pycparser",
+   "Version": "3.11-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "1722980d6a8b9b9c78c005dc8a5343e0686930e0d4d6b34a08570d43ec4dd1db",
+   "Size": 90706
+  },
+  {
+   "Package": "python3-pydoc",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "90a54d30e413f48ca15e3b5895a11fe458dc9b4e24579664db6305d636263de7",
+   "Size": 153132
+  },
+  {
+   "Package": "python3-pygments",
+   "Version": "2.21.0-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause",
+   "SHA256sum": "74b96ba32374fbfbd362584480836f90b06e1b35fab22d01e852634e101f1aba",
+   "Size": 2594888
+  },
+  {
+   "Package": "python3-pyopenssl",
+   "Version": "26.4.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "e17cf6c65f2f232b3f1cc73dc6f49162aa0069def0b2da92adc22b53a160aea8",
+   "Size": 88134
+  },
+  {
+   "Package": "python3-pyserial",
+   "Version": "3.5-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "0339908d06ee8bd265bf2fe2f9411ad3c245394b9289cb70c88ddb99ef7443c8",
+   "Size": 85330
+  },
+  {
+   "Package": "python3-pysocks",
+   "Version": "1.7.1-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "c746632bb560c7e4cabd94f9b424f409deeda120963783e17a840cad80ab8440",
+   "Size": 20404
+  },
+  {
+   "Package": "python3-pytest",
+   "Version": "9.1.1-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "0185be217e846d2de10e350e7ebfc9f92ddd8645f37bd96cf8dc1dd164aad7b7",
+   "Size": 1006780
+  },
+  {
+   "Package": "python3-pyusb",
+   "Version": "1.3.1-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "e985504c5ad3482acd13fbe3ecbdee143053add283e91b5c745b3700a432138e",
+   "Size": 79342
+  },
+  {
+   "Package": "python3-requests",
+   "Version": "2.33.1-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "f86748550bda883604e9203d7d7792d68d4500147eabc005d9c02a7e01a2257c",
+   "Size": 89354
+  },
+  {
+   "Package": "python3-resource",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "c7ccdd56fe75b805ea0b28364a0bac9114becec67130679715bfa0ceb7249534",
+   "Size": 6780
+  },
+  {
+   "Package": "python3-service-identity",
+   "Version": "26.1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "38324405e3e40f3161622b5ef80af2b591c93c4bed34d952f80fae0126303941",
+   "Size": 22274
+  },
+  {
+   "Package": "python3-shell",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "25b4b6c6603aa55706a0efc43b6718f788196217de5b54a4ceecc674509d1562",
+   "Size": 7380
+  },
+  {
+   "Package": "python3-six",
+   "Version": "1.17.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "b7888d4b9ff5f8b9a366b6e113a471b6f2bd4ffb2702403ef06e21afdec69486",
+   "Size": 19882
+  },
+  {
+   "Package": "python3-sniffio",
+   "Version": "1.3.1-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0 OR MIT",
+   "SHA256sum": "61b52cef32bee6707239a3e0295a6294276293908eda785e585f5f8c03f8ef92",
+   "Size": 4244
+  },
+  {
+   "Package": "python3-sortedcontainers",
+   "Version": "2.4.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0",
+   "SHA256sum": "f36976b32191ba3f8ae275fdc363ae9736b62bed2b1aa01288879053d3011b82",
+   "Size": 42792
+  },
+  {
+   "Package": "python3-stringold",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "994fd37d33ea4257c6247082c50550d72703c6ae62d4ca11138c83d728b4e320",
+   "Size": 7182
+  },
+  {
+   "Package": "python3-terminal",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "737fbe61eaf86f384be0ac00e3693b2d85a5d049be6ec49b4e0e91f13621b2f6",
+   "Size": 1956
+  },
+  {
+   "Package": "python3-threading",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "5aaec7818c95e3e5229e135eaa9f9b60867d54e4caa425117d558a4868ae2c4d",
+   "Size": 12264
+  },
+  {
+   "Package": "python3-tomllib",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "ba47734329f4783fb728a9e37fd26f17e77dc9fae67be10a5228fdde74b7857f",
+   "Size": 18478
+  },
+  {
+   "Package": "python3-treq",
+   "Version": "25.5.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "4ec41bbc36b323c0b8f98dd147ef480de23a34b882b91b5b499f8da19338539a",
+   "Size": 138022
+  },
+  {
+   "Package": "python3-trio",
+   "Version": "0.34.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Apache-2.0 AND MIT",
+   "SHA256sum": "7a7d82e8cf7f9a5bcfbd192a3a3f88e4e7c9aba8a101602ffa9c5e89ae470e16",
+   "Size": 406992
+  },
+  {
+   "Package": "python3-twisted",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "baf9818c26ac2c59edaf0d2c54103bd3315adf79d466f7bada8bf611cc0a3eb5",
+   "Size": 728
+  },
+  {
+   "Package": "python3-twisted-conch",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "d8b41be108a919b3a49677c2567fdf5b5157ddda438c5f9ae1caafe3c1dac211",
+   "Size": 357546
+  },
+  {
+   "Package": "python3-twisted-core",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "300b920a22da9429859d79ab10d3285f83b7adb6d0eb9fa6ad96272c74a77328",
+   "Size": 1104142
+  },
+  {
+   "Package": "python3-twisted-mail",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "6704e796ab9359c300dcf05b3147a2b25df2f44ca9d9399d4c5b033a62c40fc0",
+   "Size": 261396
+  },
+  {
+   "Package": "python3-twisted-names",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "47087b2c82399c35a534cbc4a546015937fdf1604d8791f1d588fa07572aa549",
+   "Size": 111628
+  },
+  {
+   "Package": "python3-twisted-pair",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "0f1532b81d7265d65e1b12c778cefdda9cad0d42a1a8b9dab0a05cde10411530",
+   "Size": 21498
+  },
+  {
+   "Package": "python3-twisted-protocols",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "273919d5201a5aff9b7309d18b0cabece95bf7e72e55e4957fd3fcec1d03b8c0",
+   "Size": 222366
+  },
+  {
+   "Package": "python3-twisted-runner",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "2f60872a0eb7c8ca5dbe480038cad1ba3b5b436a1d30ded747feaec0bc833cd7",
+   "Size": 19556
+  },
+  {
+   "Package": "python3-twisted-web",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "8e1bec0a0d0b7e88d9411bd2d332bdaa40a8bf620a471465c1d6e6d74971edd6",
+   "Size": 333888
+  },
+  {
+   "Package": "python3-twisted-words",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "109737310e0ac77f330c4eeb678def3530de23b0bacc8a4f2ff8803ce3347373",
+   "Size": 212914
+  },
+  {
+   "Package": "python3-twisted-zsh",
+   "Version": "26.4.0-r8",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "3d3a9fcad3c30dac967fa79d04e308736b9dd8370bd26311ff6661ba3e5b1dc4",
+   "Size": 1598
+  },
+  {
+   "Package": "python3-typing-extensions",
+   "Version": "4.16.0-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "e5eecad4860d4eed06fd2c2157f3f56a63fb50329b70d15f0a2384fc60c820ab",
+   "Size": 74728
+  },
+  {
+   "Package": "python3-unittest",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "1d81e43d463a8b49f45e5b793d582260e0438a2430bfa4ee95f0c25eb9ae6454",
+   "Size": 113908
+  },
+  {
+   "Package": "python3-unixadmin",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "244abf703d0d0b32088ad227f789ebd1b184b8d98fb64a42aa61275c00a0475f",
+   "Size": 5266
+  },
+  {
+   "Package": "python3-urllib3",
+   "Version": "2.8.0-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "3477c3abb20afb43d78dd3f2a7a3568a34cd2bcc90bebc3c4600c97ca2dd41fd",
+   "Size": 208544
+  },
+  {
+   "Package": "python3-wifi",
+   "Version": "0.8.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+   "SHA256sum": "4fadf212ef1d13cdc993f229a3f79b123abffcfcc25cbda8e17e574b8dd881b7",
+   "Size": 23504
+  },
+  {
+   "Package": "python3-xml",
+   "Version": "3.14.9-r0",
+   "Architecture": "cortexa55",
+   "License": "PSF-2.0",
+   "SHA256sum": "51aa335476adf725b726144464abd3fd17608115c31281862002b052585c834c",
+   "Size": 169504
+  },
+  {
+   "Package": "python3-zopeinterface",
+   "Version": "8.2-r0",
+   "Architecture": "cortexa55",
+   "License": "ZPL-2.1",
+   "SHA256sum": "78fffc8543e92c9bb1690ffec208ff8540d699f56cf419cc113c28fcf1070d61",
+   "Size": 134668
+  },
+  {
+   "Package": "rc-keymaps",
+   "Version": "1.32.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND LGPL-2.1-only",
+   "SHA256sum": "272bb7c3b1129e2597308912145994ead1f6a017fffd125307427c4ab5ce8b3b",
+   "Size": 36796
+  },
+  {
+   "Package": "rc-local",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "08c4ede92699f5b3babfe522b2d9c0077974e6092e8036af1e1e480ab3395522",
+   "Size": 1486
+  },
+  {
+   "Package": "rsync",
+   "Version": "3.5.1-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-or-later",
+   "SHA256sum": "3a6a55f5020f10bdc71dee79ed991edb1170a06505a5a0beea59edf1c7911fc4",
+   "Size": 247988
+  },
+  {
+   "Package": "rtmpdump",
+   "Version": "2.6+git0+6f6bb1353f-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "7a497c158c2e5ed26703fc07417a4f33dba069b189de05161a501eecb4f3b26a",
+   "Size": 112600
+  },
+  {
+   "Package": "samba-common",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "4845e33ec80a62575c7ea0fa6cc3714a28ad39b48bce6e7c89d2a2e3a0c1c9dc",
+   "Size": 2816
+  },
+  {
+   "Package": "sdparm",
+   "Version": "1.12-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "83b8bdd4c8fc878cdac9c7dfb5c254cee9120a20b93886a69f310e24ee0104bc",
+   "Size": 72288
+  },
+  {
+   "Package": "sg3-utils",
+   "Version": "1.49-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-2-Clause AND GPL-2.0-or-later",
+   "SHA256sum": "0fe4a4575a8745c212779d9a302761162ca35940666a8eed0766564e52377109",
+   "Size": 804720
+  },
+  {
+   "Package": "shadow",
+   "Version": "4.20.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "bc1d556dde34bbd194d251125a802bb1be2d72633936420daaed29ac29c0bbf1",
+   "Size": 330318
+  },
+  {
+   "Package": "shadow-base",
+   "Version": "4.20.3-r0",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "543889594cf569f8e4b87d17c38de94f2d6658854c7f76af524be0835a377a6e",
+   "Size": 47556
+  },
+  {
+   "Package": "shared-mime-info",
+   "Version": "2.5.1-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "4de803e5fc25c52fddfcd4ff5a3a01c5a9531f7e3ddd0cdd5f4e126a599751db",
+   "Size": 561294
+  },
+  {
+   "Package": "shellinabox",
+   "Version": "V2.21.0.r3+git1+a70d4f70+a70d4f7c4b-r1",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "a5ffbdd22befd4e0efb3395340058a3d82f59b168db8dde75a5e83366531d9fc",
+   "Size": 126844
+  },
+  {
+   "Package": "smbclient",
+   "Version": "4.25.0-r2",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND GPL-3.0-or-later AND LGPL-3.0-or-later",
+   "SHA256sum": "5bdc67dfbe2914440a83558dd150af09df6d05b336c26652dc8e59cc741b0a52",
+   "Size": 47806
+  },
+  {
+   "Package": "stb-hwclock",
+   "Version": "1.2-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "a91b68dad19143f9ba735b9848ed3204695b9dd8baa42b306be03444e1aa606e",
+   "Size": 1698
+  },
+  {
+   "Package": "ttyrun",
+   "Version": "2.44.1-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "d60690d18b2ed4161345d94ea124029f74abad131e98964f70d4a4ea1af072d5",
+   "Size": 4328
+  },
+  {
+   "Package": "tuxbox-links",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "f34c4472dea49f9003d6dca3be48fc6cd0dc907d3a641520fe0baf5db5a40c73",
+   "Size": 762
+  },
+  {
+   "Package": "udev-extraconf",
+   "Version": "1.1-r0.40",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "9bc10a27ebaecf753ef56e66e55c274adc7bba85939f7b6a4b49931d3db2c8bb",
+   "Size": 3592
+  },
+  {
+   "Package": "udev-extraconf-automount",
+   "Version": "1.1-r0.40",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "a4121d5119868a378ac9cc44166f0b7dddfc073a3a533cef330d56784dc5c786",
+   "Size": 5702
+  },
+  {
+   "Package": "udev-extraconf-autonet",
+   "Version": "1.1-r0.40",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "3e49d4a93b917ba297eb808a316e2f7e334b81cb48d6c6185ca3816e95be73c2",
+   "Size": 1408
+  },
+  {
+   "Package": "update-alternatives-opkg",
+   "Version": "0.7.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "3dbe0b74b65c75724fe4f25ab4fc52da70e654be8958d65931bc1b641314acd2",
+   "Size": 2646
+  },
+  {
+   "Package": "usbutils",
+   "Version": "019-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "3ac660d9c0c2d5fcbbb633d3924dc07a8862ac149042899de79d3d1094259477",
+   "Size": 69302
+  },
+  {
+   "Package": "util-linux-blkid",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "bc86475df5ca572a4cf625b21b5ed579b8b784cca0503efe94eac8fd0fad9ffa",
+   "Size": 64590
+  },
+  {
+   "Package": "util-linux-flock",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "5215df1dfe7f8e66af6aa860855e7da3eb848f2f412a50a07afdbc6d07a0c6fd",
+   "Size": 20076
+  },
+  {
+   "Package": "util-linux-mount",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "a270443a8ecc7ca3033f89a89561b7a87397212524176b0fac01babec0ef4dff",
+   "Size": 33624
+  },
+  {
+   "Package": "util-linux-sfdisk",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "f680625e46b6cc80ffc9bfe8d4051afddddb72d2b8cbb3c70fc14905a31ba90b",
+   "Size": 71512
+  },
+  {
+   "Package": "util-linux-sulogin",
+   "Version": "2.42.4-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BSD-3-Clause AND MIT",
+   "SHA256sum": "5906f775f31f711900da76383f3f1383e56b7b9ae4bd7c0878e7d74b8afabeb2",
+   "Size": 27844
+  },
+  {
+   "Package": "vsftpd",
+   "Version": "3.0.5-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "ace3c96956740d738e8dd809b8868a05e421bdf7dbe12e81274ba8a37b6cb0bb",
+   "Size": 69980
+  },
+  {
+   "Package": "wget",
+   "Version": "1.25.0-r0.1",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "e6d40f492a993d6b0bd867a4be35e04b303e7f7e32e7a941ba54c2b933421d21",
+   "Size": 233834
+  },
+  {
+   "Package": "wireless-tools",
+   "Version": "1:30.pre9-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only AND (BSD-3-Clause OR LGPL-2.1-only OR MPL-1.1)",
+   "SHA256sum": "0e63a700057ec5fc701abdb123fda9ae1e89a9575d854cb9252dcddf0af1e5d0",
+   "Size": 37846
+  },
+  {
+   "Package": "wpa-supplicant",
+   "Version": "2.12-r0.3",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "0eb6e1ae4053554bf3e7b6848314c14788ec58890ce8ef0ff4fd9e393004eb11",
+   "Size": 1290080
+  },
+  {
+   "Package": "wpa-supplicant-cli",
+   "Version": "2.12-r0.3",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "dae2f30314f20f0ee5a21855da40789652f46622517fe3072fc4fac4f56d3dc6",
+   "Size": 53568
+  },
+  {
+   "Package": "wpa-supplicant-passphrase",
+   "Version": "2.12-r0.3",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "76798c47ba633d12c06704381d6916a3e1dd2d1d8e028c5b3eef2a1aca518818",
+   "Size": 37976
+  },
+  {
+   "Package": "wpa-supplicant-plugins",
+   "Version": "2.12-r0.3",
+   "Architecture": "cortexa55",
+   "License": "BSD-3-Clause",
+   "SHA256sum": "a86d099e810ac6161021d31ec7b678422b8656c76e1f2fc12c1e6eda7d0708f6",
+   "Size": 726
+  },
+  {
+   "Package": "xauth",
+   "Version": "1:1.1.5-r0",
+   "Architecture": "cortexa55",
+   "License": "MIT",
+   "SHA256sum": "21dfc7da64c784fe60081a8def39cdc0404929c85555d2ef359c7b57ad57bcd5",
+   "Size": 18736
+  },
+  {
+   "Package": "xc-audiod",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "b137cd3e6009b3d0167f89586f73b000ae4627b422f330965cbb1f9e0dcca883",
+   "Size": 8090
+  },
+  {
+   "Package": "xc-avahi-shutdown-early",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "8349eb9a5ae719a8dd105b7a82a6275c48488c4cb10afd8e0d990ea8d00b96db",
+   "Size": 1366
+  },
+  {
+   "Package": "xc-cam-integration",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "dd5f43b2577de46d4ae69cdce5118b28659aa4fbf3a24591ad30d3b96d972487",
+   "Size": 1670
+  },
+  {
+   "Package": "xc-frontpanel",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "89044c23b3b878ac9bee425630bde8929a549bd9ac7e7f1544897f8d1b563aa0",
+   "Size": 10460
+  },
+  {
+   "Package": "xc-gst-video",
+   "Version": "0.3.0-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "b85963c7cdd7ed84b9d1b8bdde2b09bfc3700ca0a76e7336133d54f8b69b1911",
+   "Size": 7550
+  },
+  {
+   "Package": "xc-gui-startup",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "8450bce01a05a46d2d7134b13c48e49102ae3af0ae1c6ae2aee6a0c191d4a551",
+   "Size": 2092
+  },
+  {
+   "Package": "xc-hdmi-route",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "1751eed38a65ce6b65807605ffa0f3e075f60dd9d80a4cac1be82cb4fffb9362",
+   "Size": 2368
+  },
+  {
+   "Package": "xc-ipa-delay-controls",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "f249647983b2f69557cbb97e0f819183600364cb21f5d553fc105725da93b8d7",
+   "Size": 3720
+  },
+  {
+   "Package": "xc-multiboot-menu",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "7956db130e3fb4e8488ba3547c3e183c040855b1cd037f860d2fcc92c1a2a74e",
+   "Size": 10854
+  },
+  {
+   "Package": "xc-package-feed",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "7802b85a95ed9a0e0bff7306bbc2066b3adaf7d887846eb40b3dfdbd2da36cd2",
+   "Size": 706
+  },
+  {
+   "Package": "xc-power-handoff",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "f0c0d082ff9384fa375e986c911087fceea1e39b2ec206db3fc39376dee100c1",
+   "Size": 37058
+  },
+  {
+   "Package": "xc-provenance",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "d7a87cd44f0d5cc66dd358806081fef24c7aee4b56773058d6ef118702a1b272",
+   "Size": 4006
+  },
+  {
+   "Package": "xc-remote-timing",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "c91c5e49e7df246f626ae1f2a0fed9c00d254e072584644ae08a60167f79d58a",
+   "Size": 1418
+  },
+  {
+   "Package": "xc-screenshot",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "784df84a3516eb4af431b079a3805acc2fc1078ce2b2edfbba0b6d1f27d8d3ec",
+   "Size": 3370
+  },
+  {
+   "Package": "xc-subtitle-overlay-compat",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "ee80b26b189946963de471506143dc8d7ee587c2f648fe4661a25682f12992a3",
+   "Size": 1402
+  },
+  {
+   "Package": "xc-timeshift-storage",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "54d1bc62c0c346b9738398293b9b40182c48873b4cc518f877e16ad856ba6c28",
+   "Size": 1358
+  },
+  {
+   "Package": "xc-video-route",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "4f2633aa49a227deeb5376be06ae9e4c1c9adbf62c99ac39e657d23e14cd826d",
+   "Size": 1474
+  },
+  {
+   "Package": "xc-video-setup",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "7c5d0c5680e5eed0f78dc9ff34282f4b820d7f2b5ad6c8708d9850c5285f504f",
+   "Size": 2898
+  },
+  {
+   "Package": "xc-volume-bridge",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "a63ca0eb93ca806853e39f37fc89cbce28ad140d84669d5620923037c6218cf4",
+   "Size": 1802
+  },
+  {
+   "Package": "xc-wifi",
+   "Version": "0.1-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "d60e3ae383e9df2cc800b63b3ef95755777c3325c3d45d23238684878f6fa28c",
+   "Size": 195936
+  },
+  {
+   "Package": "xz",
+   "Version": "5.8.4-r0",
+   "Architecture": "cortexa55",
+   "License": "0BSD AND GPL-2.0-or-later",
+   "SHA256sum": "d74beda108e9eb79705dfaaacb4e8f908e37a66af3c4fc127d4b34ee7cde5c80",
+   "Size": 55390
+  },
+  {
+   "Package": "zip",
+   "Version": "3.0-r0",
+   "Architecture": "cortexa55",
+   "License": "Info-ZIP",
+   "SHA256sum": "6d34fcfc1cfba0a0d3efe7533c162913cf8391d8dec289b5d67779055e8ffd73",
+   "Size": 154360
+  },
+  {
+   "Package": "alsa-state",
+   "Version": "0.2.0-r0.10",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later AND MIT",
+   "SHA256sum": "2d16cf56583654db5a84885811e5ed046aa078818c08f77f6f3ae53a64937718",
+   "Size": 2002
+  },
+  {
+   "Package": "alsa-states",
+   "Version": "0.2.0-r0.10",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later AND MIT",
+   "SHA256sum": "22d54236840e5d3ef0b75d77b75aa30a2a57f21305d30bd03c114ede7c313169",
+   "Size": 732
+  },
+  {
+   "Package": "base-files",
+   "Version": "3.0.14-r60",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "1a9bd2a544d05e920ba7e9124b7d7c14d7e11359644cf15c2afe16210fdff008",
+   "Size": 3734
+  },
+  {
+   "Package": "enigma-info",
+   "Version": "6.0-005",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "dc6884534125be0479b3ca5c70aaf0048f78e833a3b5c04926887168b5799ae0",
+   "Size": 1386
+  },
+  {
+   "Package": "enigma2",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "3dd8b949481f4f716bebbb307164743692fc84ad5b66ccba7b2af43de17e0471",
+   "Size": 3947308
+  },
+  {
+   "Package": "enigma2-fonts",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "22ecb11ef1ab20ab22bfad2fbc8eb7c1199f5cafba8e5d3d7719f64de72697a1",
+   "Size": 747752
+  },
+  {
+   "Package": "enigma2-locale-ar",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "7d8bc94cb70a1655d3a421ff5317d97725204ea64664f729b824e319397b1a14",
+   "Size": 123180
+  },
+  {
+   "Package": "enigma2-locale-bg",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "37650a2973bf7bf0454f24870168a7d874e089baa57741e6ef65d5b225bd6902",
+   "Size": 20260
+  },
+  {
+   "Package": "enigma2-locale-ca",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "094c3012791d1f4a6fba40ce5b6eab9072c994f881f4f1aeb45cac15b203a582",
+   "Size": 10686
+  },
+  {
+   "Package": "enigma2-locale-cs",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "3e33480d55ca30cb23288a24f3082ff4e77a416ceb3d584e631e919b3cfbdc19",
+   "Size": 43078
+  },
+  {
+   "Package": "enigma2-locale-da",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "16160955ad0f62adf5c50977125f39190f06b93b641de7fed667189158ffcb8b",
+   "Size": 27126
+  },
+  {
+   "Package": "enigma2-locale-de",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "27e573fb15b673a3c73c8f7c66866a3ca98a5bb464526987333cbb3679e39f4b",
+   "Size": 83116
+  },
+  {
+   "Package": "enigma2-locale-el",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "77b88cf52a03c4df37438377ab1fac65b9fbac717b671aa71be26ba4304f76d7",
+   "Size": 33556
+  },
+  {
+   "Package": "enigma2-locale-en",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "a957de01df588d892c6c908ac5b5c87c2e9903d81bb2821df6de60e187d63f21",
+   "Size": 46526
+  },
+  {
+   "Package": "enigma2-locale-en-au",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "c5f4397bac64c30682aed0b557d3c0e6ebb3cd544aa0193407d843f17ff2d2dc",
+   "Size": 56566
+  },
+  {
+   "Package": "enigma2-locale-en-gb",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "6d6367bdd5d9b1a1514820d397c4d8568c0d3cea5f9a321ffe736c73b60798d7",
+   "Size": 57752
+  },
+  {
+   "Package": "enigma2-locale-es",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "4c4b67b15553144cc0518dc4888a913f7030aad00a02bdcd6471fde1b2c524e5",
+   "Size": 61616
+  },
+  {
+   "Package": "enigma2-locale-et",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "3739ef28d808f20bd6131886e0369effee98cf04912e443cdd106de308f6d6ce",
+   "Size": 110542
+  },
+  {
+   "Package": "enigma2-locale-fa",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "44d2d70e19927f106d09aa0db0b62e55febe43bf4d404ad012cc6b13e92c7213",
+   "Size": 24036
+  },
+  {
+   "Package": "enigma2-locale-fi",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "877bb8631c84df412d0d4662383da69226a5180547b1d69f1d203579dff7d8fd",
+   "Size": 182992
+  },
+  {
+   "Package": "enigma2-locale-fr",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "faeebd6b054c4294c2c6ad4c39cb0b761a3c0cf4b7360565050645e42cc82e47",
+   "Size": 113948
+  },
+  {
+   "Package": "enigma2-locale-fy",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "8e1c8aa62c7f206d81e3bfe4ed1a0b5f56425d18fe01c3d63d33b7dc1ab3a391",
+   "Size": 18482
+  },
+  {
+   "Package": "enigma2-locale-he",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "066321ae93fc08e36d587ba54f04764c5b3fa0231a5174a4c3a8d766f01edb0e",
+   "Size": 18906
+  },
+  {
+   "Package": "enigma2-locale-hr",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "2a8067381275e40132d236ec2ff84d7130b198d52d40ee87a36a5f1774d0e798",
+   "Size": 11842
+  },
+  {
+   "Package": "enigma2-locale-hu",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "74c68195dbe1a124e670eca849ecb6d5c40f7783268d7c0a0530d6da51277651",
+   "Size": 29474
+  },
+  {
+   "Package": "enigma2-locale-is",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "af087add44db783087ac469aee4397dd72a2bd269e7d5ce7383831ea502f3b70",
+   "Size": 24846
+  },
+  {
+   "Package": "enigma2-locale-it",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "51106e80ac318f2e5218fc48a3d5cd4e6b1343a7621152d2b61e2cdaecec97cd",
+   "Size": 141132
+  },
+  {
+   "Package": "enigma2-locale-ku",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "55926d7e3d45b66af5f8943888fcf55a23c33b09965ad4e40011dc63b64a4e77",
+   "Size": 30698
+  },
+  {
+   "Package": "enigma2-locale-lt",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "2e89c9fc56ff024d0c7931af020410c4b046d764d7962e96a4c094a41e385483",
+   "Size": 115398
+  },
+  {
+   "Package": "enigma2-locale-lv",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "7907c2fbb6f03bd48f529b4ef1eeaa715bfec1ce159e0f1ddeeedca7dad3b37a",
+   "Size": 20014
+  },
+  {
+   "Package": "enigma2-locale-meta",
+   "Version": "1.0-r2",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "333b915bb1ea126146fd93fa08408b45c02750e4ce0e1a8b51f070f37c8a3eae",
+   "Size": 652
+  },
+  {
+   "Package": "enigma2-locale-nb",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "8f005dc5e72e3be3168b1d84acff6e0a78c40e77c22a3a886b813f27bff8ad9f",
+   "Size": 3846
+  },
+  {
+   "Package": "enigma2-locale-nl",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "fbbae094563f1641681774c17aca4de205244fee35f58b0687b8f2461703d063",
+   "Size": 83676
+  },
+  {
+   "Package": "enigma2-locale-pl",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "624efc9d8b3139b0cc1a23d0e82f864c75125c718aa15b101a8b7bdc2562f868",
+   "Size": 143178
+  },
+  {
+   "Package": "enigma2-locale-pt",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "7cc9849a0b4294c9d53a3df1d450879c3c60b3ee4625d331c2de055e434bec7e",
+   "Size": 90324
+  },
+  {
+   "Package": "enigma2-locale-pt-br",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "f2030a66f8aff34d751e0377f8341d66a84d54dffebda3eed1267870b1df1d0e",
+   "Size": 41038
+  },
+  {
+   "Package": "enigma2-locale-ro",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "629ade905092bdb34428e0fde239c8c4876ed0c25e3fd0623d81fec592c8bf68",
+   "Size": 21980
+  },
+  {
+   "Package": "enigma2-locale-ru",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "aeb7d7409522e484fef868d3c76dd94ed7fd6a1aaabbb6f5e39c7e8b84070ab3",
+   "Size": 151460
+  },
+  {
+   "Package": "enigma2-locale-sk",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "f160fa8cf4e8d762e52a88d1c899e47ebbf30a74bf839f198c0273d655934e91",
+   "Size": 71534
+  },
+  {
+   "Package": "enigma2-locale-sl",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "637bbc35c22be36585f47e2a1640f954981fa301d4ead6cebd98e50696e894c0",
+   "Size": 27036
+  },
+  {
+   "Package": "enigma2-locale-sr",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "760d33d9ce152fea8cd44dd142e919fefe6349552a44ae20ea8db143cfc1edec",
+   "Size": 24788
+  },
+  {
+   "Package": "enigma2-locale-sv",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "cfc029eb14960ab837970e7d1b2aaaefeca252ae6dc2e4da442fc7d59de6baad",
+   "Size": 66908
+  },
+  {
+   "Package": "enigma2-locale-th",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "60d46afb5568ac38555a80dec374c160f9941a9744a1609044cd74e4954f517c",
+   "Size": 24898
+  },
+  {
+   "Package": "enigma2-locale-tr",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "e981f57a98fb414339a9f8670d3bb478dbf5c5ac9fd9361f43616c21a87fed0d",
+   "Size": 63158
+  },
+  {
+   "Package": "enigma2-locale-uk",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "5d053b062a4f976135924cf668172d07481543f0c198089ad3f8ce44cfd45d4c",
+   "Size": 22704
+  },
+  {
+   "Package": "enigma2-locale-zh-cn",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "bc8aa88960979c961872699b1523eec9c01cca4b83a6d071d28e5294e45473f2",
+   "Size": 91514
+  },
+  {
+   "Package": "enigma2-plugin-extensions-cutlisteditor",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "d4738134ba7817d0453753930931f9a5d903d7c115f31d5f59171372fdee7620",
+   "Size": 13262
+  },
+  {
+   "Package": "enigma2-plugin-extensions-mediaplayer",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "7801348825490f4407689b0b7df3c22e7f38316fe0a6e196de19a1465d6ae56d",
+   "Size": 34506
+  },
+  {
+   "Package": "enigma2-plugin-extensions-mediascanner",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "ab6e7e9d324a1b23a08b62dad0a4f7ff7792b9d86a21103e0bf6c1d7a9c1be5c",
+   "Size": 4998
+  },
+  {
+   "Package": "enigma2-plugin-extensions-openbhvip",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "3c0d2025bc880f4b832054c1c45caeb6fcc5d923adbb75c3b399de46e89e7a10",
+   "Size": 15286
+  },
+  {
+   "Package": "enigma2-plugin-extensions-pictureplayer",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "7d457727bd857f9cb4c8e23ac7a9568f0deca5cf30ddd5f3e6db6306c8d507a0",
+   "Size": 38012
+  },
+  {
+   "Package": "enigma2-plugin-font-wqy-microhei",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "6c0f4bc38f7230a0e232f3da48c6b7e7098ea3c7479029f8023746d53e9761a4",
+   "Size": 2009684
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-crossepg",
+   "Version": "0.9.1+gitr1+bf4e3330+bf4e333af0-r4",
+   "Architecture": "xconn",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "b18cd116f963a0ab8a7313b993ff5012aee2a30d8fa9505300a69cecb544dbf9",
+   "Size": 429376
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-hotplug",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "be03b8dfce1963d707b17505fde2989a856b0ae2563484b54ba1c2a9e02ae33f",
+   "Size": 10462
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-obh",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "81423f0c72d7ac767445a3dfff6b0a5d564815fa33ac2753b3728f5ec6efe202",
+   "Size": 183702
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-positionersetup",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "935ebf24bd26abe3b579f694e8003e7e29436ccf370ab7e941c79ffb48452696",
+   "Size": 47684
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-satfinder",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "c80d51d2c7d224958cadbfe373b8432b7f01de8e80d12f3d9caa271131ff3f5a",
+   "Size": 24692
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-videoenhancement",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "a3c5b6e6dd00ef6af4450de30c66a80cd60d7d3e4ea869f469c07a48e36858f0",
+   "Size": 16078
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-videotune",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "8a5df17bb1f84a3f7662b2e9450753ace172e0ea9562283563448507ec51525b",
+   "Size": 9290
+  },
+  {
+   "Package": "enigma2-plugin-systemplugins-wirelesslan",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "089b2945a60ebc83313067a9a20561ed5258cd8126002d35e8fdc7051c61ca63",
+   "Size": 23116
+  },
+  {
+   "Package": "gstreamer1.0-plugin-subsink",
+   "Version": "1.0+git1+df8f46c0+df8f46cfa5-r0",
+   "Architecture": "xconn",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "c826863aedd8ad8ee48fd2754751a03578b241747ad89ae2eb4efe4193f0195e",
+   "Size": 7430
+  },
+  {
+   "Package": "init-ifupdown",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "39a3010b1d387e5e26feea4015d612653ce6b6607382e7ec76e1994b75b336b1",
+   "Size": 2438
+  },
+  {
+   "Package": "libproc2-1",
+   "Version": "4.0.7-r0.4",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+   "SHA256sum": "f6053a0aa1d944d083c50eeb9685dcd97a0891340e4eb26cf65fcdd9a50ed803",
+   "Size": 60600
+  },
+  {
+   "Package": "libtuxtxt0",
+   "Version": "2.0+git1+9319ad40+9319ad4058-r0",
+   "Architecture": "xconn",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "03aa75c881f355711282fa9b9d533a9bf3019c95fed9424ce7b26cf81d75cee3",
+   "Size": 44002
+  },
+  {
+   "Package": "libtuxtxt32bpp0",
+   "Version": "2.0+git1+9319ad40+9319ad4058-r0",
+   "Architecture": "xconn",
+   "License": "LGPL-2.1-only",
+   "SHA256sum": "d3827d605f2f757e41ec4734b60a818258d395fc40330ea9a541a526b1b4d865",
+   "Size": 96966
+  },
+  {
+   "Package": "oe-alliance-branding",
+   "Version": "6.0+git1+84e88a30+84e88a388f-r20261114-xconn",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "ae2c2bc5984bd27d8fba316839b56ab2c6b3e4a3da2dd31fe587fb62cd06a0c4",
+   "Size": 18810
+  },
+  {
+   "Package": "oe-alliance-feeds-configs",
+   "Version": "1.0-r7",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "4f753e51ff7efcaf25de200b3583f5aba99135ab076b9f2199ed7d7d64f2aca2",
+   "Size": 980
+  },
+  {
+   "Package": "oe-alliance-remote",
+   "Version": "6.0+git1+ce6cb3c0+ce6cb3c773-r3-xconn",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "a3f3850c1c7b38679d13feac9b92e24cdb38e0080aeab37a805a8622f7acbcb4",
+   "Size": 131316
+  },
+  {
+   "Package": "openbh-bootlogo",
+   "Version": "6.0-r39",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "5e4424ccf0d77d9145c84d877b5ecebff35e5f11b872a71b278159823f3ae673",
+   "Size": 373956
+  },
+  {
+   "Package": "openbh-version-info",
+   "Version": "6.0-005",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "79165b58f28412795e26966f637e77aa4513a0d759cf25acadf1d140147fc1c2",
+   "Size": 720
+  },
+  {
+   "Package": "opkg-arch-config",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "4a208968227fe14a9ee7a4b56591d636e2b155dc77add444d9edcb7a3fa15982",
+   "Size": 786
+  },
+  {
+   "Package": "packagegroup-base",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "f5307311351839ab887a9ca677b0132f8bd781a994445ffdbf5315f8f7143b86",
+   "Size": 622
+  },
+  {
+   "Package": "packagegroup-base-alsa",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "ea3047025c47d1c94085dfb54db803e609c3484ebb41988699918010bdf9a4be",
+   "Size": 568
+  },
+  {
+   "Package": "packagegroup-base-ext2",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "d90c465b39083fd0dd2b22a7bccd6701b741a3dcef0987ab619f01d384976a41",
+   "Size": 582
+  },
+  {
+   "Package": "packagegroup-base-ipv6",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "a8e309414ee75cb46a7cfe1b21179ccadeb432fdbcf8071da1591a85f9950ee3",
+   "Size": 534
+  },
+  {
+   "Package": "packagegroup-base-usbhost",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "403a75757d2091c2fae80a1e91d932c7026c84ee7c874e6fffeaf91c6b6c016d",
+   "Size": 550
+  },
+  {
+   "Package": "packagegroup-base-vfat",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "e63be509d895248e0010881ea3637911ae382c03c14db9f198fdd2ae284f1670",
+   "Size": 558
+  },
+  {
+   "Package": "packagegroup-base-zeroconf",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "239b9ecd239b699ffeaa6963ce5169fe0fb240c4b222676f636156f45eece2ff",
+   "Size": 570
+  },
+  {
+   "Package": "packagegroup-core-boot",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "68c0dc1765dd76f81add803528bcb75e708fa44540b92c787c45897e81d9fa43",
+   "Size": 646
+  },
+  {
+   "Package": "packagegroup-distro-base",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "d1a6392c71524b29394e65d5d75b089b17360d36561242f03024c954dcfa936e",
+   "Size": 532
+  },
+  {
+   "Package": "packagegroup-machine-base",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "7fac8524ca2546799ccdb92cc93ece044a1e6de1c2ca62f41057e5642a18819f",
+   "Size": 558
+  },
+  {
+   "Package": "packagegroup-oea-distro-openbh",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "590a8d52370cc7e5de305c82eb91340f9679f1f1040342251e67e5f28d578818",
+   "Size": 892
+  },
+  {
+   "Package": "packagegroup-oea-enigma2-core",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "933aa8e5e4c6b9b67cf7611fbf58fc5246bbe1019fb3489260b64cd5a25f95d1",
+   "Size": 794
+  },
+  {
+   "Package": "packagegroup-oea-enigma2-plugins",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "19f25bdd81ac8201fd939c0965ccb39acb34a2661b5722373490a09c823ed87e",
+   "Size": 638
+  },
+  {
+   "Package": "packagegroup-oea-gui",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "dfe6f916030eda3b005624f527239b754347046ab445bc98203191008a7fd2b0",
+   "Size": 520
+  },
+  {
+   "Package": "packagegroup-oea-linux-core",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "a346be11fa4c929c1b1b22a9904e87a347e6e0869597be93e482ae63b4fa0db9",
+   "Size": 682
+  },
+  {
+   "Package": "packagegroup-oea-machine-core",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "3ed591a3e1b9158062ec48478850df902fd743dde28401ed7fd293e62cf99863",
+   "Size": 526
+  },
+  {
+   "Package": "procps",
+   "Version": "4.0.7-r0.4",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+   "SHA256sum": "63ab2607231d5032b6c2ff6d7f3bf1ff9f46a4a37a9286ee5b76c38977799987",
+   "Size": 147504
+  },
+  {
+   "Package": "procps-ps",
+   "Version": "4.0.7-r0.4",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+   "SHA256sum": "e022aa39638c234450fcc0e1a57106e055c5ca2046f13c46edae3c6c1ec9c251",
+   "Size": 46720
+  },
+  {
+   "Package": "procps-sysctl",
+   "Version": "4.0.7-r0.4",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later AND LGPL-2.0-or-later",
+   "SHA256sum": "7156a4601ef452645e90bb2e6866bd83e8e7a7763ad8ac362ac47bc61aaf9efe",
+   "Size": 13612
+  },
+  {
+   "Package": "shadow-securetty",
+   "Version": "4.6-r0",
+   "Architecture": "xconn",
+   "License": "MIT",
+   "SHA256sum": "ed34882cd2f5435763ce32df4e88d664ef3a792883bcb8d386f77e7e0c609aa6",
+   "Size": 1394
+  },
+  {
+   "Package": "showiframe",
+   "Version": "1.5-r0",
+   "Architecture": "xconn",
+   "License": "LicenseRef-PD",
+   "SHA256sum": "f2f293afff2c6ebdcc643a6d58143d6bec45e099a21942b501d67a10345ad0a2",
+   "Size": 3904
+  },
+  {
+   "Package": "sysvinit",
+   "Version": "3.14-r0.2",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "4ecb08c516d5a0be365f7cb3918f6169cc0d0294073ceb02f8910c90893957f4",
+   "Size": 61358
+  },
+  {
+   "Package": "sysvinit-inittab",
+   "Version": "2.88dsf-r0",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "28f71ef6e54fa398cb9f480ea0fe026969129aac1312cb9cb65a3a6bf5a94c57",
+   "Size": 1114
+  },
+  {
+   "Package": "sysvinit-pidof",
+   "Version": "3.14-r0.2",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "4dbe737a3dda3775ec0aced792d2c1d1baee219298a5d9ca198092e1ace6bf81",
+   "Size": 9826
+  },
+  {
+   "Package": "xc-boot-files",
+   "Version": "1.0-r0",
+   "Architecture": "xconn",
+   "License": "CLOSED",
+   "SHA256sum": "4cfc9d04f31598a330976351c45f865d6d880b7b22ddd7484eed05541ae2c559",
+   "Size": 25434358
+  },
+  {
+   "Package": "xc-boxpic",
+   "Version": "0.1-r0",
+   "Architecture": "xconn",
+   "License": "CLOSED",
+   "SHA256sum": "31bc9adba595d5f5fe58acda9d0730be49197103322a46291f2ff6c0af4d2e61",
+   "Size": 181322
+  },
+  {
+   "Package": "xc-hardware",
+   "Version": "5.15.196-r0",
+   "Architecture": "xconn",
+   "License": "GPL-2.0-only",
+   "SHA256sum": "4e2d7ae9c1fd9bb3e16c225a671910fb79293d4f8c251db29db5a244b9943630",
+   "Size": 3534188
+  }
+ ],
+ "unresolved": []
+}

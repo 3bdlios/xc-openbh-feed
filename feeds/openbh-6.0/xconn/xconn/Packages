@@ -1,0 +1,1789 @@
+Package: alsa-state
+Version: 0.2.0-r0.10
+Description: Alsa scenario files to enable alsa state restoration
+ Alsa Scenario Files - an init script and state files to restore sound
+ state at system boot and save it at system shut down.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later AND MIT
+Architecture: xconn
+OE: alsa-state
+Homepage: http://www.alsa-project.org/
+Depends: alsa-utils-alsactl, initd-functions
+Recommends: alsa-states, libasound-module-ctl-oss, libasound-module-pcm-oss, update-rc.d
+Source: alsa-state.bb
+Filename: alsa-state_0.2.0-r0.10_xconn.ipk
+Size: 2002
+MD5Sum: 2c9837651bc57dc3974d6a58c5be1de4
+SHA256sum: 2d16cf56583654db5a84885811e5ed046aa078818c08f77f6f3ae53a64937718
+
+Package: alsa-states
+Version: 0.2.0-r0.10
+Description: Alsa scenario files to enable alsa state restoration
+ Alsa Scenario Files - an init script and state files to restore sound
+ state at system boot and save it at system shut down.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later AND MIT
+Architecture: xconn
+OE: alsa-state
+Homepage: http://www.alsa-project.org/
+Source: alsa-state.bb
+Filename: alsa-states_0.2.0-r0.10_xconn.ipk
+Size: 732
+MD5Sum: dfaef50f03bd62ef38fb48b04a7130a3
+SHA256sum: 22d54236840e5d3ef0b75d77b75aa30a2a57f21305d30bd03c114ede7c313169
+
+Package: base-files
+Version: 3.0.14-r60
+Description: Miscellaneous files for the base system
+ The base-files package creates the basic system directory structure and
+ provides a small set of key configuration files for the system.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-only
+Architecture: xconn
+OE: base-files
+Homepage: https://www.openbh.net
+Source: base-files_3.0.14.bb
+Filename: base-files_3.0.14-r60_xconn.ipk
+Size: 3734
+MD5Sum: 2718560b6cbb9aebbf2019bd023dabc3
+SHA256sum: 1a9bd2a544d05e920ba7e9124b7d7c14d7e11359644cf15c2afe16210fdff008
+
+Package: enigma-info
+Version: 6.0-005
+Description: enigma.info used by BoxInfo
+ enigma.info used by BoxInfo.
+Section: base
+Priority: required
+Maintainer: oe-alliance team
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: enigma-info
+Homepage: https://www.openbh.net
+Replaces: enigma-kernel-module
+Conflicts: enigma-kernel-module
+Source: enigma-info.bb
+Filename: enigma-info_6.0-005_xconn.ipk
+Size: 1386
+MD5Sum: 6440ad672dfa58895546af1039dfb5b0
+SHA256sum: dc6884534125be0479b3ca5c70aaf0048f78e833a3b5c04926887168b5799ae0
+
+Package: enigma2
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+ Enigma2 is an experimental, but useful framebuffer-based frontend for DVB
+ functions.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: alsa-conf, enigma2-fonts, enigma2-plugin-font-wqy-microhei, enigma2-plugin-skins-mxslimlinenp, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.8), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray, libc6 (>= 2.44+git0+34106fee69), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.1.0), libdreamdvd0 (>= 1.1+git1+975333a0+975333a755), libdvbsi++1 (>= 0.3.9+git1+f3c40ea0+f3c40ea6da), libfreetype6 (>= 2.15.0), libfribidi0 (>= 1.0.17), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.90.0), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.8), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.59), libpython3.14-1.0 (>= 3.14.9), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.1.0), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git1+9319ad40+9319ad4058), libtuxtxt32bpp0 (>= 2.0+git1+9319ad40+9319ad4058), libudfread3 (>= 1.2.0+git1+139a2190+139a219452), libxml2 (>= 2.15.4), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-email, python3-fcntl, python3-image, python3-mime, python3-mmap, python3-netclient, python3-netifaces, python3-netserver, python3-pickle, python3-pillow, python3-process, python3-pyusb, python3-shell, python3-six, python3-threading, python3-treq, python3-twisted-core, python3-twisted-web, python3-wifi, python3-xml, python3-zopeinterface, wireless-tools, wpa-supplicant, xc-cam-integration, xc-video-setup
+Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss, shellinabox
+Source: enigma2.bb
+Filename: enigma2_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 3947308
+MD5Sum: 756027f2452e47c1e51e6c8cf44e15f5
+SHA256sum: 3dd8b949481f4f716bebbb307164743692fc84ad5b66ccba7b2af43de17e0471
+
+Package: enigma2-fonts
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+ Enigma2 is an experimental, but useful framebuffer-based frontend for DVB
+ functions.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Source: enigma2.bb
+Filename: enigma2-fonts_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 747752
+MD5Sum: 81fcec8699bae2d61ec1bcd489089cf2
+SHA256sum: 22ecb11ef1ab20ab22bfad2fbc8eb7c1199f5cafba8e5d3d7719f64de72697a1
+
+Package: enigma2-locale-ar
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: ar
+ ar
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-ar_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 123180
+MD5Sum: e144f6b78728aba941e48f6246571878
+SHA256sum: 7d8bc94cb70a1655d3a421ff5317d97725204ea64664f729b824e319397b1a14
+
+Package: enigma2-locale-bg
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: bg
+ bg
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-bg_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 20260
+MD5Sum: 544ba2fb1ceb91f6db771a6649408c30
+SHA256sum: 37650a2973bf7bf0454f24870168a7d874e089baa57741e6ef65d5b225bd6902
+
+Package: enigma2-locale-ca
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: ca
+ ca
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-ca_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 10686
+MD5Sum: 0813540b3ddc2d3d54aeb5cdbbb174d0
+SHA256sum: 094c3012791d1f4a6fba40ce5b6eab9072c994f881f4f1aeb45cac15b203a582
+
+Package: enigma2-locale-cs
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: cs
+ cs
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-cs_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 43078
+MD5Sum: 63029bd113804ef10468f5be10ecb461
+SHA256sum: 3e33480d55ca30cb23288a24f3082ff4e77a416ceb3d584e631e919b3cfbdc19
+
+Package: enigma2-locale-da
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: da
+ da
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-da_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 27126
+MD5Sum: 336ea52c1c547ed39d5a597975be8adc
+SHA256sum: 16160955ad0f62adf5c50977125f39190f06b93b641de7fed667189158ffcb8b
+
+Package: enigma2-locale-de
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: de
+ de
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-de_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 83116
+MD5Sum: dbaf9e6375af5d95f5aff703ee24ea18
+SHA256sum: 27e573fb15b673a3c73c8f7c66866a3ca98a5bb464526987333cbb3679e39f4b
+
+Package: enigma2-locale-el
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: el
+ el
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-el_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 33556
+MD5Sum: 543bc5744f55b77d06f22df235effb3c
+SHA256sum: 77b88cf52a03c4df37438377ab1fac65b9fbac717b671aa71be26ba4304f76d7
+
+Package: enigma2-locale-en
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: en
+ en
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-en_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 46526
+MD5Sum: e0dc67c58c5f60237c77d660fc2e7fd1
+SHA256sum: a957de01df588d892c6c908ac5b5c87c2e9903d81bb2821df6de60e187d63f21
+
+Package: enigma2-locale-en-au
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: en-au
+ en-au
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-en-au_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 56566
+MD5Sum: 59840e65da45803451dd07b4f8a64df7
+SHA256sum: c5f4397bac64c30682aed0b557d3c0e6ebb3cd544aa0193407d843f17ff2d2dc
+
+Package: enigma2-locale-en-gb
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: en-gb
+ en-gb
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-en-gb_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 57752
+MD5Sum: e47bcc8c6c56569c6f01cc00b48558f4
+SHA256sum: 6d6367bdd5d9b1a1514820d397c4d8568c0d3cea5f9a321ffe736c73b60798d7
+
+Package: enigma2-locale-es
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: es
+ es
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-es_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 61616
+MD5Sum: 1f84cb507310dfca46125f6785b66986
+SHA256sum: 4c4b67b15553144cc0518dc4888a913f7030aad00a02bdcd6471fde1b2c524e5
+
+Package: enigma2-locale-et
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: et
+ et
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-et_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 110542
+MD5Sum: 44c5d129e4615bc84bb87dc0122e0250
+SHA256sum: 3739ef28d808f20bd6131886e0369effee98cf04912e443cdd106de308f6d6ce
+
+Package: enigma2-locale-fa
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: fa
+ fa
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-fa_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 24036
+MD5Sum: 283e4fdf9c7776c06277b388b390f3a0
+SHA256sum: 44d2d70e19927f106d09aa0db0b62e55febe43bf4d404ad012cc6b13e92c7213
+
+Package: enigma2-locale-fi
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: fi
+ fi
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-fi_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 182992
+MD5Sum: 06424ec7ee28e4f70dfdd95b072354d6
+SHA256sum: 877bb8631c84df412d0d4662383da69226a5180547b1d69f1d203579dff7d8fd
+
+Package: enigma2-locale-fr
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: fr
+ fr
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-fr_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 113948
+MD5Sum: 7f26aea513832bf15291639a15ee158d
+SHA256sum: faeebd6b054c4294c2c6ad4c39cb0b761a3c0cf4b7360565050645e42cc82e47
+
+Package: enigma2-locale-fy
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: fy
+ fy
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-fy_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 18482
+MD5Sum: 0c4121d1ad3b798846304b3f1f3af6cd
+SHA256sum: 8e1c8aa62c7f206d81e3bfe4ed1a0b5f56425d18fe01c3d63d33b7dc1ab3a391
+
+Package: enigma2-locale-he
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: he
+ he
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-he_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 18906
+MD5Sum: fdd868ae55bed7e59bbf737004738f42
+SHA256sum: 066321ae93fc08e36d587ba54f04764c5b3fa0231a5174a4c3a8d766f01edb0e
+
+Package: enigma2-locale-hr
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: hr
+ hr
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-hr_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 11842
+MD5Sum: 3f7ba2e258ad4d24fe2882784dc25ac0
+SHA256sum: 2a8067381275e40132d236ec2ff84d7130b198d52d40ee87a36a5f1774d0e798
+
+Package: enigma2-locale-hu
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: hu
+ hu
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-hu_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 29474
+MD5Sum: ef93e751fe620ca677eefa452f54bd59
+SHA256sum: 74c68195dbe1a124e670eca849ecb6d5c40f7783268d7c0a0530d6da51277651
+
+Package: enigma2-locale-is
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: is
+ is
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-is_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 24846
+MD5Sum: 223099f6cb5d1aecc2b5f60b25101cf8
+SHA256sum: af087add44db783087ac469aee4397dd72a2bd269e7d5ce7383831ea502f3b70
+
+Package: enigma2-locale-it
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: it
+ it
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-it_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 141132
+MD5Sum: c7dcd6ac85c1dd4dd8f88f9b04f910b8
+SHA256sum: 51106e80ac318f2e5218fc48a3d5cd4e6b1343a7621152d2b61e2cdaecec97cd
+
+Package: enigma2-locale-ku
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: ku
+ ku
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-ku_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 30698
+MD5Sum: ec7c30f0d00625cb4b884f67fca1b3a1
+SHA256sum: 55926d7e3d45b66af5f8943888fcf55a23c33b09965ad4e40011dc63b64a4e77
+
+Package: enigma2-locale-lt
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: lt
+ lt
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-lt_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 115398
+MD5Sum: d423b9fcc7baa35375f2295da979ee8f
+SHA256sum: 2e89c9fc56ff024d0c7931af020410c4b046d764d7962e96a4c094a41e385483
+
+Package: enigma2-locale-lv
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: lv
+ lv
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-lv_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 20014
+MD5Sum: d8bff8a92fc9cd1f1b3d9ee2a645d656
+SHA256sum: 7907c2fbb6f03bd48f529b4ef1eeaa715bfec1ce159e0f1ddeeedca7dad3b37a
+
+Package: enigma2-locale-meta
+Version: 1.0-r2
+Description: meta file for enigma2 locales
+ meta file for enigma2 locales.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: enigma2-locale-meta
+Homepage: https://www.openbh.net
+Recommends: enigma2-locale-ar, enigma2-locale-bg, enigma2-locale-ca, enigma2-locale-cs, enigma2-locale-da, enigma2-locale-de, enigma2-locale-el, enigma2-locale-en, enigma2-locale-en-au, enigma2-locale-en-gb, enigma2-locale-es, enigma2-locale-et, enigma2-locale-fa, enigma2-locale-fi, enigma2-locale-fr, enigma2-locale-fy, enigma2-locale-he, enigma2-locale-hk, enigma2-locale-hr, enigma2-locale-hu, enigma2-locale-id, enigma2-locale-is, enigma2-locale-it, enigma2-locale-ku, enigma2-locale-lt, enigma2-locale-lv, enigma2-locale-nb, enigma2-locale-nl, enigma2-locale-nn, enigma2-locale-pl, enigma2-locale-pt, enigma2-locale-pt-br, enigma2-locale-ro, enigma2-locale-ru, enigma2-locale-sk, enigma2-locale-sl, enigma2-locale-sq, enigma2-locale-sr, enigma2-locale-sv, enigma2-locale-th, enigma2-locale-tr, enigma2-locale-uk, enigma2-locale-vi, enigma2-locale-zh, enigma2-locale-zh-cn, enigma2-locale-zh-hk
+Source: enigma2-locale-meta.bb
+Filename: enigma2-locale-meta_1.0-r2_xconn.ipk
+Size: 652
+MD5Sum: de9bdb6b4811737bfaafe00a3f2ecbc8
+SHA256sum: 333b915bb1ea126146fd93fa08408b45c02750e4ce0e1a8b51f070f37c8a3eae
+
+Package: enigma2-locale-nb
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: nb
+ nb
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-nb_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 3846
+MD5Sum: 6c79a5e968fb765a6105c1e6854474c3
+SHA256sum: 8f005dc5e72e3be3168b1d84acff6e0a78c40e77c22a3a886b813f27bff8ad9f
+
+Package: enigma2-locale-nl
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: nl
+ nl
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-nl_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 83676
+MD5Sum: d7700da59c55a52703ba9a647831e316
+SHA256sum: fbbae094563f1641681774c17aca4de205244fee35f58b0687b8f2461703d063
+
+Package: enigma2-locale-pl
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: pl
+ pl
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-pl_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 143178
+MD5Sum: d5c66f5fddc5ab7fc0e040e7688d1968
+SHA256sum: 624efc9d8b3139b0cc1a23d0e82f864c75125c718aa15b101a8b7bdc2562f868
+
+Package: enigma2-locale-pt
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: pt
+ pt
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-pt_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 90324
+MD5Sum: 9867898ca6bce8bbb54707c4a3982de7
+SHA256sum: 7cc9849a0b4294c9d53a3df1d450879c3c60b3ee4625d331c2de055e434bec7e
+
+Package: enigma2-locale-pt-br
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: pt-br
+ pt-br
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-pt-br_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 41038
+MD5Sum: 3ab4d667622975f72f1c0d4e6884c7ba
+SHA256sum: f2030a66f8aff34d751e0377f8341d66a84d54dffebda3eed1267870b1df1d0e
+
+Package: enigma2-locale-ro
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: ro
+ ro
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-ro_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 21980
+MD5Sum: 50ec9655d94bd37630a34bba5192ac40
+SHA256sum: 629ade905092bdb34428e0fde239c8c4876ed0c25e3fd0623d81fec592c8bf68
+
+Package: enigma2-locale-ru
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: ru
+ ru
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-ru_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 151460
+MD5Sum: b764cfa6b2fdd2f09628195812a8b2e6
+SHA256sum: aeb7d7409522e484fef868d3c76dd94ed7fd6a1aaabbb6f5e39c7e8b84070ab3
+
+Package: enigma2-locale-sk
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: sk
+ sk
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-sk_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 71534
+MD5Sum: 2136f3cac75be21fe041b8d7e33b0956
+SHA256sum: f160fa8cf4e8d762e52a88d1c899e47ebbf30a74bf839f198c0273d655934e91
+
+Package: enigma2-locale-sl
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: sl
+ sl
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-sl_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 27036
+MD5Sum: ce4455001ebd508e0ca744a34d9072f5
+SHA256sum: 637bbc35c22be36585f47e2a1640f954981fa301d4ead6cebd98e50696e894c0
+
+Package: enigma2-locale-sr
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: sr
+ sr
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-sr_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 24788
+MD5Sum: 9e8c6df88bd77749ee47577d332acfe7
+SHA256sum: 760d33d9ce152fea8cd44dd142e919fefe6349552a44ae20ea8db143cfc1edec
+
+Package: enigma2-locale-sv
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: sv
+ sv
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-sv_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 66908
+MD5Sum: e63b56450a409834fb4825eb07aebd73
+SHA256sum: cfc029eb14960ab837970e7d1b2aaaefeca252ae6dc2e4da442fc7d59de6baad
+
+Package: enigma2-locale-th
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: th
+ th
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-th_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 24898
+MD5Sum: 2a2f1c7e769a58a5467e638d0238ddb9
+SHA256sum: 60d46afb5568ac38555a80dec374c160f9941a9744a1609044cd74e4954f517c
+
+Package: enigma2-locale-tr
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: tr
+ tr
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-tr_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 63158
+MD5Sum: d6a6bc3cd248a2b228b4d75b43d712f4
+SHA256sum: e981f57a98fb414339a9f8670d3bb478dbf5c5ac9fd9361f43616c21a87fed0d
+
+Package: enigma2-locale-uk
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: uk
+ uk
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-uk_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 22704
+MD5Sum: 4a18fa192ccfce1a2fe3d0f824d04b14
+SHA256sum: 5d053b062a4f976135924cf668172d07481543f0c198089ad3f8ce44cfd45d4c
+
+Package: enigma2-locale-zh-cn
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: zh-cn
+ zh-cn
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-locale-zh-cn_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 91514
+MD5Sum: 556630c30d4bde1b7be1cc7bd18ab18c
+SHA256sum: bc8aa88960979c961872699b1523eec9c01cca4b83a6d071d28e5294e45473f2
+
+Package: enigma2-plugin-extensions-cutlisteditor
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: extensions-cutlisteditor
+ extensions-cutlisteditorenables you to cut your movies.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: aio-grab, enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-cutlisteditor_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 13262
+MD5Sum: 1d5017cb16f171132360a15e5e677290
+SHA256sum: d4738134ba7817d0453753930931f9a5d903d7c115f31d5f59171372fdee7620
+
+Package: enigma2-plugin-extensions-mediaplayer
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: extensions-mediaplayer
+ extensions-mediaplayer
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-mediaplayer_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 34506
+MD5Sum: 00fa9312559abc9780be623dff23b4b3
+SHA256sum: 7801348825490f4407689b0b7df3c22e7f38316fe0a6e196de19a1465d6ae56d
+
+Package: enigma2-plugin-extensions-mediascanner
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: extensions-mediascanner
+ extensions-mediascanner
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-mediascanner_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 4998
+MD5Sum: a52082d9b73fe1c6f5bd19a659e536b0
+SHA256sum: ab6e7e9d324a1b23a08b62dad0a4f7ff7792b9d86a21103e0bf6c1d7a9c1be5c
+
+Package: enigma2-plugin-extensions-openbhvip
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: extensions-openbhvip
+ extensions-openbhvip
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-openbhvip_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 15286
+MD5Sum: 4156ce7ad953c548e37cb4e06ce1a0cf
+SHA256sum: 3c0d2025bc880f4b832054c1c45caeb6fcc5d923adbb75c3b399de46e89e7a10
+
+Package: enigma2-plugin-extensions-pictureplayer
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: extensions-pictureplayer
+ extensions-pictureplayerdisplays photos on the TV.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-extensions-pictureplayer_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 38012
+MD5Sum: ad59f7397ca62b65eee19c5bc87be7c5
+SHA256sum: 7d457727bd857f9cb4c8e23ac7a9568f0deca5cf30ddd5f3e6db6306c8d507a0
+
+Package: enigma2-plugin-font-wqy-microhei
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
+ Font wqy-microhei add support for China EPG
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Source: enigma2.bb
+Filename: enigma2-plugin-font-wqy-microhei_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 2009684
+MD5Sum: 0b926012046d70947725f57529bde921
+SHA256sum: 6c0f4bc38f7230a0e232f3da48c6b7e7098ea3c7479029f8023746d53e9761a4
+
+Package: enigma2-plugin-systemplugins-crossepg
+Version: 0.9.1+gitr1+bf4e3330+bf4e333af0-r4
+Description: systemplugins-crossepg
+ systemplugins-crossepg
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: LGPL-2.1-only
+Architecture: xconn
+OE: enigma2-plugin-systemplugins-crossepg
+Homepage: https://github.com/oe-alliance/e2openplugin-CrossEPG
+Depends: enigma2, libc6 (>= 2.44+git0+34106fee69), libcurl4 (>= 8.23.0), libxml2 (>= 2.15.4), libz1 (>= 1.3.2), python3-compression, python3-core, xz
+Source: enigma2-plugin-systemplugins-crossepg.bb
+Filename: enigma2-plugin-systemplugins-crossepg_0.9.1+gitr1+bf4e3330+bf4e333af0-r4_xconn.ipk
+Size: 429376
+MD5Sum: 079a4b1fc8611daa4b38ed6450786131
+SHA256sum: b18cd116f963a0ab8a7313b993ff5012aee2a30d8fa9505300a69cecb544dbf9
+
+Package: enigma2-plugin-systemplugins-hotplug
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: systemplugins-hotplug
+ systemplugins-hotplug
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-systemplugins-hotplug_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 10462
+MD5Sum: f87e9a3e61a86bf954d2f70b68e9e144
+SHA256sum: be03b8dfce1963d707b17505fde2989a856b0ae2563484b54ba1c2a9e02ae33f
+
+Package: enigma2-plugin-systemplugins-obh
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: systemplugins-obh
+ systemplugins-obh
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-systemplugins-obh_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 183702
+MD5Sum: dcdc80868dc9f765a54c521b2de971bc
+SHA256sum: 81423f0c72d7ac767445a3dfff6b0a5d564815fa33ac2753b3728f5ec6efe202
+
+Package: enigma2-plugin-systemplugins-positionersetup
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: systemplugins-positionersetup
+ systemplugins-positionersetuphelps you installing a motorized dish.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-systemplugins-positionersetup_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 47684
+MD5Sum: d723ff72bc0b073c51144972397f47b7
+SHA256sum: 935ebf24bd26abe3b579f694e8003e7e29436ccf370ab7e941c79ffb48452696
+
+Package: enigma2-plugin-systemplugins-satfinder
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: systemplugins-satfinder
+ systemplugins-satfinderhelps you to align your dish.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-systemplugins-satfinder_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 24692
+MD5Sum: 53486c0f5a1255871b35410f3855ef82
+SHA256sum: c80d51d2c7d224958cadbfe373b8432b7f01de8e80d12f3d9caa271131ff3f5a
+
+Package: enigma2-plugin-systemplugins-videoenhancement
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: systemplugins-videoenhancement
+ systemplugins-videoenhancement
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-systemplugins-videoenhancement_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 16078
+MD5Sum: 7a9861fa6e234a605397701359d1e001
+SHA256sum: a3c5b6e6dd00ef6af4450de30c66a80cd60d7d3e4ea869f469c07a48e36858f0
+
+Package: enigma2-plugin-systemplugins-videotune
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: systemplugins-videotune
+ systemplugins-videotune
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2
+Source: enigma2.bb
+Filename: enigma2-plugin-systemplugins-videotune_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 9290
+MD5Sum: 36f4cfce1905d173deda73bee28675d4
+SHA256sum: 8a5df17bb1f84a3f7662b2e9450753ace172e0ea9562283563448507ec51525b
+
+Package: enigma2-plugin-systemplugins-wirelesslan
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Description: systemplugins-wirelesslan
+ systemplugins-wirelesslanhelps you configuring your wireless lan
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: xconn
+OE: enigma2
+Homepage: https://www.openbh.net
+Depends: enigma2, python3-wifi, wireless-tools, wpa-supplicant
+Source: enigma2.bb
+Filename: enigma2-plugin-systemplugins-wirelesslan_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Size: 23116
+MD5Sum: a67c675e2d5bfe30618a553635807ff1
+SHA256sum: 089b2945a60ebc83313067a9a20561ed5258cd8126002d35e8fdc7051c61ca63
+
+Package: gstreamer1.0-plugin-subsink
+Version: 1.0+git1+df8f46c0+df8f46cfa5-r0
+Description: gstreamer1.0-plugin-subsink version 1.0+git-r0
+ gstreamer subsink plugin
+Section: multimedia
+Priority: optional
+Maintainer: OpenBh
+License: LGPL-2.1-only
+Architecture: xconn
+OE: gstreamer1.0-plugin-subsink
+Homepage: https://www.openbh.net
+Depends: gstreamer1.0 (>= 1.28.8), libc6 (>= 2.44+git0+34106fee69), libglib-2.0-0 (>= 2.90.0)
+Source: gstreamer1.0-plugin-subsink.bb
+Filename: gstreamer1.0-plugin-subsink_1.0+git1+df8f46c0+df8f46cfa5-r0_xconn.ipk
+Size: 7430
+MD5Sum: 261349a8020354cc7728d5e72e91b63a
+SHA256sum: c826863aedd8ad8ee48fd2754751a03578b241747ad89ae2eb4efe4193f0195e
+
+Package: init-ifupdown
+Version: 1.0-r0
+Description: Basic TCP/IP networking init scripts and configuration files
+ This package provides high level tools to configure network interfaces
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-only
+Architecture: xconn
+OE: init-ifupdown
+Homepage: http://packages.debian.org/ifupdown
+Depends: netbase
+Recommends: update-rc.d
+Conflicts: netbase (<< 1:5.0)
+Source: init-ifupdown_1.0.bb
+Filename: init-ifupdown_1.0-r0_xconn.ipk
+Size: 2438
+MD5Sum: 732fd78afda6440f68ca53a39e59750e
+SHA256sum: 39a3010b1d387e5e26feea4015d612653ce6b6607382e7ec76e1994b75b336b1
+
+Package: libproc2-1
+Version: 4.0.7-r0.4
+Description: System and process monitoring utilities
+ Procps contains a set of system utilities that provide system information
+ about processes using the /proc filesystem. The package includes the
+ programs ps, top, vmstat, w, kill, and skill.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later AND LGPL-2.0-or-later
+Architecture: xconn
+OE: procps
+Homepage: https://gitlab.com/procps-ng/procps
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Provides: procps-lib
+Source: procps_4.0.7.bb
+Filename: libproc2-1_4.0.7-r0.4_xconn.ipk
+Size: 60600
+MD5Sum: 5695f5bae63b72347bfdda36ffcf2925
+SHA256sum: f6053a0aa1d944d083c50eeb9685dcd97a0891340e4eb26cf65fcdd9a50ed803
+
+Package: libtuxtxt0
+Version: 2.0+git1+9319ad40+9319ad4058-r0
+Description: tuxbox libtuxtxt
+ tuxbox libtuxtxt.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: LGPL-2.1-only
+Architecture: xconn
+OE: libtuxtxt
+Homepage: https://www.openbh.net
+Depends: libc6 (>= 2.44+git0+34106fee69), libfreetype6 (>= 2.15.0), libz1 (>= 1.3.2)
+Provides: libtuxtxt
+Source: libtuxtxt.bb
+Filename: libtuxtxt0_2.0+git1+9319ad40+9319ad4058-r0_xconn.ipk
+Size: 44002
+MD5Sum: 61d3b7c9b355b49fb0c36bd9804d4751
+SHA256sum: 03aa75c881f355711282fa9b9d533a9bf3019c95fed9424ce7b26cf81d75cee3
+
+Package: libtuxtxt32bpp0
+Version: 2.0+git1+9319ad40+9319ad4058-r0
+Description: tuxbox tuxtxt for 32bit framebuffer
+ tuxbox tuxtxt for enigma2
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: LGPL-2.1-only
+Architecture: xconn
+OE: tuxtxt-enigma2
+Homepage: https://www.openbh.net
+Depends: libc6 (>= 2.44+git0+34106fee69), libtuxtxt0 (>= 2.0+git1+9319ad40+9319ad4058)
+Provides: tuxtxt-enigma2
+Source: tuxtxt-enigma2.bb
+Filename: libtuxtxt32bpp0_2.0+git1+9319ad40+9319ad4058-r0_xconn.ipk
+Size: 96966
+MD5Sum: 4b80aa5ee183e73c3146dcca150c1efa
+SHA256sum: d3827d605f2f757e41ec4734b60a818258d395fc40330ea9a541a526b1b4d865
+
+Package: oe-alliance-branding
+Version: 6.0+git1+84e88a30+84e88a388f-r20261114-xconn
+Description: oe-alliance-branding version 6.0+git-r20261114-xconn
+ OE-A Branding Lib for OE-A 2.0
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: oe-alliance-branding
+Homepage: https://www.openbh.net
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Source: oe-alliance-branding.bb
+Filename: oe-alliance-branding_6.0+git1+84e88a30+84e88a388f-r20261114-xconn_xconn.ipk
+Size: 18810
+MD5Sum: af4486f17e27792b39890b3a3ac0c314
+SHA256sum: ae2c2bc5984bd27d8fba316839b56ab2c6b3e4a3da2dd31fe587fb62cd06a0c4
+
+Package: oe-alliance-feeds-configs
+Version: 1.0-r7
+Description: Configuration files for online package repositories aka feeds
+ Configuration files for online package repositories aka feeds.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: oe-alliance-feeds-configs
+Homepage: https://www.openbh.net
+Replaces: distro-feed-configs
+Conflicts: distro-feed-configs
+Source: oe-alliance-feeds-configs.bb
+Filename: oe-alliance-feeds-configs_1.0-r7_xconn.ipk
+Size: 980
+MD5Sum: 9df1e653c404c2fca128245573dd4c07
+SHA256sum: 4f753e51ff7efcaf25de200b3583f5aba99135ab076b9f2199ed7d7d64f2aca2
+
+Package: oe-alliance-remote
+Version: 6.0+git1+ce6cb3c0+ce6cb3c773-r3-xconn
+Description: oe-alliance-remote version 6.0+git-r3-xconn
+ OE-Alliance remote control and box image files for Enimga2 and OpenWebIF.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: oe-alliance-remote
+Homepage: https://www.openbh.net
+Source: oe-alliance-remote.bb
+Filename: oe-alliance-remote_6.0+git1+ce6cb3c0+ce6cb3c773-r3-xconn_xconn.ipk
+Size: 131316
+MD5Sum: 4665c389ba79221b822f35001d1443c4
+SHA256sum: a3f3850c1c7b38679d13feac9b92e24cdb38e0080aeab37a805a8622f7acbcb4
+
+Package: openbh-bootlogo
+Version: 6.0-r39
+Description: OpenBh Bootlogo
+ OpenBh Bootlogo.
+Section: base
+Priority: required
+Maintainer: OpenBh Team
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: openbh-bootlogo
+Homepage: https://www.openbh.net
+Depends: showiframe
+Recommends: update-rc.d
+Source: openbh-bootlogo.bb
+Filename: openbh-bootlogo_6.0-r39_xconn.ipk
+Size: 373956
+MD5Sum: e264462acd91fb2984b89f3cc218ae24
+SHA256sum: 5e4424ccf0d77d9145c84d877b5ecebff35e5f11b872a71b278159823f3ae673
+
+Package: openbh-version-info
+Version: 6.0-005
+Description: OpenBh Version Info
+ OpenBh Version Info.
+Section: base
+Priority: required
+Maintainer: OpenBh
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: openbh-version-info
+Homepage: https://www.openbh.net
+Source: openbh-version-info.bb
+Filename: openbh-version-info_6.0-005_xconn.ipk
+Size: 720
+MD5Sum: d89e183096aa7c01573cc9d95990b358
+SHA256sum: 79165b58f28412795e26966f637e77aa4513a0d759cf25acadf1d140147fc1c2
+
+Package: opkg-arch-config
+Version: 1.0-r0
+Description: Architecture-dependent configuration for opkg
+ Architecture-dependent configuration for opkg.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: opkg-arch-config
+Homepage: https://git.yoctoproject.org/opkg/
+Provides: opkg-config-base
+Replaces: opkg-config-base
+Conflicts: opkg-config-base
+Source: opkg-arch-config_1.0.bb
+Filename: opkg-arch-config_1.0-r0_xconn.ipk
+Size: 786
+MD5Sum: 240d0235ea5a7cf9e43c75c918bcdb8d
+SHA256sum: 4a208968227fe14a9ee7a4b56591d636e2b155dc77add444d9edcb7a3fa15982
+
+Package: packagegroup-base
+Version: 1.0-r0
+Description: Merge machine and distro options to create a basic machine task/package
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Depends: coreutils-truefalse, fake-hwclock, module-init-tools, packagegroup-base-alsa, packagegroup-base-ext2, packagegroup-base-ipv6, packagegroup-base-usbhost, packagegroup-base-vfat, packagegroup-base-zeroconf, packagegroup-distro-base, packagegroup-machine-base, stb-hwclock
+Source: packagegroup-base.bb
+Filename: packagegroup-base_1.0-r0_xconn.ipk
+Size: 622
+MD5Sum: 9b0c438dd90493a9b7fce98cdc347e01
+SHA256sum: f5307311351839ab887a9ca677b0132f8bd781a994445ffdbf5315f8f7143b86
+
+Package: packagegroup-base-alsa
+Version: 1.0-r0
+Description: ALSA sound support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Depends: alsa-state, alsa-utils-alsactl, alsa-utils-amixer
+Source: packagegroup-base.bb
+Filename: packagegroup-base-alsa_1.0-r0_xconn.ipk
+Size: 568
+MD5Sum: 8750ff1783e2e8999983f42fbf02f4a2
+SHA256sum: ea3047025c47d1c94085dfb54db803e609c3484ebb41988699918010bdf9a4be
+
+Package: packagegroup-base-ext2
+Version: 1.0-r0
+Description: ext2 filesystem support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Depends: e2fsprogs-e2fsck, e2fsprogs-mke2fs
+Recommends: e2fsprogs, hdparm
+Source: packagegroup-base.bb
+Filename: packagegroup-base-ext2_1.0-r0_xconn.ipk
+Size: 582
+MD5Sum: 9916505448db1b728cb2f4f18c33b409
+SHA256sum: d90c465b39083fd0dd2b22a7bccd6701b741a3dcef0987ab619f01d384976a41
+
+Package: packagegroup-base-ipv6
+Version: 1.0-r0
+Description: IPv6 support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Source: packagegroup-base.bb
+Filename: packagegroup-base-ipv6_1.0-r0_xconn.ipk
+Size: 534
+MD5Sum: e32645c4af46df939e99e91d31998bee
+SHA256sum: a8e309414ee75cb46a7cfe1b21179ccadeb432fdbcf8071da1591a85f9950ee3
+
+Package: packagegroup-base-usbhost
+Version: 1.0-r0
+Description: USB host support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Depends: usbutils
+Source: packagegroup-base.bb
+Filename: packagegroup-base-usbhost_1.0-r0_xconn.ipk
+Size: 550
+MD5Sum: 86cf963e7419b522a37db17c0fe3a17a
+SHA256sum: 403a75757d2091c2fae80a1e91d932c7026c84ee7c874e6fffeaf91c6b6c016d
+
+Package: packagegroup-base-vfat
+Version: 1.0-r0
+Description: FAT filesystem support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Recommends: dosfstools
+Source: packagegroup-base.bb
+Filename: packagegroup-base-vfat_1.0-r0_xconn.ipk
+Size: 558
+MD5Sum: 2cdf977f3bb6a045d194f2c80bed84b4
+SHA256sum: e63be509d895248e0010881ea3637911ae382c03c14db9f198fdd2ae284f1670
+
+Package: packagegroup-base-zeroconf
+Version: 1.0-r0
+Description: Zeroconf support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Depends: avahi-daemon, libnss-llmnr, libnss-mdns
+Source: packagegroup-base.bb
+Filename: packagegroup-base-zeroconf_1.0-r0_xconn.ipk
+Size: 570
+MD5Sum: 92c38bc024944c946a51248473913ed8
+SHA256sum: 239b9ecd239b699ffeaa6963ce5169fe0fb240c4b222676f636156f45eece2ff
+
+Package: packagegroup-core-boot
+Version: 1.0-r0
+Description: Minimal boot requirements
+ The minimal set of packages required to boot the system
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-core-boot
+Homepage: https://www.openbh.net
+Depends: base-files, base-passwd, busybox, eudev, initscripts, modutils-initscripts, netbase, sysvinit, update-alternatives-opkg, xc-gui-startup, xc-hardware
+Recommends: busybox-syslog, init-ifupdown
+Source: packagegroup-core-boot.bb
+Filename: packagegroup-core-boot_1.0-r0_xconn.ipk
+Size: 646
+MD5Sum: 5dfadd6552876703c97084eafea572d5
+SHA256sum: 68c0dc1765dd76f81add803528bcb75e708fa44540b92c787c45897e81d9fa43
+
+Package: packagegroup-distro-base
+Version: 1.0-r0
+Description: openbh extras
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Source: packagegroup-base.bb
+Filename: packagegroup-distro-base_1.0-r0_xconn.ipk
+Size: 532
+MD5Sum: f68ef86a0328f4fccf13b28327abb2fc
+SHA256sum: d1a6392c71524b29394e65d5d75b089b17360d36561242f03024c954dcfa936e
+
+Package: packagegroup-machine-base
+Version: 1.0-r0
+Description: Extra packages required to fully support xconn hardware
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-base
+Homepage: https://www.openbh.net
+Source: packagegroup-base.bb
+Filename: packagegroup-machine-base_1.0-r0_xconn.ipk
+Size: 558
+MD5Sum: ad07a3d75f10af558d93f392d65fcfdb
+SHA256sum: 7fac8524ca2546799ccdb92cc93ece044a1e6de1c2ca62f41057e5642a18819f
+
+Package: packagegroup-oea-distro-openbh
+Version: 1.0-r0
+Description: OE-Alliance Distro OpenBh - branding, skin, and distro-specific plugins
+ OE-Alliance Distro OpenBh - branding, skin, and distro-specific plugins.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-oea-distro-openbh
+Homepage: https://www.openbh.net
+Depends: blackhole-base, blackholesocker, bzip2, curl, dvbsnoop, enigma-info, enigma2-skindefault, ffmpeg, fstrim-cron-obh, hddtemp, inadyn-mt, mtd-utils, mtd-utils-ubifs, ntfs-3g, ofgwrite, openbh-bootlogo, openbh-extra-feed-opkg-conf, openbh-picon-feed-opkg-conf, openbh-spinner, openbh-version-info, openvpn, python3-compression, python3-process, rtmpdump, vsftpd, zip
+Recommends: enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-epgimport, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openbhvip, enigma2-plugin-systemplugins-crossepg, enigma2-plugin-systemplugins-obh, enigma2-plugin-systemplugins-videoenhancement
+Replaces: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
+Conflicts: enigma2-plugin-extensions-permanenttimeshift, enigma2-plugin-systemplugins-skinselector
+Source: packagegroup-oea-distro-openbh.bb
+Filename: packagegroup-oea-distro-openbh_1.0-r0_xconn.ipk
+Size: 892
+MD5Sum: 2264d8773c1907daf3ecbe341593828e
+SHA256sum: 590a8d52370cc7e5de305c82eb91340f9679f1f1040342251e67e5f28d578818
+
+Package: packagegroup-oea-enigma2-core
+Version: 1.0-r0
+Description: OE-Alliance Enigma2 Core - base enigma2 and essential plugins
+ OE-Alliance Enigma2 Core - base enigma2 and essential plugins.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-oea-enigma2-core
+Homepage: https://www.openbh.net
+Depends: aio-grab, autofs, bzip2, edid-decode, enigma2, enigma2-locale-meta, enigma2-plugin-extensions-mediascanner, enigma2-plugin-extensions-openwebif, enigma2-plugin-extensions-pictureplayer, enigma2-plugin-systemplugins-autobouquetsmaker, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-networkbrowser, enigma2-plugin-systemplugins-positionersetup, enigma2-plugin-systemplugins-satfinder, nmap, oe-alliance-3rdparty-feed, oe-alliance-botfeed-configs, oe-alliance-branding, oe-alliance-feeds-configs, oe-alliance-remote, packagegroup-base, pbzip2, rsync, tuxbox-common, tuxbox-links, wireless-tools
+Recommends: enigma2-locale-de, enigma2-locale-en, enigma2-locale-fr, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-wirelesslan
+Source: packagegroup-oea-enigma2-core.bb
+Filename: packagegroup-oea-enigma2-core_1.0-r0_xconn.ipk
+Size: 794
+MD5Sum: 3c3e36acc91170aafba5c9ce694a25f7
+SHA256sum: 933aa8e5e4c6b9b67cf7611fbf58fc5246bbe1019fb3489260b64cd5a25f95d1
+
+Package: packagegroup-oea-enigma2-plugins
+Version: 1.0-r0
+Description: OE-Alliance Enigma2 Plugins - extended plugins for the image
+ OE-Alliance Enigma2 Plugins - extended plugins for the image.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-oea-enigma2-plugins
+Homepage: https://www.openbh.net
+Recommends: enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openwebif-themes, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-videotune
+Source: packagegroup-oea-enigma2-plugins.bb
+Filename: packagegroup-oea-enigma2-plugins_1.0-r0_xconn.ipk
+Size: 638
+MD5Sum: 9e8bfb71932874a02dea4214440ba7e2
+SHA256sum: 19f25bdd81ac8201fd939c0965ccb39acb34a2661b5722373490a09c823ed87e
+
+Package: packagegroup-oea-gui
+Version: 1.0-r0
+Description: OE-Alliance GUI - display and graphics support
+ OE-Alliance GUI - display and graphics support.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-oea-gui
+Homepage: https://www.openbh.net
+Source: packagegroup-oea-gui.bb
+Filename: packagegroup-oea-gui_1.0-r0_xconn.ipk
+Size: 520
+MD5Sum: aef21877996d5d50dc8e3f8b4bcef4c9
+SHA256sum: dfe6f916030eda3b005624f527239b754347046ab445bc98203191008a7fd2b0
+
+Package: packagegroup-oea-linux-core
+Version: 1.0-r0
+Description: OE-Alliance Linux Core - minimal bootable Linux system
+ OE-Alliance Linux Core - minimal bootable Linux system.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-oea-linux-core
+Homepage: https://www.openbh.net
+Depends: 7zip, bash, cronie, e2fsprogs-e2fsck, e2fsprogs-mke2fs, e2fsprogs-tune2fs, early-configure, elfutils, minilocale, modutils-loadscript, mtd-utils, mtd-utils-ubifs, opkg, packagegroup-core-boot, parted, procps, rc-local, sdparm, tzdata, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media
+Source: packagegroup-oea-linux-core.bb
+Filename: packagegroup-oea-linux-core_1.0-r0_xconn.ipk
+Size: 682
+MD5Sum: b7402fb06edc0f3b097dd49f1d334413
+SHA256sum: a346be11fa4c929c1b1b22a9904e87a347e6e0869597be93e482ae63b4fa0db9
+
+Package: packagegroup-oea-machine-core
+Version: 1.0-r0
+Description: OE-Alliance Machine Core - platform-specific packages
+ OE-Alliance Machine Core - platform-specific packages.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: packagegroup-oea-machine-core
+Homepage: https://www.openbh.net
+Source: packagegroup-oea-machine-core.bb
+Filename: packagegroup-oea-machine-core_1.0-r0_xconn.ipk
+Size: 526
+MD5Sum: 643937f871d4e63f56f728b4425e246a
+SHA256sum: 3ed591a3e1b9158062ec48478850df902fd743dde28401ed7fd293e62cf99863
+
+Package: procps
+Version: 4.0.7-r0.4
+Description: System and process monitoring utilities
+ Procps contains a set of system utilities that provide system information
+ about processes using the /proc filesystem. The package includes the
+ programs ps, top, vmstat, w, kill, and skill.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later AND LGPL-2.0-or-later
+Architecture: xconn
+OE: procps
+Homepage: https://gitlab.com/procps-ng/procps
+Depends: libc6 (>= 2.44+git0+34106fee69), libncursesw5 (>= 6.6), libproc2-1 (>= 4.0.7), libtinfo5 (>= 6.6), procps-ps, procps-sysctl, update-alternatives-opkg
+Source: procps_4.0.7.bb
+Filename: procps_4.0.7-r0.4_xconn.ipk
+Size: 147504
+MD5Sum: 1465fa3c526cfcc5223ac627c54d62a8
+SHA256sum: 63ab2607231d5032b6c2ff6d7f3bf1ff9f46a4a37a9286ee5b76c38977799987
+
+Package: procps-ps
+Version: 4.0.7-r0.4
+Description: System and process monitoring utilities
+ Procps contains a set of system utilities that provide system information
+ about processes using the /proc filesystem. The package includes the
+ programs ps, top, vmstat, w, kill, and skill.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later AND LGPL-2.0-or-later
+Architecture: xconn
+OE: procps
+Homepage: https://gitlab.com/procps-ng/procps
+Depends: libc6 (>= 2.44+git0+34106fee69), libproc2-1 (>= 4.0.7), update-alternatives-opkg
+Source: procps_4.0.7.bb
+Filename: procps-ps_4.0.7-r0.4_xconn.ipk
+Size: 46720
+MD5Sum: 9eb8f25c3f00b7066e5a3eb445c8b461
+SHA256sum: e022aa39638c234450fcc0e1a57106e055c5ca2046f13c46edae3c6c1ec9c251
+
+Package: procps-sysctl
+Version: 4.0.7-r0.4
+Description: System and process monitoring utilities
+ Procps contains a set of system utilities that provide system information
+ about processes using the /proc filesystem. The package includes the
+ programs ps, top, vmstat, w, kill, and skill.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later AND LGPL-2.0-or-later
+Architecture: xconn
+OE: procps
+Homepage: https://gitlab.com/procps-ng/procps
+Depends: libc6 (>= 2.44+git0+34106fee69), procps-lib, update-alternatives-opkg
+Source: procps_4.0.7.bb
+Filename: procps-sysctl_4.0.7-r0.4_xconn.ipk
+Size: 13612
+MD5Sum: 8634d883244bb1c6710acf9f0c7776ed
+SHA256sum: 7156a4601ef452645e90bb2e6866bd83e8e7a7763ad8ac362ac47bc61aaf9efe
+
+Package: shadow-securetty
+Version: 4.6-r0
+Description: Provider of the machine specific securetty file
+ Provider of the machine specific securetty file.
+Section: base/shell
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: xconn
+OE: shadow-securetty
+Homepage: https://www.openbh.net
+Source: shadow-securetty_4.6.bb
+Filename: shadow-securetty_4.6-r0_xconn.ipk
+Size: 1394
+MD5Sum: 47ca4545332682c4bdfc5a8f28eb4243
+SHA256sum: ed34882cd2f5435763ce32df4e88d664ef3a792883bcb8d386f77e7e0c609aa6
+
+Package: showiframe
+Version: 1.5-r0
+Description: utility to show an mpeg2/4 iframe on a linuxtv video device
+ utility to show an mpeg2/4 iframe on a linuxtv video device.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: LicenseRef-PD
+Architecture: xconn
+OE: showiframe
+Homepage: https://www.openbh.net
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Source: showiframe.bb
+Filename: showiframe_1.5-r0_xconn.ipk
+Size: 3904
+MD5Sum: 6b712d30c16aa56c18921ac038e1fb72
+SHA256sum: f2f293afff2c6ebdcc643a6d58143d6bec45e099a21942b501d67a10345ad0a2
+
+Package: sysvinit
+Version: 3.14-r0.2
+Description: System-V like init
+ This package is required to boot in most configurations.  It provides the
+ /sbin/init program.  This is the first process started on boot, and the
+ last process terminated before the system halts.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: sysvinit
+Homepage: http://savannah.nongnu.org/projects/sysvinit/
+Depends: base-passwd, initd-functions, libc6 (>= 2.44+git0+34106fee69), sysvinit-inittab, sysvinit-pidof, update-alternatives-opkg
+Source: sysvinit_3.14.bb
+Filename: sysvinit_3.14-r0.2_xconn.ipk
+Size: 61358
+MD5Sum: ed969fdde190ad64ede63f0a5cfef58c
+SHA256sum: 4ecb08c516d5a0be365f7cb3918f6169cc0d0294073ceb02f8910c90893957f4
+
+Package: sysvinit-inittab
+Version: 2.88dsf-r0
+Description: Inittab for sysvinit
+ Inittab for sysvinit.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: sysvinit-inittab
+Homepage: https://www.openbh.net
+Depends: ttyrun
+Conflicts: busybox-inittab
+Source: sysvinit-inittab_2.88dsf.bb
+Filename: sysvinit-inittab_2.88dsf-r0_xconn.ipk
+Size: 1114
+MD5Sum: 2a68deca2ec9bb214f3b563c97787c0a
+SHA256sum: 28f71ef6e54fa398cb9f480ea0fe026969129aac1312cb9cb65a3a6bf5a94c57
+
+Package: sysvinit-pidof
+Version: 3.14-r0.2
+Description: System-V like init
+ This package is required to boot in most configurations.  It provides the
+ /sbin/init program.  This is the first process started on boot, and the
+ last process terminated before the system halts.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later
+Architecture: xconn
+OE: sysvinit
+Homepage: http://savannah.nongnu.org/projects/sysvinit/
+Depends: libc6 (>= 2.44+git0+34106fee69), update-alternatives-opkg
+Source: sysvinit_3.14.bb
+Filename: sysvinit-pidof_3.14-r0.2_xconn.ipk
+Size: 9826
+MD5Sum: 792a725c39cc2af1afa6d629f937b4ba
+SHA256sum: 4dbe737a3dda3775ec0aced792d2c1d1baee219298a5d9ca198092e1ace6bf81
+
+Package: xc-boot-files
+Version: 1.0-r0
+Description: XC BOOT partition files (boot-wait kernel, boot scripts, boot picture), updated through the package feed
+ XC BOOT partition files (boot-wait kernel, boot scripts, boot picture),
+ updated through the package feed.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: CLOSED
+Architecture: xconn
+OE: xc-boot-files
+Homepage: https://www.openbh.net
+Source: xc-boot-files_1.0.bb
+Filename: xc-boot-files_1.0-r0_xconn.ipk
+Size: 25434358
+MD5Sum: 38e3d32edfb939f9e72c0961af5a4bd8
+SHA256sum: 4cfc9d04f31598a330976351c45f865d6d880b7b22ddd7484eed05541ae2c559
+
+Package: xc-boxpic
+Version: 0.1-r0
+Description: XCONN X-CYBER receiver picture for OpenWebif Box Info (/usr/share/enigma2/hardware/<machinebuild>_front.png)
+ XCONN X-CYBER receiver picture for OpenWebif Box Info
+ (/usr/share/enigma2/hardware/<machinebuild>_front.png).
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: CLOSED
+Architecture: xconn
+OE: xc-boxpic
+Homepage: https://www.openbh.net
+Source: xc-boxpic_0.1.bb
+Filename: xc-boxpic_0.1-r0_xconn.ipk
+Size: 181322
+MD5Sum: 2c095e86ac9b0b92d012dc5a7c7ec319
+SHA256sum: 31bc9adba595d5f5fe58acda9d0730be49197103322a46291f2ff6c0af4d2e61
+
+Package: xc-hardware
+Version: 5.15.196-r0
+Description: Verified XC kernel modules and firmware for the shared 5.15.196 boot kernel
+ Verified XC kernel modules and firmware for the shared 5.15.196 boot
+ kernel.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-only
+Architecture: xconn
+OE: xc-hardware
+Homepage: https://www.openbh.net
+Provides: kernel-base, kernel-image, kernel-module-aml-hardware-dmx, kernel-module-amlogic-dvb-demux, kernel-module-amvdec-h265, kernel-module-amvdec-mh264, kernel-module-amvdec-mmpeg12, kernel-module-cxd2878, kernel-module-decoder-common, kernel-module-firmware, kernel-module-gtcombo-dvb-wrapper, kernel-module-ir-nec-decoder, kernel-module-m88rs6000t, kernel-module-m88rs6060, kernel-module-media-clock, kernel-module-meson-ir, kernel-module-pts-server, kernel-module-stream-input, kernel-module-tun, kernel-modules
+Source: xc-hardware_5.15.196.bb
+Filename: xc-hardware_5.15.196-r0_xconn.ipk
+Size: 3534188
+MD5Sum: e14c85a0682982fd2484cd91e0189359
+SHA256sum: 4e2d7ae9c1fd9bb3e16c225a671910fb79293d4f8c251db29db5a244b9943630
+

@@ -1,0 +1,627 @@
+Package: alsa-ucm-conf
+Version: 1.2.16.1-r0
+Description: ALSA Use Case Manager configuration
+ This package contains ALSA Use Case Manager configuration of audio
+ input/output names and routing for specific audio hardware. They can be
+ used with the alsaucm tool.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause
+Architecture: all
+OE: alsa-ucm-conf
+Homepage: https://alsa-project.org
+Source: alsa-ucm-conf_1.2.16.1.bb
+Filename: alsa-ucm-conf_1.2.16.1-r0_all.ipk
+Size: 123192
+MD5Sum: df9a74b0a547703675c43a0c1569cf65
+SHA256sum: 2cee8cdcd6c818b60b743532bb5a2c7ce120f4b71c229400b8c0c7ebfe89c7b6
+
+Package: ca-certificates
+Version: 20260816-r0
+Description: Common CA certificates
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.
+Section: libs/network
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later AND MPL-2.0
+Architecture: all
+OE: ca-certificates
+Homepage: http://packages.debian.org/sid/ca-certificates
+Depends: openssl, openssl-bin
+Source: ca-certificates_20260816.bb
+Filename: ca-certificates_20260816-r0_all.ipk
+Size: 112360
+MD5Sum: 6e1c45afa60d674d85ce6a4f28494909
+SHA256sum: ea2575c6cc282bc0986db18d4a6c0d9973d28f1e443cd3d3340f745ee7da96a6
+
+Package: enigma2-plugin-settings-defaultsat
+Version: 6.0+git1+6b809e40+6b809e4e4d-r0
+Description: openATV default SAT Settings Archiv
+ openATV default SAT Settings Archiv.
+Section: base
+Priority: optional
+Maintainer: openATV Team
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-settings-defaultsat
+Homepage: https://www.openbh.net
+Source: enigma2-plugin-settings-defaultsat.bb
+Filename: enigma2-plugin-settings-defaultsat_6.0+git1+6b809e40+6b809e4e4d-r0_all.ipk
+Size: 47876
+MD5Sum: 91842cb3b044d0f7a434e4b40eb1185a
+SHA256sum: f24b09abb753c9f057792bb1b45485e65d4c38753d997de53677e4730fa0981e
+
+Package: enigma2-plugin-skins-mxslimlinenp
+Version: 3.0+git1+75c17760+75c177624c-r3
+Description: Enigma2 Skin MX_Slim-Line_NP
+ Enigma2 Skin MX_Slim-Line_NP.
+Section: base
+Priority: required
+Maintainer: OpenBh Team
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-skins-mxslimlinenp
+Homepage: https://www.openbh.net
+Source: enigma2-plugin-skins-mxslimlinenp.bb
+Filename: enigma2-plugin-skins-mxslimlinenp_3.0+git1+75c17760+75c177624c-r3_all.ipk
+Size: 2230832
+MD5Sum: f0f8c710d1d445b11c001904c148d0e4
+SHA256sum: 3004eda382eac67272cc3ccecf2e1e533cd8c402eaf1a1ac72ce3b6f09cbd7a0
+
+Package: enigma2-skindefault
+Version: 1.0+git1+50f7e020+50f7e02fd9-r3
+Description: A default skin for Enigma2.
+ A default skin for Enigma2..
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: all
+OE: enigma2-skindefault-master
+Homepage: https://www.openbh.net
+Depends: font-roboto-enigma
+Source: enigma2-skindefault-master.bb
+Filename: enigma2-skindefault_1.0+git1+50f7e020+50f7e02fd9-r3_all.ipk
+Size: 746988
+MD5Sum: f6397ea19896aa66f9f88d8c328127a0
+SHA256sum: f329ea5bef66204929c75771cac0147b439f0a15a90854a0ee6b3b5e9aff2053
+
+Package: epgimport-sources
+Version: 0.0-git1+4eaaa700+4eaaa70fca-r0
+Description: enigma2 sources and channels for the EPG importer
+ enigma2 sources and channels for the EPG importer.
+Section: base
+Priority: optional
+Maintainer: oe-alliance
+License: GPL-2.0-or-later
+Architecture: all
+OE: epgimport-sources
+Homepage: https://www.openbh.net
+Provides: epgimport-rytec
+Replaces: epgimport-rytec
+Conflicts: epgimport-rytec
+Source: epgimport-sources.bb
+Filename: epgimport-sources_0.0-git1+4eaaa700+4eaaa70fca-r0_all.ipk
+Size: 4216
+MD5Sum: 188db113ada83cc0ca27f8aaf4bdfeb8
+SHA256sum: 7c1019b1a9a8ac08c676fa12dfc725c708c8c11b3b28896d187805445565ba53
+
+Package: font-roboto-enigma
+Version: 1.0+git1+50f7e020+50f7e02fd9-r3
+Description: A default skin for Enigma2.
+ Roboto enigma font
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: all
+OE: enigma2-skindefault-master
+Homepage: https://www.openbh.net
+Source: enigma2-skindefault-master.bb
+Filename: font-roboto-enigma_1.0+git1+50f7e020+50f7e02fd9-r3_all.ipk
+Size: 191170
+MD5Sum: 304c9ddb7a56c92edde126c04cd6a3e4
+SHA256sum: b894537ed9655df36c67fa9040c4e3b26d8978c172729ee4827b4a3d2e5b970f
+
+Package: font-valis-enigma
+Version: 2009.11.12-r0
+Description: font-valis-enigma
+ font-valis-enigma.
+Section: base
+Priority: optional
+Maintainer: valis
+License: GPL-2.0-or-later
+Architecture: all
+OE: font-valis-enigma
+Homepage: https://www.openbh.net
+Source: font-valis-enigma.bb
+Filename: font-valis-enigma_2009.11.12-r0_all.ipk
+Size: 37372
+MD5Sum: ffbd8eed2dfaa51ffabb520f54cfd531
+SHA256sum: c63c470cc7101ab123ca073765793ec4c637b7512960c130037b26f588bbfeca
+
+Package: fstrim-cron-obh
+Version: 1.0-r0
+Description: fstrim cron job
+ fstrim cron job.
+Section: base
+Priority: optional
+Maintainer: OpenBh Team
+License: GPL-2.0-or-later
+Architecture: all
+OE: fstrim-cron-obh
+Homepage: https://www.openbh.net
+Source: fstrim-cron-obh.bb
+Filename: fstrim-cron-obh_1.0-r0_all.ipk
+Size: 1506
+MD5Sum: e07de5da562b1292e8d22ebf78f260fe
+SHA256sum: e8ce6a73cf419ce5889f13022145084044f22c19951673bf277b5d8c2cc5934e
+
+Package: netbase
+Version: 1:6.6-r0.3
+Description: Basic TCP/IP networking support
+ This package provides the necessary infrastructure for basic TCP/IP based
+ networking
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-only
+Architecture: all
+OE: netbase
+Homepage: http://packages.debian.org/netbase
+Source: netbase_6.6.bb
+Filename: netbase_6.6-r0.3_all.ipk
+Size: 10098
+MD5Sum: 8116d55a22d5d15481a767224185f815
+SHA256sum: 0b9bccff93505dec850c339327c92091ab925c116e25355aa123bf5bf253ea31
+
+Package: oe-alliance-3rdparty-feed
+Version: 1.0-r0
+Description: oe-alliance 3rdparty feed opkg conf
+ oe-alliance 3rdparty feed opkg conf.
+Section: base
+Priority: required
+Maintainer: oe-alliance team
+License: GPL-2.0-or-later
+Architecture: all
+OE: oe-alliance-3rdparty-feed
+Homepage: https://www.openbh.net
+Replaces: enigma2-3rdparty-plugins
+Conflicts: enigma2-3rdparty-plugins
+Source: oe-alliance-3rdparty-feed.bb
+Filename: oe-alliance-3rdparty-feed_1.0-r0_all.ipk
+Size: 766
+MD5Sum: 9526fe0158aca973871a7f0aa104ae1e
+SHA256sum: 81c0eff42b1145d19ac5af9e7a8e39ee31a1d899c9b9e08f656dccd84ab88c4a
+
+Package: openbh-extra-feed-opkg-conf
+Version: 6.0-r3
+Description: OpenBh extra feed opkg conf
+ OpenBh extra feed opkg conf.
+Section: base
+Priority: required
+Maintainer: OpenBh Team
+License: GPL-2.0-or-later
+Architecture: all
+OE: openbh-extra-feed-opkg-conf
+Homepage: https://www.openbh.net
+Source: openbh-extra-feed-opkg-conf.bb
+Filename: openbh-extra-feed-opkg-conf_6.0-r3_all.ipk
+Size: 664
+MD5Sum: 7419897ba09ae1a67173e8ab28d135ad
+SHA256sum: 2668a9483f58fce88f46136cc016367f60082a8c8e5225f806d5a592eeb20235
+
+Package: openbh-picon-feed-opkg-conf
+Version: 6.0-r1
+Description: OpenBh picon feed opkg conf
+ OpenBh picon feed opkg conf.
+Section: base
+Priority: required
+Maintainer: OpenBh Team
+License: GPL-2.0-or-later
+Architecture: all
+OE: openbh-picon-feed-opkg-conf
+Homepage: https://www.openbh.net
+Source: openbh-picon-feed-opkg-conf.bb
+Filename: openbh-picon-feed-opkg-conf_6.0-r1_all.ipk
+Size: 664
+MD5Sum: c490ad8a20e40a089d7ebc6e9abbbd33
+SHA256sum: 24705b3e3466e6154a4b8473115053369daf5e83010c98d8314ab98d25d31ea0
+
+Package: openbh-spinner
+Version: 1.0-r12
+Description: openbh-spinner
+ openbh-spinner.
+Section: base
+Priority: optional
+Maintainer: OpenBh Team
+License: GPL-2.0-or-later
+Architecture: all
+OE: openbh-spinner
+Homepage: https://www.openbh.net
+Source: openbh-spinner.bb
+Filename: openbh-spinner_1.0-r12_all.ipk
+Size: 65844
+MD5Sum: 6c849516c4c928359738f0ef8ecf29c1
+SHA256sum: c4d96546c0307d15fe3f1bd82f1a7697de64b0801765cba3193d126a60cdd1a4
+
+Package: packagegroup-oea-multimedia
+Version: 1.0-r0
+Description: OE-Alliance Multimedia - GStreamer, codecs, and media players
+ OE-Alliance Multimedia - GStreamer, codecs, and media players.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: all
+OE: packagegroup-oea-multimedia
+Homepage: https://www.openbh.net
+Depends: ffmpeg, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub
+Source: packagegroup-oea-multimedia.bb
+Filename: packagegroup-oea-multimedia_1.0-r0_all.ipk
+Size: 820
+MD5Sum: 9f966b8296d8eab5616c50608cd4c994
+SHA256sum: fc3923f39497e08d3fb3e24e67dd111f2c4367de11b9ce4021a4903b63ac5ac0
+
+Package: packagegroup-oea-network-core
+Version: 1.0-r0
+Description: OE-Alliance Network Core - basic networking
+ OE-Alliance Network Core - basic networking.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: all
+OE: packagegroup-oea-network-core
+Homepage: https://www.openbh.net
+Depends: avahi-daemon, ca-certificates, iproute2, libcrypto-compat-0.9.7, libcrypto-compat-1.0.0, libxcrypt-compat, llmnrd, packagegroup-oea-network-ssh, vsftpd, wget
+Source: packagegroup-oea-network-core.bb
+Filename: packagegroup-oea-network-core_1.0-r0_all.ipk
+Size: 602
+MD5Sum: 6a28c18c9657a335ae7a9ee3b0878392
+SHA256sum: 61575a768347587113fe26aee46535393c4f667c981f3b63b1197039330029ec
+
+Package: packagegroup-oea-network-ssh
+Version: 1.0-r0
+Description: OE-Alliance SSH and SFTP services
+ Installable service group used by Enigma2's Network Services screen.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: all
+OE: packagegroup-oea-network-ssh
+Homepage: https://www.openbh.net
+Depends: dropbear, openssh-sftp-server
+Source: packagegroup-oea-network-ssh.bb
+Filename: packagegroup-oea-network-ssh_1.0-r0_all.ipk
+Size: 580
+MD5Sum: 9719daf383bf34fb16c58f49b52d7dc7
+SHA256sum: f31efa418264c3fb06ca65f4af465d977c4a3710bc59f2228717549226ad9756
+
+Package: packagegroup-oea-python-core
+Version: 1.0-r0
+Description: OE-Alliance Python Core - Python3 base modules for enigma2
+ OE-Alliance Python Core - Python3 base modules for enigma2.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: all
+OE: packagegroup-oea-python-core
+Homepage: https://www.openbh.net
+Depends: python3-compat2, python3-compression, python3-future, python3-numbers, python3-pexpect, python3-pillow, python3-process, python3-puremagic, python3-requests, python3-service-identity, python3-six, python3-trio, python3-twisted-protocols
+Source: packagegroup-oea-python-core.bb
+Filename: packagegroup-oea-python-core_1.0-r0_all.ipk
+Size: 628
+MD5Sum: cc6c8d9486f3044519264e3064ee0954
+SHA256sum: cad8024ba3b4c24c232428b3db2a3748cd30c3132e556f0c28304ae8dc9a551c
+
+Package: run-postinsts
+Version: 1.0-r0
+Description: Runs postinstall scripts on first boot of the target device
+ Runs postinstall scripts on first boot of the target device
+Section: devel
+Priority: optional
+Maintainer: OpenBh
+License: MIT
+Architecture: all
+OE: run-postinsts
+Homepage: https://www.openbh.net
+Depends: util-linux-flock
+Recommends: update-rc.d
+Source: run-postinsts_1.0.bb
+Filename: run-postinsts_1.0-r0_all.ipk
+Size: 1968
+MD5Sum: ed454e21ec3a24b92584bb8782471653
+SHA256sum: 238212b6ddd4453bcfd05b5a676b82f6d8f1aafa223b0b3c4b8ac005d7c72e21
+
+Package: tuxbox-common
+Version: 1.0+git1+8153ef90+8153ef9c8d-r0
+Description: Tuxbox common files
+ Tuxbox common files.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: LicenseRef-Proprietary
+Architecture: all
+OE: tuxbox-common
+Homepage: https://www.openbh.net
+Source: tuxbox-common_0.1.1.bb
+Filename: tuxbox-common_1.0+git1+8153ef90+8153ef9c8d-r0_all.ipk
+Size: 76642
+MD5Sum: b21fbc59091da5bda4fc0a822baaf246
+SHA256sum: 22136741178599ab7bf37914b3924066d16fbcb986f19e20ca1b6afe35329b6c
+
+Package: tzdata
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Depends: tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-core, tzdata-europe, tzdata-misc, tzdata-pacific
+Source: tzdata.bb
+Filename: tzdata_2026e-r1_all.ipk
+Size: 942
+MD5Sum: c256d5e320931e34d71396283cbcbe62
+SHA256sum: c5a074abd98118bb274388929a93919c4fd180919712863d24327a442bd91a85
+
+Package: tzdata-africa
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-africa_2026e-r1_all.ipk
+Size: 3928
+MD5Sum: 78a6e7583c68df72ab6b7da86eab0f16
+SHA256sum: 59dd8c742d5d7e57d9e733e7077845eb24cc76c144dcf40329be161e587d1f3d
+
+Package: tzdata-americas
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-americas_2026e-r1_all.ipk
+Size: 22044
+MD5Sum: 22b991282b5f67d3fccf2216559ff2b2
+SHA256sum: 9d60a7ab9cb73477177b7443e5e645be429b9576414ce13098ad3063a19bb89b
+
+Package: tzdata-antarctica
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-antarctica_2026e-r1_all.ipk
+Size: 2808
+MD5Sum: e49b4a1cfd4e65afee030788de9d15d6
+SHA256sum: a6e9093f97178737069e28b1ccfc3f3336496d631055d85cc5722bd869746ae5
+
+Package: tzdata-arctic
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-arctic_2026e-r1_all.ipk
+Size: 1122
+MD5Sum: ba23407d2766e15b7213def22166a836
+SHA256sum: 80592ea472b330e63d52e40c3800f546f2f84f01ab22986e5cba1942c9a5dcaa
+
+Package: tzdata-asia
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-asia_2026e-r1_all.ipk
+Size: 14020
+MD5Sum: 6e5ad3021bde738ed2b1baa12efaae0d
+SHA256sum: a8400b46d81357a86622f6aec53c27ce67130cb47aca69d371765cc5a963f727
+
+Package: tzdata-atlantic
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-atlantic_2026e-r1_all.ipk
+Size: 3532
+MD5Sum: e7ef3378a44a00ef6af9a16d889f869f
+SHA256sum: 00c1e53b7f6c3bbbea8bfb7eec268996a31b135a83b1965919d7d06fb44172ce
+
+Package: tzdata-australia
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-australia_2026e-r1_all.ipk
+Size: 2678
+MD5Sum: ea6f97a9f559c47d87fd9ed7c718527c
+SHA256sum: d97d8ad9f7659af48805094a7263207d934183d7dbb438147ea9534e7d775a3d
+
+Package: tzdata-core
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-core_2026e-r1_all.ipk
+Size: 57566
+MD5Sum: b21fd8f29ce1a33cdc1369476dd50b1d
+SHA256sum: 1e8b35b7993fa2a18fe47a7cfba6b1fac1f541bfcaddcb2559c1a72eb5c32dcb
+
+Package: tzdata-europe
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-europe_2026e-r1_all.ipk
+Size: 8532
+MD5Sum: 5224c9e3e58548a349a01a86514f2061
+SHA256sum: 9e13fbadcfe70d950019e850f105c4d7aed903676191fca69a0cb95810f6ddb9
+
+Package: tzdata-misc
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-misc_2026e-r1_all.ipk
+Size: 6868
+MD5Sum: 2fab38f4fbf5d9794a6d3ba47dec4020
+SHA256sum: 4f9f0cc42ca8b5ad203c3c2cc036b9f155e65ed413b6537fce7bd435d2aa9438
+
+Package: tzdata-pacific
+Version: 2026e-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: BSD-3-Clause AND LicenseRef-PD
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb
+Filename: tzdata-pacific_2026e-r1_all.ipk
+Size: 4654
+MD5Sum: 2815ac43de51a922a7b7748cc4572d8c
+SHA256sum: 900360e5632399de69e941553eb97f225809f7b41b5a4fefdfde6c63678d4485
+
+Package: update-rc.d
+Version: 0.8+git0+b8f9501050-r0
+Description: manage symlinks in /etc/rcN.d
+ update-rc.d is a utility that allows the management of symlinks to the
+ initscripts in the /etc/rcN.d directory structure.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later
+Architecture: all
+OE: update-rc.d
+Homepage: http://github.com/philb/update-rc.d/
+Source: update-rc.d_0.8.bb
+Filename: update-rc.d_0.8+git0+b8f9501050-r0_all.ipk
+Size: 3142
+MD5Sum: 09a1aa23c2d2a627e4cd80bea253529f
+SHA256sum: eb7bc933eb22daf88a689662563eafdc1faf6b8c7b4f3761605c3d4f2ed7b0b9
+
+Package: volatile-media
+Version: 2.0-r0
+Description: Mounts and populates a tmpfs over /media
+ Mounts and populates a tmpfs over /media.
+Section: base
+Priority: optional
+Maintainer: PLi team
+License: GPL-2.0-or-later
+Architecture: all
+OE: volatile-media
+Homepage: https://www.openbh.net
+Source: volatile-media.bb
+Filename: volatile-media_2.0-r0_all.ipk
+Size: 874
+MD5Sum: 319f8010b90058b24981ff5434cbc61e
+SHA256sum: f33b5a8c5b33aa1577faf3c52e8e7388ce0a71fc787ebae71eaf125b7e5c4474
+
+Package: wireless-regdb-static
+Version: 2026.09.03-r0
+Description: Wireless Central Regulatory Domain Database
+ Wireless Central Regulatory Domain Database.
+Section: net
+Priority: optional
+Maintainer: OpenBh
+License: ISC
+Architecture: all
+OE: wireless-regdb
+Homepage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
+Source: wireless-regdb_2026.09.03.bb
+Filename: wireless-regdb-static_2026.09.03-r0_all.ipk
+Size: 4446
+MD5Sum: 71685050410d2d58fca3bd2fa36c39e0
+SHA256sum: cdca7761dd60c98a393789bf9ff875330a690a8bee971edd5f69c833460af078
+

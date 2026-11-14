@@ -32,3 +32,15 @@ Use only on the matching XC image. Do not replace a different receiver's feeds.
 
 Run `python3 tools/build_feed.py /path/to/matching/build/tmp/deploy`.
 The exporter verifies original SHA256 hashes and copies only selected runtime packages.
+
+## System feed (Software Update)
+
+`feeds/openbh-6.0/xconn/{all,cortexa55,xconn,static-*}` holds every package of the XC
+OpenBH image plus the XC packages and their dependencies, one version each. XC images
+built from the XC layer point their feed configuration here, so Menu > Setup > System >
+Software Update installs every published fix. Package revisions rise automatically with
+each rebuild (PR server), which is what makes a fix visible as an update.
+
+Maintainer: `tools/publish-system-feed.sh` (build the index from the last XC build, review, push).
+The feed contains GPL software; the corresponding sources are the public upstream
+projects (OE-Alliance, OpenEmbedded, BlackHole Enigma2) plus the XC layer changes.
