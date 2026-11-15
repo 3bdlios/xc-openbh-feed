@@ -4386,6 +4386,14 @@
    "Size": 3370
   },
   {
+   "Package": "xc-stale-py-cleanup",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "9f56df963677c87783f5c91567fb3a9e43b1fbe00052930090a28f55724340c2",
+   "Size": 1694
+  },
+  {
    "Package": "xc-subtitle-overlay-compat",
    "Version": "0.1-r0",
    "Architecture": "cortexa55",
@@ -4971,11 +4979,11 @@
   },
   {
    "Package": "oe-alliance-branding",
-   "Version": "6.0+git1+84e88a30+84e88a388f-r20261115b-xconn",
+   "Version": "6.0+git1+84e88a30+84e88a388f-r20261115c-xconn",
    "Architecture": "xconn",
    "License": "GPL-2.0-or-later",
-   "SHA256sum": "99c9d5e518876b8b40693a8c1a6bf55a6ea0d3466da885623624ec6b47331db9",
-   "Size": 19020
+   "SHA256sum": "2962beba9c967ff5e1aa23b0135cc69ef6c2a361c6ed223b474522841f43b750",
+   "Size": 19028
   },
   {
    "Package": "oe-alliance-feeds-configs",

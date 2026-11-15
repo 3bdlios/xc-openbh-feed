@@ -1180,8 +1180,8 @@ MD5Sum: 4b80aa5ee183e73c3146dcca150c1efa
 SHA256sum: d3827d605f2f757e41ec4734b60a818258d395fc40330ea9a541a526b1b4d865
 
 Package: oe-alliance-branding
-Version: 6.0+git1+84e88a30+84e88a388f-r20261115b-xconn
-Description: oe-alliance-branding version 6.0+git-r20261115b-xconn
+Version: 6.0+git1+84e88a30+84e88a388f-r20261115c-xconn
+Description: oe-alliance-branding version 6.0+git-r20261115c-xconn
  OE-A Branding Lib for OE-A 2.0
 Section: base
 Priority: optional
@@ -1190,12 +1190,12 @@ License: GPL-2.0-or-later
 Architecture: xconn
 OE: oe-alliance-branding
 Homepage: https://www.openbh.net
-Depends: libc6 (>= 2.44+git0+34106fee69), xc-audiod, xc-avahi-shutdown-early, xc-boot-files, xc-boxpic, xc-cam-integration, xc-frontpanel, xc-ftp-access, xc-gst-video, xc-gui-startup, xc-hardware, xc-hdmi-route, xc-ipa-delay-controls, xc-multiboot-menu, xc-package-feed, xc-power-handoff, xc-provenance, xc-remote-timing, xc-screenshot, xc-subtitle-overlay-compat, xc-timeshift-storage, xc-video-route, xc-video-setup, xc-volume-bridge, xc-wifi
+Depends: libc6 (>= 2.44+git0+34106fee69), xc-audiod, xc-avahi-shutdown-early, xc-boot-files, xc-boxpic, xc-cam-integration, xc-frontpanel, xc-ftp-access, xc-gst-video, xc-gui-startup, xc-hardware, xc-hdmi-route, xc-ipa-delay-controls, xc-multiboot-menu, xc-package-feed, xc-power-handoff, xc-provenance, xc-remote-timing, xc-screenshot, xc-stale-py-cleanup, xc-subtitle-overlay-compat, xc-timeshift-storage, xc-video-route, xc-video-setup, xc-volume-bridge, xc-wifi
 Source: oe-alliance-branding.bb
-Filename: oe-alliance-branding_6.0+git1+84e88a30+84e88a388f-r20261115b-xconn_xconn.ipk
-Size: 19020
-MD5Sum: c22ccf2b7f389af9dbffb7e46d757e77
-SHA256sum: 99c9d5e518876b8b40693a8c1a6bf55a6ea0d3466da885623624ec6b47331db9
+Filename: oe-alliance-branding_6.0+git1+84e88a30+84e88a388f-r20261115c-xconn_xconn.ipk
+Size: 19028
+MD5Sum: 249025093d55d85f6c9da0746555f6c3
+SHA256sum: 2962beba9c967ff5e1aa23b0135cc69ef6c2a361c6ed223b474522841f43b750
 
 Package: oe-alliance-feeds-configs
 Version: 1.0-r7

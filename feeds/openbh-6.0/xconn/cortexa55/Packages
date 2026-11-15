@@ -10106,6 +10106,24 @@ Size: 3370
 MD5Sum: 9662ead78240b2aecb5675ea76311ba2
 SHA256sum: 784df84a3516eb4af431b079a3805acc2fc1078ce2b2edfbba0b6d1f27d8d3ec
 
+Package: xc-stale-py-cleanup
+Version: 1.0-r0
+Description: Move aside leftover Enigma2 .py files that shadow packaged .pyc updates
+ Move aside leftover Enigma2 .py files that shadow packaged .pyc updates.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: CLOSED
+Architecture: cortexa55
+OE: xc-stale-py-cleanup
+Homepage: https://www.openbh.net
+Depends: python3-core
+Source: xc-stale-py-cleanup_1.0.bb
+Filename: xc-stale-py-cleanup_1.0-r0_cortexa55.ipk
+Size: 1694
+MD5Sum: 30f27e9dc048f7287a19d47ca5a05e8e
+SHA256sum: 9f56df963677c87783f5c91567fb3a9e43b1fbe00052930090a28f55724340c2
+
 Package: xc-subtitle-overlay-compat
 Version: 0.1-r0
 Description: XC subtitle overlay visibility integration
