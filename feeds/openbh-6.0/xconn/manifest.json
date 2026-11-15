@@ -4258,6 +4258,14 @@
    "Size": 18736
   },
   {
+   "Package": "xc-addremote-repeat",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "5c3221032123ef89570875a93f0d8e3751db7ed978f3b7690cb134930137891f",
+   "Size": 3038
+  },
+  {
    "Package": "xc-audiod",
    "Version": "0.1-r0",
    "Architecture": "cortexa55",
@@ -4355,11 +4363,11 @@
   },
   {
    "Package": "xc-remote-timing",
-   "Version": "0.1-r0",
+   "Version": "0.1-r1",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "c91c5e49e7df246f626ae1f2a0fed9c00d254e072584644ae08a60167f79d58a",
-   "Size": 1418
+   "SHA256sum": "1f0ac1936d7682d147314e9e00c1aea76d3595ae0facce86cced5961cdaac8a0",
+   "Size": 1722
   },
   {
    "Package": "xc-screenshot",
@@ -4467,211 +4475,211 @@
   },
   {
    "Package": "enigma2",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "3dd8b949481f4f716bebbb307164743692fc84ad5b66ccba7b2af43de17e0471",
-   "Size": 3947308
+   "SHA256sum": "7eb857119511db4da0e416d9ad33f04be300625d44be8f53cc16850117c3af09",
+   "Size": 3947274
   },
   {
    "Package": "enigma2-fonts",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "22ecb11ef1ab20ab22bfad2fbc8eb7c1199f5cafba8e5d3d7719f64de72697a1",
-   "Size": 747752
+   "SHA256sum": "eaf381ea53bd7498678c8d926a97ea415120157f2be97250114d57e43e687190",
+   "Size": 747784
   },
   {
    "Package": "enigma2-locale-ar",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "7d8bc94cb70a1655d3a421ff5317d97725204ea64664f729b824e319397b1a14",
-   "Size": 123180
+   "SHA256sum": "2b067ca5a4be71f2b171ae0097f48372af293e6c0f778a9e662c674f03ff9346",
+   "Size": 123182
   },
   {
    "Package": "enigma2-locale-bg",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "37650a2973bf7bf0454f24870168a7d874e089baa57741e6ef65d5b225bd6902",
-   "Size": 20260
+   "SHA256sum": "4b6f96cb4922e181e00fca84c23934e6033c7bb8cfccf4dbd03130a52d82c9f7",
+   "Size": 20262
   },
   {
    "Package": "enigma2-locale-ca",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "094c3012791d1f4a6fba40ce5b6eab9072c994f881f4f1aeb45cac15b203a582",
-   "Size": 10686
+   "SHA256sum": "e7e3d458fff2e0bf1a60f7b3b67bd75dab271a237e679049e72a0af93f147d24",
+   "Size": 10688
   },
   {
    "Package": "enigma2-locale-cs",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "3e33480d55ca30cb23288a24f3082ff4e77a416ceb3d584e631e919b3cfbdc19",
-   "Size": 43078
+   "SHA256sum": "3e645a302cdd8f66af542f841def686f9c0b0487eeace0f2f8719e63f2e664a8",
+   "Size": 43080
   },
   {
    "Package": "enigma2-locale-da",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "16160955ad0f62adf5c50977125f39190f06b93b641de7fed667189158ffcb8b",
-   "Size": 27126
+   "SHA256sum": "7d3f4aaef94b652bcc6170af7837ad4d6b369705a3d0cc4d83ebdf1494871ab5",
+   "Size": 27130
   },
   {
    "Package": "enigma2-locale-de",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "27e573fb15b673a3c73c8f7c66866a3ca98a5bb464526987333cbb3679e39f4b",
-   "Size": 83116
+   "SHA256sum": "f0f46ede907a908641469932f38c274e174d9eb54b52bd1af5c2802c7579a79d",
+   "Size": 83120
   },
   {
    "Package": "enigma2-locale-el",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "77b88cf52a03c4df37438377ab1fac65b9fbac717b671aa71be26ba4304f76d7",
-   "Size": 33556
+   "SHA256sum": "33e33269a17f9b66fe6c22306ba27e48d7343797baae7f367b631f02e681a577",
+   "Size": 33558
   },
   {
    "Package": "enigma2-locale-en",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "a957de01df588d892c6c908ac5b5c87c2e9903d81bb2821df6de60e187d63f21",
+   "SHA256sum": "f82f3e7fc1c3de75f828325703a64416fb458faab23e842697ed8cc5699b4f93",
    "Size": 46526
   },
   {
    "Package": "enigma2-locale-en-au",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "c5f4397bac64c30682aed0b557d3c0e6ebb3cd544aa0193407d843f17ff2d2dc",
-   "Size": 56566
+   "SHA256sum": "b480df2b1bba33ee71e5d96ce0d314da50afe9c0d9ce8410b96514efca5ce372",
+   "Size": 56568
   },
   {
    "Package": "enigma2-locale-en-gb",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "6d6367bdd5d9b1a1514820d397c4d8568c0d3cea5f9a321ffe736c73b60798d7",
-   "Size": 57752
+   "SHA256sum": "99d0bacee4f3e9ff79b28795427a7ce5a32076459124fe51dbb226c54877efee",
+   "Size": 57754
   },
   {
    "Package": "enigma2-locale-es",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "4c4b67b15553144cc0518dc4888a913f7030aad00a02bdcd6471fde1b2c524e5",
-   "Size": 61616
+   "SHA256sum": "4e4d2492d307d1c4ef949ddbd380cdddaa916790f139acbf0b8d655fcb465f20",
+   "Size": 61618
   },
   {
    "Package": "enigma2-locale-et",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "3739ef28d808f20bd6131886e0369effee98cf04912e443cdd106de308f6d6ce",
-   "Size": 110542
+   "SHA256sum": "aa4ed61749bd036e9a2d5bfc10fd9f84df0e7d0554a7e077115473d38cb8da64",
+   "Size": 110546
   },
   {
    "Package": "enigma2-locale-fa",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "44d2d70e19927f106d09aa0db0b62e55febe43bf4d404ad012cc6b13e92c7213",
-   "Size": 24036
+   "SHA256sum": "9456319fe584e7fe32a2f40c03f128b11df93e6ead226bef5d960b87a2feb6d4",
+   "Size": 24040
   },
   {
    "Package": "enigma2-locale-fi",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "877bb8631c84df412d0d4662383da69226a5180547b1d69f1d203579dff7d8fd",
-   "Size": 182992
+   "SHA256sum": "ebc3505ea0a886addbc485f88da577203c31ea4db136d88ce5e42e50634dd5d7",
+   "Size": 182996
   },
   {
    "Package": "enigma2-locale-fr",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "faeebd6b054c4294c2c6ad4c39cb0b761a3c0cf4b7360565050645e42cc82e47",
-   "Size": 113948
+   "SHA256sum": "8fa2a6d5a960cb43cddf43146d34a59a0bb239eaeafe86bc07582494b6b5f023",
+   "Size": 113952
   },
   {
    "Package": "enigma2-locale-fy",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "8e1c8aa62c7f206d81e3bfe4ed1a0b5f56425d18fe01c3d63d33b7dc1ab3a391",
-   "Size": 18482
+   "SHA256sum": "b79707299494e5998e3f764f858e0c25626e4bf10e72e8d7776474e8c4745e7a",
+   "Size": 18486
   },
   {
    "Package": "enigma2-locale-he",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "066321ae93fc08e36d587ba54f04764c5b3fa0231a5174a4c3a8d766f01edb0e",
-   "Size": 18906
+   "SHA256sum": "eef1903d25c5a0283e03409da0e5c95b4fb2003218fe49728341627efa27b395",
+   "Size": 18908
   },
   {
    "Package": "enigma2-locale-hr",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "2a8067381275e40132d236ec2ff84d7130b198d52d40ee87a36a5f1774d0e798",
-   "Size": 11842
+   "SHA256sum": "a784a67aeb837656993569f2cfdaf8b17cbdaba13b4e8fba9e798f36daf401e8",
+   "Size": 11844
   },
   {
    "Package": "enigma2-locale-hu",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "74c68195dbe1a124e670eca849ecb6d5c40f7783268d7c0a0530d6da51277651",
-   "Size": 29474
+   "SHA256sum": "4b1c233464efa2fb5facf47410dfe435b6503093d048ecd0fc4bc174b1392296",
+   "Size": 29476
   },
   {
    "Package": "enigma2-locale-is",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "af087add44db783087ac469aee4397dd72a2bd269e7d5ce7383831ea502f3b70",
+   "SHA256sum": "774b3155bdf7464c781ed6af2b22fca3fbc24a419904526b1ae7c39ec35049ef",
    "Size": 24846
   },
   {
    "Package": "enigma2-locale-it",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "51106e80ac318f2e5218fc48a3d5cd4e6b1343a7621152d2b61e2cdaecec97cd",
-   "Size": 141132
+   "SHA256sum": "a4a2ac700d4e2d7c04554faebeeb9fff2ad22d7b92b6e13eb340f5dbc2c94cde",
+   "Size": 141134
   },
   {
    "Package": "enigma2-locale-ku",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "55926d7e3d45b66af5f8943888fcf55a23c33b09965ad4e40011dc63b64a4e77",
-   "Size": 30698
+   "SHA256sum": "beabfa0147d7117abfaec6e25930c92e805d6071255871e382d550aeca83f6c9",
+   "Size": 30704
   },
   {
    "Package": "enigma2-locale-lt",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "2e89c9fc56ff024d0c7931af020410c4b046d764d7962e96a4c094a41e385483",
-   "Size": 115398
+   "SHA256sum": "a3d99c941bb9456e3e6f70ca0ad1a5a97120d54a645bda55eb497a2dcaa9a553",
+   "Size": 115400
   },
   {
    "Package": "enigma2-locale-lv",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "7907c2fbb6f03bd48f529b4ef1eeaa715bfec1ce159e0f1ddeeedca7dad3b37a",
-   "Size": 20014
+   "SHA256sum": "879e2e512d224b68626eff6760e924e21b6390060fb991564eaf1eee7196ff16",
+   "Size": 20018
   },
   {
    "Package": "enigma2-locale-meta",
@@ -4683,171 +4691,171 @@
   },
   {
    "Package": "enigma2-locale-nb",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "8f005dc5e72e3be3168b1d84acff6e0a78c40e77c22a3a886b813f27bff8ad9f",
+   "SHA256sum": "7c122475d20d6302ae8b8e6a573815d363de145b7b0d6f0d465f8e7e49d11458",
    "Size": 3846
   },
   {
    "Package": "enigma2-locale-nl",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "fbbae094563f1641681774c17aca4de205244fee35f58b0687b8f2461703d063",
+   "SHA256sum": "ba36432ed4cf3216c5b2496714244582b78f3599edb0841f88d2130c202b41b2",
    "Size": 83676
   },
   {
    "Package": "enigma2-locale-pl",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "624efc9d8b3139b0cc1a23d0e82f864c75125c718aa15b101a8b7bdc2562f868",
-   "Size": 143178
+   "SHA256sum": "83d4d76b5d4798db72ea2be86caf599175720be7f7e464e1482acbd91b5f8dc8",
+   "Size": 143180
   },
   {
    "Package": "enigma2-locale-pt",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "7cc9849a0b4294c9d53a3df1d450879c3c60b3ee4625d331c2de055e434bec7e",
-   "Size": 90324
+   "SHA256sum": "9eee3180bbdc0da2b01f65573be4b9b1401c6fefde0816a94fa039076116c6dc",
+   "Size": 90328
   },
   {
    "Package": "enigma2-locale-pt-br",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "f2030a66f8aff34d751e0377f8341d66a84d54dffebda3eed1267870b1df1d0e",
-   "Size": 41038
+   "SHA256sum": "63d5783f738a96cf9215d973dc1e9591da4699c1e79011978eaa164bc9e08879",
+   "Size": 41040
   },
   {
    "Package": "enigma2-locale-ro",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "629ade905092bdb34428e0fde239c8c4876ed0c25e3fd0623d81fec592c8bf68",
-   "Size": 21980
+   "SHA256sum": "2d7d504fbaefd4575a4e0f2894a89d52e7df334af0993e4f8e7bbeca854691c6",
+   "Size": 21982
   },
   {
    "Package": "enigma2-locale-ru",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "aeb7d7409522e484fef868d3c76dd94ed7fd6a1aaabbb6f5e39c7e8b84070ab3",
-   "Size": 151460
+   "SHA256sum": "9113a6f9c45e07a821601c45b208574bd4e176486833ca8c2d1c691e0d889290",
+   "Size": 151464
   },
   {
    "Package": "enigma2-locale-sk",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "f160fa8cf4e8d762e52a88d1c899e47ebbf30a74bf839f198c0273d655934e91",
-   "Size": 71534
+   "SHA256sum": "099fbb07375c0ac86664f35cc87c212d5fd3014f95a5ffb812446d4e47c08d3e",
+   "Size": 71538
   },
   {
    "Package": "enigma2-locale-sl",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "637bbc35c22be36585f47e2a1640f954981fa301d4ead6cebd98e50696e894c0",
+   "SHA256sum": "a36b1611fd894e375d0a97a2d699c727ff65f0749effb77fbda1bb9cd71633d5",
    "Size": 27036
   },
   {
    "Package": "enigma2-locale-sr",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "760d33d9ce152fea8cd44dd142e919fefe6349552a44ae20ea8db143cfc1edec",
-   "Size": 24788
+   "SHA256sum": "270f82cfc08dd7c36fb68ba3fb8775b22f3d2b18fd62c66eb7814adf85bf87f0",
+   "Size": 24790
   },
   {
    "Package": "enigma2-locale-sv",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "cfc029eb14960ab837970e7d1b2aaaefeca252ae6dc2e4da442fc7d59de6baad",
-   "Size": 66908
+   "SHA256sum": "89b33d6e37daa5d737a25b87d85080a84591c4e4b3bfb3beeb23ab3187bd74a1",
+   "Size": 66912
   },
   {
    "Package": "enigma2-locale-th",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "60d46afb5568ac38555a80dec374c160f9941a9744a1609044cd74e4954f517c",
-   "Size": 24898
+   "SHA256sum": "0c9866abf0646f4ed9790575969616e94d3e308e4200b3e642aede64beba675a",
+   "Size": 24902
   },
   {
    "Package": "enigma2-locale-tr",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "e981f57a98fb414339a9f8670d3bb478dbf5c5ac9fd9361f43616c21a87fed0d",
-   "Size": 63158
+   "SHA256sum": "57f3f75e70742abcbfb5320d834640869039a3fb5a0cf706a781ec45234d7aa4",
+   "Size": 63162
   },
   {
    "Package": "enigma2-locale-uk",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "5d053b062a4f976135924cf668172d07481543f0c198089ad3f8ce44cfd45d4c",
-   "Size": 22704
+   "SHA256sum": "11ee162276f808f74052c155f813df54cabd05aab677a1703dddf015faaa1151",
+   "Size": 22708
   },
   {
    "Package": "enigma2-locale-zh-cn",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "bc8aa88960979c961872699b1523eec9c01cca4b83a6d071d28e5294e45473f2",
-   "Size": 91514
+   "SHA256sum": "15c2a925a5fdf05260070fa469f36ccc74329496f3eb603ce9f2765bb10f29ab",
+   "Size": 91518
   },
   {
    "Package": "enigma2-plugin-extensions-cutlisteditor",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "d4738134ba7817d0453753930931f9a5d903d7c115f31d5f59171372fdee7620",
-   "Size": 13262
+   "SHA256sum": "b9cb4606ffa65f87395ed7cc08f6291b02f6c37bbfd1caaa3faad3d0e757876e",
+   "Size": 13266
   },
   {
    "Package": "enigma2-plugin-extensions-mediaplayer",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "7801348825490f4407689b0b7df3c22e7f38316fe0a6e196de19a1465d6ae56d",
-   "Size": 34506
+   "SHA256sum": "93a455f0f65762cd549cfc3e87638a1a27088be54b0a623a9a4e6f0cfe57f775",
+   "Size": 34508
   },
   {
    "Package": "enigma2-plugin-extensions-mediascanner",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "ab6e7e9d324a1b23a08b62dad0a4f7ff7792b9d86a21103e0bf6c1d7a9c1be5c",
-   "Size": 4998
+   "SHA256sum": "eb4902bd12599edfdd010bc660eb3701eba823962f4fe9e381f812843d5c0b9d",
+   "Size": 5002
   },
   {
    "Package": "enigma2-plugin-extensions-openbhvip",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "3c0d2025bc880f4b832054c1c45caeb6fcc5d923adbb75c3b399de46e89e7a10",
+   "SHA256sum": "188fa51bf53c046ab099b089f18729872e6e43e72b845ec9b3a23fe60a53244a",
    "Size": 15286
   },
   {
    "Package": "enigma2-plugin-extensions-pictureplayer",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "7d457727bd857f9cb4c8e23ac7a9568f0deca5cf30ddd5f3e6db6306c8d507a0",
-   "Size": 38012
+   "SHA256sum": "bc6d017695e1634ad429108310fe969e04daa5f022932063b7cc0d4c3557415a",
+   "Size": 38014
   },
   {
    "Package": "enigma2-plugin-font-wqy-microhei",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "6c0f4bc38f7230a0e232f3da48c6b7e7098ea3c7479029f8023746d53e9761a4",
-   "Size": 2009684
+   "SHA256sum": "345273bba066a805a0ad36ffe56945f6fbc4d07e1174d3f21fde04439f08409b",
+   "Size": 2009688
   },
   {
    "Package": "enigma2-plugin-systemplugins-crossepg",
@@ -4859,59 +4867,59 @@
   },
   {
    "Package": "enigma2-plugin-systemplugins-hotplug",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "be03b8dfce1963d707b17505fde2989a856b0ae2563484b54ba1c2a9e02ae33f",
+   "SHA256sum": "fc25cdbf5520368af3fee37c137bcd76038782cb96a236e2dc1f425eebd4131a",
    "Size": 10462
   },
   {
    "Package": "enigma2-plugin-systemplugins-obh",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "81423f0c72d7ac767445a3dfff6b0a5d564815fa33ac2753b3728f5ec6efe202",
-   "Size": 183702
+   "SHA256sum": "7b6cfaa1989991381655f3477628f78c51ba131078a2c9cc3be951aacfda77c8",
+   "Size": 183714
   },
   {
    "Package": "enigma2-plugin-systemplugins-positionersetup",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "935ebf24bd26abe3b579f694e8003e7e29436ccf370ab7e941c79ffb48452696",
-   "Size": 47684
+   "SHA256sum": "92e2c8d7ac85c0d82a6dc5c7cf34fc234d729c6178dba1a4f498370058c9f92a",
+   "Size": 47686
   },
   {
    "Package": "enigma2-plugin-systemplugins-satfinder",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "c80d51d2c7d224958cadbfe373b8432b7f01de8e80d12f3d9caa271131ff3f5a",
-   "Size": 24692
+   "SHA256sum": "0ca7a8e526779e0118d9a7664a9807aa198ce3f38062053f794a0a1299d22dba",
+   "Size": 24698
   },
   {
    "Package": "enigma2-plugin-systemplugins-videoenhancement",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "a3c5b6e6dd00ef6af4450de30c66a80cd60d7d3e4ea869f469c07a48e36858f0",
-   "Size": 16078
+   "SHA256sum": "fbf7650f56003a46215c9a06eba8d466b9ece9eb7bda90749acb9c82557cfac0",
+   "Size": 16082
   },
   {
    "Package": "enigma2-plugin-systemplugins-videotune",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "8a5df17bb1f84a3f7662b2e9450753ace172e0ea9562283563448507ec51525b",
-   "Size": 9290
+   "SHA256sum": "a7d6ccea3588bd8b87d7661dc52ec58ecc90a3f4dbdf57ecab1e3fd9ad97c5e8",
+   "Size": 9292
   },
   {
    "Package": "enigma2-plugin-systemplugins-wirelesslan",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "089b2945a60ebc83313067a9a20561ed5258cd8126002d35e8fdc7051c61ca63",
-   "Size": 23116
+   "SHA256sum": "4559cbd757cc30374f12ffb8d7ab81a1f5789fdb1c69c5b0499c9dec3fe8cad8",
+   "Size": 24314
   },
   {
    "Package": "gstreamer1.0-plugin-subsink",

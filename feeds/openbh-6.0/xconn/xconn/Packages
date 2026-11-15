@@ -74,7 +74,7 @@ MD5Sum: 6440ad672dfa58895546af1039dfb5b0
 SHA256sum: dc6884534125be0479b3ca5c70aaf0048f78e833a3b5c04926887168b5799ae0
 
 Package: enigma2
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
  Enigma2 is an experimental, but useful framebuffer-based frontend for DVB
  functions.
@@ -88,13 +88,13 @@ Homepage: https://www.openbh.net
 Depends: alsa-conf, enigma2-fonts, enigma2-plugin-font-wqy-microhei, enigma2-plugin-skins-mxslimlinenp, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.8), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray, libc6 (>= 2.44+git0+34106fee69), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.1.0), libdreamdvd0 (>= 1.1+git1+975333a0+975333a755), libdvbsi++1 (>= 0.3.9+git1+f3c40ea0+f3c40ea6da), libfreetype6 (>= 2.15.0), libfribidi0 (>= 1.0.17), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.90.0), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.8), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.59), libpython3.14-1.0 (>= 3.14.9), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.1.0), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git1+9319ad40+9319ad4058), libtuxtxt32bpp0 (>= 2.0+git1+9319ad40+9319ad4058), libudfread3 (>= 1.2.0+git1+139a2190+139a219452), libxml2 (>= 2.15.4), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-email, python3-fcntl, python3-image, python3-mime, python3-mmap, python3-netclient, python3-netifaces, python3-netserver, python3-pickle, python3-pillow, python3-process, python3-pyusb, python3-shell, python3-six, python3-threading, python3-treq, python3-twisted-core, python3-twisted-web, python3-wifi, python3-xml, python3-zopeinterface, wireless-tools, wpa-supplicant, xc-cam-integration, xc-video-setup
 Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss, shellinabox
 Source: enigma2.bb
-Filename: enigma2_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 3947308
-MD5Sum: 756027f2452e47c1e51e6c8cf44e15f5
-SHA256sum: 3dd8b949481f4f716bebbb307164743692fc84ad5b66ccba7b2af43de17e0471
+Filename: enigma2_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 3947274
+MD5Sum: f44e082dc4cf041e69e01add9f97167c
+SHA256sum: 7eb857119511db4da0e416d9ad33f04be300625d44be8f53cc16850117c3af09
 
 Package: enigma2-fonts
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
  Enigma2 is an experimental, but useful framebuffer-based frontend for DVB
  functions.
@@ -106,13 +106,13 @@ Architecture: xconn
 OE: enigma2
 Homepage: https://www.openbh.net
 Source: enigma2.bb
-Filename: enigma2-fonts_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 747752
-MD5Sum: 81fcec8699bae2d61ec1bcd489089cf2
-SHA256sum: 22ecb11ef1ab20ab22bfad2fbc8eb7c1199f5cafba8e5d3d7719f64de72697a1
+Filename: enigma2-fonts_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 747784
+MD5Sum: 0d502663f394f6b6c9644b37824fbf4c
+SHA256sum: eaf381ea53bd7498678c8d926a97ea415120157f2be97250114d57e43e687190
 
 Package: enigma2-locale-ar
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: ar
  ar
 Section: base
@@ -124,13 +124,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-ar_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 123180
-MD5Sum: e144f6b78728aba941e48f6246571878
-SHA256sum: 7d8bc94cb70a1655d3a421ff5317d97725204ea64664f729b824e319397b1a14
+Filename: enigma2-locale-ar_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 123182
+MD5Sum: 82a6995b1607b8e9bed5aa1fb4715b01
+SHA256sum: 2b067ca5a4be71f2b171ae0097f48372af293e6c0f778a9e662c674f03ff9346
 
 Package: enigma2-locale-bg
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: bg
  bg
 Section: base
@@ -142,13 +142,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-bg_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 20260
-MD5Sum: 544ba2fb1ceb91f6db771a6649408c30
-SHA256sum: 37650a2973bf7bf0454f24870168a7d874e089baa57741e6ef65d5b225bd6902
+Filename: enigma2-locale-bg_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 20262
+MD5Sum: 1ccb27f1354ba840d8fccbe648e53fbb
+SHA256sum: 4b6f96cb4922e181e00fca84c23934e6033c7bb8cfccf4dbd03130a52d82c9f7
 
 Package: enigma2-locale-ca
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: ca
  ca
 Section: base
@@ -160,13 +160,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-ca_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 10686
-MD5Sum: 0813540b3ddc2d3d54aeb5cdbbb174d0
-SHA256sum: 094c3012791d1f4a6fba40ce5b6eab9072c994f881f4f1aeb45cac15b203a582
+Filename: enigma2-locale-ca_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 10688
+MD5Sum: fd08e1f6de6b6bec2f77c596f5c90c40
+SHA256sum: e7e3d458fff2e0bf1a60f7b3b67bd75dab271a237e679049e72a0af93f147d24
 
 Package: enigma2-locale-cs
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: cs
  cs
 Section: base
@@ -178,13 +178,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-cs_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 43078
-MD5Sum: 63029bd113804ef10468f5be10ecb461
-SHA256sum: 3e33480d55ca30cb23288a24f3082ff4e77a416ceb3d584e631e919b3cfbdc19
+Filename: enigma2-locale-cs_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 43080
+MD5Sum: 0e9ded2f3d672c4e4f97a61f0b154b01
+SHA256sum: 3e645a302cdd8f66af542f841def686f9c0b0487eeace0f2f8719e63f2e664a8
 
 Package: enigma2-locale-da
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: da
  da
 Section: base
@@ -196,13 +196,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-da_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 27126
-MD5Sum: 336ea52c1c547ed39d5a597975be8adc
-SHA256sum: 16160955ad0f62adf5c50977125f39190f06b93b641de7fed667189158ffcb8b
+Filename: enigma2-locale-da_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 27130
+MD5Sum: e8972c090e6ed303e24aec94b8aaa8fb
+SHA256sum: 7d3f4aaef94b652bcc6170af7837ad4d6b369705a3d0cc4d83ebdf1494871ab5
 
 Package: enigma2-locale-de
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: de
  de
 Section: base
@@ -214,13 +214,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-de_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 83116
-MD5Sum: dbaf9e6375af5d95f5aff703ee24ea18
-SHA256sum: 27e573fb15b673a3c73c8f7c66866a3ca98a5bb464526987333cbb3679e39f4b
+Filename: enigma2-locale-de_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 83120
+MD5Sum: ae74c4ae71ba55e7077f9443de16ebfa
+SHA256sum: f0f46ede907a908641469932f38c274e174d9eb54b52bd1af5c2802c7579a79d
 
 Package: enigma2-locale-el
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: el
  el
 Section: base
@@ -232,13 +232,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-el_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 33556
-MD5Sum: 543bc5744f55b77d06f22df235effb3c
-SHA256sum: 77b88cf52a03c4df37438377ab1fac65b9fbac717b671aa71be26ba4304f76d7
+Filename: enigma2-locale-el_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 33558
+MD5Sum: c8a905c535873c3c71f8738ef2f1f577
+SHA256sum: 33e33269a17f9b66fe6c22306ba27e48d7343797baae7f367b631f02e681a577
 
 Package: enigma2-locale-en
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: en
  en
 Section: base
@@ -250,13 +250,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-en_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Filename: enigma2-locale-en_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
 Size: 46526
-MD5Sum: e0dc67c58c5f60237c77d660fc2e7fd1
-SHA256sum: a957de01df588d892c6c908ac5b5c87c2e9903d81bb2821df6de60e187d63f21
+MD5Sum: 3726406280ac35efd26ed45b055b6996
+SHA256sum: f82f3e7fc1c3de75f828325703a64416fb458faab23e842697ed8cc5699b4f93
 
 Package: enigma2-locale-en-au
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: en-au
  en-au
 Section: base
@@ -268,13 +268,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-en-au_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 56566
-MD5Sum: 59840e65da45803451dd07b4f8a64df7
-SHA256sum: c5f4397bac64c30682aed0b557d3c0e6ebb3cd544aa0193407d843f17ff2d2dc
+Filename: enigma2-locale-en-au_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 56568
+MD5Sum: 17d8979b4cdecc2e35a61c819d2624e8
+SHA256sum: b480df2b1bba33ee71e5d96ce0d314da50afe9c0d9ce8410b96514efca5ce372
 
 Package: enigma2-locale-en-gb
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: en-gb
  en-gb
 Section: base
@@ -286,13 +286,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-en-gb_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 57752
-MD5Sum: e47bcc8c6c56569c6f01cc00b48558f4
-SHA256sum: 6d6367bdd5d9b1a1514820d397c4d8568c0d3cea5f9a321ffe736c73b60798d7
+Filename: enigma2-locale-en-gb_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 57754
+MD5Sum: 5136c5a77ca352b9caf10dfa8eac717d
+SHA256sum: 99d0bacee4f3e9ff79b28795427a7ce5a32076459124fe51dbb226c54877efee
 
 Package: enigma2-locale-es
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: es
  es
 Section: base
@@ -304,13 +304,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-es_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 61616
-MD5Sum: 1f84cb507310dfca46125f6785b66986
-SHA256sum: 4c4b67b15553144cc0518dc4888a913f7030aad00a02bdcd6471fde1b2c524e5
+Filename: enigma2-locale-es_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 61618
+MD5Sum: 4801da61e2eae4df07fda1975c173a38
+SHA256sum: 4e4d2492d307d1c4ef949ddbd380cdddaa916790f139acbf0b8d655fcb465f20
 
 Package: enigma2-locale-et
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: et
  et
 Section: base
@@ -322,13 +322,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-et_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 110542
-MD5Sum: 44c5d129e4615bc84bb87dc0122e0250
-SHA256sum: 3739ef28d808f20bd6131886e0369effee98cf04912e443cdd106de308f6d6ce
+Filename: enigma2-locale-et_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 110546
+MD5Sum: 834890dbef8c1d8c39ab570665b7f131
+SHA256sum: aa4ed61749bd036e9a2d5bfc10fd9f84df0e7d0554a7e077115473d38cb8da64
 
 Package: enigma2-locale-fa
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: fa
  fa
 Section: base
@@ -340,13 +340,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-fa_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 24036
-MD5Sum: 283e4fdf9c7776c06277b388b390f3a0
-SHA256sum: 44d2d70e19927f106d09aa0db0b62e55febe43bf4d404ad012cc6b13e92c7213
+Filename: enigma2-locale-fa_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 24040
+MD5Sum: f78480f4ac18e3018b00b46ff9033047
+SHA256sum: 9456319fe584e7fe32a2f40c03f128b11df93e6ead226bef5d960b87a2feb6d4
 
 Package: enigma2-locale-fi
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: fi
  fi
 Section: base
@@ -358,13 +358,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-fi_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 182992
-MD5Sum: 06424ec7ee28e4f70dfdd95b072354d6
-SHA256sum: 877bb8631c84df412d0d4662383da69226a5180547b1d69f1d203579dff7d8fd
+Filename: enigma2-locale-fi_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 182996
+MD5Sum: efbe239ff75ad68c9f11dee847baaa71
+SHA256sum: ebc3505ea0a886addbc485f88da577203c31ea4db136d88ce5e42e50634dd5d7
 
 Package: enigma2-locale-fr
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: fr
  fr
 Section: base
@@ -376,13 +376,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-fr_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 113948
-MD5Sum: 7f26aea513832bf15291639a15ee158d
-SHA256sum: faeebd6b054c4294c2c6ad4c39cb0b761a3c0cf4b7360565050645e42cc82e47
+Filename: enigma2-locale-fr_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 113952
+MD5Sum: e9910630796783ef39466c20cb6b442f
+SHA256sum: 8fa2a6d5a960cb43cddf43146d34a59a0bb239eaeafe86bc07582494b6b5f023
 
 Package: enigma2-locale-fy
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: fy
  fy
 Section: base
@@ -394,13 +394,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-fy_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 18482
-MD5Sum: 0c4121d1ad3b798846304b3f1f3af6cd
-SHA256sum: 8e1c8aa62c7f206d81e3bfe4ed1a0b5f56425d18fe01c3d63d33b7dc1ab3a391
+Filename: enigma2-locale-fy_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 18486
+MD5Sum: b710736ddd82c0547402a0c07242ef00
+SHA256sum: b79707299494e5998e3f764f858e0c25626e4bf10e72e8d7776474e8c4745e7a
 
 Package: enigma2-locale-he
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: he
  he
 Section: base
@@ -412,13 +412,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-he_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 18906
-MD5Sum: fdd868ae55bed7e59bbf737004738f42
-SHA256sum: 066321ae93fc08e36d587ba54f04764c5b3fa0231a5174a4c3a8d766f01edb0e
+Filename: enigma2-locale-he_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 18908
+MD5Sum: 629b66503deddeca1ebe93e97a54ea79
+SHA256sum: eef1903d25c5a0283e03409da0e5c95b4fb2003218fe49728341627efa27b395
 
 Package: enigma2-locale-hr
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: hr
  hr
 Section: base
@@ -430,13 +430,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-hr_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 11842
-MD5Sum: 3f7ba2e258ad4d24fe2882784dc25ac0
-SHA256sum: 2a8067381275e40132d236ec2ff84d7130b198d52d40ee87a36a5f1774d0e798
+Filename: enigma2-locale-hr_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 11844
+MD5Sum: ee686026f37c0bbd329e717bcd9ef665
+SHA256sum: a784a67aeb837656993569f2cfdaf8b17cbdaba13b4e8fba9e798f36daf401e8
 
 Package: enigma2-locale-hu
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: hu
  hu
 Section: base
@@ -448,13 +448,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-hu_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 29474
-MD5Sum: ef93e751fe620ca677eefa452f54bd59
-SHA256sum: 74c68195dbe1a124e670eca849ecb6d5c40f7783268d7c0a0530d6da51277651
+Filename: enigma2-locale-hu_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 29476
+MD5Sum: acdceb6a77031b7baac0d79dac2abc90
+SHA256sum: 4b1c233464efa2fb5facf47410dfe435b6503093d048ecd0fc4bc174b1392296
 
 Package: enigma2-locale-is
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: is
  is
 Section: base
@@ -466,13 +466,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-is_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Filename: enigma2-locale-is_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
 Size: 24846
-MD5Sum: 223099f6cb5d1aecc2b5f60b25101cf8
-SHA256sum: af087add44db783087ac469aee4397dd72a2bd269e7d5ce7383831ea502f3b70
+MD5Sum: 6bcd7c3c14fc20b92c02549660842f81
+SHA256sum: 774b3155bdf7464c781ed6af2b22fca3fbc24a419904526b1ae7c39ec35049ef
 
 Package: enigma2-locale-it
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: it
  it
 Section: base
@@ -484,13 +484,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-it_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 141132
-MD5Sum: c7dcd6ac85c1dd4dd8f88f9b04f910b8
-SHA256sum: 51106e80ac318f2e5218fc48a3d5cd4e6b1343a7621152d2b61e2cdaecec97cd
+Filename: enigma2-locale-it_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 141134
+MD5Sum: 03db788c8b3b9a6e13546edb7f5ce081
+SHA256sum: a4a2ac700d4e2d7c04554faebeeb9fff2ad22d7b92b6e13eb340f5dbc2c94cde
 
 Package: enigma2-locale-ku
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: ku
  ku
 Section: base
@@ -502,13 +502,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-ku_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 30698
-MD5Sum: ec7c30f0d00625cb4b884f67fca1b3a1
-SHA256sum: 55926d7e3d45b66af5f8943888fcf55a23c33b09965ad4e40011dc63b64a4e77
+Filename: enigma2-locale-ku_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 30704
+MD5Sum: 80d11ff2077d6a1e9ce31e59e166ab03
+SHA256sum: beabfa0147d7117abfaec6e25930c92e805d6071255871e382d550aeca83f6c9
 
 Package: enigma2-locale-lt
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: lt
  lt
 Section: base
@@ -520,13 +520,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-lt_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 115398
-MD5Sum: d423b9fcc7baa35375f2295da979ee8f
-SHA256sum: 2e89c9fc56ff024d0c7931af020410c4b046d764d7962e96a4c094a41e385483
+Filename: enigma2-locale-lt_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 115400
+MD5Sum: 17f2b8a4431f7fcda19873aa256e5da1
+SHA256sum: a3d99c941bb9456e3e6f70ca0ad1a5a97120d54a645bda55eb497a2dcaa9a553
 
 Package: enigma2-locale-lv
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: lv
  lv
 Section: base
@@ -538,10 +538,10 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-lv_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 20014
-MD5Sum: d8bff8a92fc9cd1f1b3d9ee2a645d656
-SHA256sum: 7907c2fbb6f03bd48f529b4ef1eeaa715bfec1ce159e0f1ddeeedca7dad3b37a
+Filename: enigma2-locale-lv_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 20018
+MD5Sum: 80bbfc65edcd567e4e0482a1645e1102
+SHA256sum: 879e2e512d224b68626eff6760e924e21b6390060fb991564eaf1eee7196ff16
 
 Package: enigma2-locale-meta
 Version: 1.0-r2
@@ -562,7 +562,7 @@ MD5Sum: de9bdb6b4811737bfaafe00a3f2ecbc8
 SHA256sum: 333b915bb1ea126146fd93fa08408b45c02750e4ce0e1a8b51f070f37c8a3eae
 
 Package: enigma2-locale-nb
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: nb
  nb
 Section: base
@@ -574,13 +574,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-nb_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Filename: enigma2-locale-nb_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
 Size: 3846
-MD5Sum: 6c79a5e968fb765a6105c1e6854474c3
-SHA256sum: 8f005dc5e72e3be3168b1d84acff6e0a78c40e77c22a3a886b813f27bff8ad9f
+MD5Sum: 86621b4177deef65fee260b18b317dae
+SHA256sum: 7c122475d20d6302ae8b8e6a573815d363de145b7b0d6f0d465f8e7e49d11458
 
 Package: enigma2-locale-nl
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: nl
  nl
 Section: base
@@ -592,13 +592,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-nl_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Filename: enigma2-locale-nl_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
 Size: 83676
-MD5Sum: d7700da59c55a52703ba9a647831e316
-SHA256sum: fbbae094563f1641681774c17aca4de205244fee35f58b0687b8f2461703d063
+MD5Sum: 0bfcd4e2200a77b2e9a893c20fcc8daf
+SHA256sum: ba36432ed4cf3216c5b2496714244582b78f3599edb0841f88d2130c202b41b2
 
 Package: enigma2-locale-pl
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: pl
  pl
 Section: base
@@ -610,13 +610,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-pl_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 143178
-MD5Sum: d5c66f5fddc5ab7fc0e040e7688d1968
-SHA256sum: 624efc9d8b3139b0cc1a23d0e82f864c75125c718aa15b101a8b7bdc2562f868
+Filename: enigma2-locale-pl_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 143180
+MD5Sum: ba1ab65d25ae9008e446bfe9129dd4bb
+SHA256sum: 83d4d76b5d4798db72ea2be86caf599175720be7f7e464e1482acbd91b5f8dc8
 
 Package: enigma2-locale-pt
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: pt
  pt
 Section: base
@@ -628,13 +628,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-pt_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 90324
-MD5Sum: 9867898ca6bce8bbb54707c4a3982de7
-SHA256sum: 7cc9849a0b4294c9d53a3df1d450879c3c60b3ee4625d331c2de055e434bec7e
+Filename: enigma2-locale-pt_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 90328
+MD5Sum: 38fed85fc31e00ab2f6334b4638cd6f9
+SHA256sum: 9eee3180bbdc0da2b01f65573be4b9b1401c6fefde0816a94fa039076116c6dc
 
 Package: enigma2-locale-pt-br
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: pt-br
  pt-br
 Section: base
@@ -646,13 +646,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-pt-br_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 41038
-MD5Sum: 3ab4d667622975f72f1c0d4e6884c7ba
-SHA256sum: f2030a66f8aff34d751e0377f8341d66a84d54dffebda3eed1267870b1df1d0e
+Filename: enigma2-locale-pt-br_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 41040
+MD5Sum: d2f2e62e3cca0b9a7a55014fea5a3f8f
+SHA256sum: 63d5783f738a96cf9215d973dc1e9591da4699c1e79011978eaa164bc9e08879
 
 Package: enigma2-locale-ro
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: ro
  ro
 Section: base
@@ -664,13 +664,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-ro_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 21980
-MD5Sum: 50ec9655d94bd37630a34bba5192ac40
-SHA256sum: 629ade905092bdb34428e0fde239c8c4876ed0c25e3fd0623d81fec592c8bf68
+Filename: enigma2-locale-ro_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 21982
+MD5Sum: 6a8c7be41b52e991ae732c8d29945e25
+SHA256sum: 2d7d504fbaefd4575a4e0f2894a89d52e7df334af0993e4f8e7bbeca854691c6
 
 Package: enigma2-locale-ru
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: ru
  ru
 Section: base
@@ -682,13 +682,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-ru_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 151460
-MD5Sum: b764cfa6b2fdd2f09628195812a8b2e6
-SHA256sum: aeb7d7409522e484fef868d3c76dd94ed7fd6a1aaabbb6f5e39c7e8b84070ab3
+Filename: enigma2-locale-ru_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 151464
+MD5Sum: cdbe09f9e58428027d7e5e99fee34d7c
+SHA256sum: 9113a6f9c45e07a821601c45b208574bd4e176486833ca8c2d1c691e0d889290
 
 Package: enigma2-locale-sk
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: sk
  sk
 Section: base
@@ -700,13 +700,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-sk_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 71534
-MD5Sum: 2136f3cac75be21fe041b8d7e33b0956
-SHA256sum: f160fa8cf4e8d762e52a88d1c899e47ebbf30a74bf839f198c0273d655934e91
+Filename: enigma2-locale-sk_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 71538
+MD5Sum: 38da0cb65ec0ab9f7e418fb40cf4fcff
+SHA256sum: 099fbb07375c0ac86664f35cc87c212d5fd3014f95a5ffb812446d4e47c08d3e
 
 Package: enigma2-locale-sl
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: sl
  sl
 Section: base
@@ -718,13 +718,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-sl_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Filename: enigma2-locale-sl_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
 Size: 27036
-MD5Sum: ce4455001ebd508e0ca744a34d9072f5
-SHA256sum: 637bbc35c22be36585f47e2a1640f954981fa301d4ead6cebd98e50696e894c0
+MD5Sum: 37ee40e860f11b7b02e332eb0592e03a
+SHA256sum: a36b1611fd894e375d0a97a2d699c727ff65f0749effb77fbda1bb9cd71633d5
 
 Package: enigma2-locale-sr
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: sr
  sr
 Section: base
@@ -736,13 +736,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-sr_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 24788
-MD5Sum: 9e8c6df88bd77749ee47577d332acfe7
-SHA256sum: 760d33d9ce152fea8cd44dd142e919fefe6349552a44ae20ea8db143cfc1edec
+Filename: enigma2-locale-sr_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 24790
+MD5Sum: f0e064467e25214d8f8fcaef0c9ee106
+SHA256sum: 270f82cfc08dd7c36fb68ba3fb8775b22f3d2b18fd62c66eb7814adf85bf87f0
 
 Package: enigma2-locale-sv
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: sv
  sv
 Section: base
@@ -754,13 +754,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-sv_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 66908
-MD5Sum: e63b56450a409834fb4825eb07aebd73
-SHA256sum: cfc029eb14960ab837970e7d1b2aaaefeca252ae6dc2e4da442fc7d59de6baad
+Filename: enigma2-locale-sv_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 66912
+MD5Sum: 16e75f9b9b35538f8ac74c303183b325
+SHA256sum: 89b33d6e37daa5d737a25b87d85080a84591c4e4b3bfb3beeb23ab3187bd74a1
 
 Package: enigma2-locale-th
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: th
  th
 Section: base
@@ -772,13 +772,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-th_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 24898
-MD5Sum: 2a2f1c7e769a58a5467e638d0238ddb9
-SHA256sum: 60d46afb5568ac38555a80dec374c160f9941a9744a1609044cd74e4954f517c
+Filename: enigma2-locale-th_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 24902
+MD5Sum: 75e7aec6066843bc7311ecf0da58ba22
+SHA256sum: 0c9866abf0646f4ed9790575969616e94d3e308e4200b3e642aede64beba675a
 
 Package: enigma2-locale-tr
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: tr
  tr
 Section: base
@@ -790,13 +790,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-tr_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 63158
-MD5Sum: d6a6bc3cd248a2b228b4d75b43d712f4
-SHA256sum: e981f57a98fb414339a9f8670d3bb478dbf5c5ac9fd9361f43616c21a87fed0d
+Filename: enigma2-locale-tr_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 63162
+MD5Sum: e4bdd84a674fe3c1e8f0006ae6c19977
+SHA256sum: 57f3f75e70742abcbfb5320d834640869039a3fb5a0cf706a781ec45234d7aa4
 
 Package: enigma2-locale-uk
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: uk
  uk
 Section: base
@@ -808,13 +808,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-uk_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 22704
-MD5Sum: 4a18fa192ccfce1a2fe3d0f824d04b14
-SHA256sum: 5d053b062a4f976135924cf668172d07481543f0c198089ad3f8ce44cfd45d4c
+Filename: enigma2-locale-uk_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 22708
+MD5Sum: 917161a0e999a037041dafb8e73f9603
+SHA256sum: 11ee162276f808f74052c155f813df54cabd05aab677a1703dddf015faaa1151
 
 Package: enigma2-locale-zh-cn
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: zh-cn
  zh-cn
 Section: base
@@ -826,13 +826,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-locale-zh-cn_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 91514
-MD5Sum: 556630c30d4bde1b7be1cc7bd18ab18c
-SHA256sum: bc8aa88960979c961872699b1523eec9c01cca4b83a6d071d28e5294e45473f2
+Filename: enigma2-locale-zh-cn_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 91518
+MD5Sum: 747d7060f47054e0aceb6cf646cc4c1f
+SHA256sum: 15c2a925a5fdf05260070fa469f36ccc74329496f3eb603ce9f2765bb10f29ab
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: extensions-cutlisteditor
  extensions-cutlisteditorenables you to cut your movies.
 Section: base
@@ -844,13 +844,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: aio-grab, enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-extensions-cutlisteditor_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 13262
-MD5Sum: 1d5017cb16f171132360a15e5e677290
-SHA256sum: d4738134ba7817d0453753930931f9a5d903d7c115f31d5f59171372fdee7620
+Filename: enigma2-plugin-extensions-cutlisteditor_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 13266
+MD5Sum: 94c209619e0e0462975d6d171b883dd0
+SHA256sum: b9cb4606ffa65f87395ed7cc08f6291b02f6c37bbfd1caaa3faad3d0e757876e
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: extensions-mediaplayer
  extensions-mediaplayer
 Section: base
@@ -862,13 +862,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-extensions-mediaplayer_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 34506
-MD5Sum: 00fa9312559abc9780be623dff23b4b3
-SHA256sum: 7801348825490f4407689b0b7df3c22e7f38316fe0a6e196de19a1465d6ae56d
+Filename: enigma2-plugin-extensions-mediaplayer_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 34508
+MD5Sum: aba8a85a36e07e31daa857f40d2235f1
+SHA256sum: 93a455f0f65762cd549cfc3e87638a1a27088be54b0a623a9a4e6f0cfe57f775
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: extensions-mediascanner
  extensions-mediascanner
 Section: base
@@ -880,13 +880,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-extensions-mediascanner_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 4998
-MD5Sum: a52082d9b73fe1c6f5bd19a659e536b0
-SHA256sum: ab6e7e9d324a1b23a08b62dad0a4f7ff7792b9d86a21103e0bf6c1d7a9c1be5c
+Filename: enigma2-plugin-extensions-mediascanner_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 5002
+MD5Sum: ede4d6f027b1ae9f511d2efedb70fb3d
+SHA256sum: eb4902bd12599edfdd010bc660eb3701eba823962f4fe9e381f812843d5c0b9d
 
 Package: enigma2-plugin-extensions-openbhvip
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: extensions-openbhvip
  extensions-openbhvip
 Section: base
@@ -898,13 +898,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-extensions-openbhvip_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Filename: enigma2-plugin-extensions-openbhvip_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
 Size: 15286
-MD5Sum: 4156ce7ad953c548e37cb4e06ce1a0cf
-SHA256sum: 3c0d2025bc880f4b832054c1c45caeb6fcc5d923adbb75c3b399de46e89e7a10
+MD5Sum: a97b75464e83799d47dee45a38737469
+SHA256sum: 188fa51bf53c046ab099b089f18729872e6e43e72b845ec9b3a23fe60a53244a
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: extensions-pictureplayer
  extensions-pictureplayerdisplays photos on the TV.
 Section: base
@@ -916,13 +916,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-extensions-pictureplayer_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 38012
-MD5Sum: ad59f7397ca62b65eee19c5bc87be7c5
-SHA256sum: 7d457727bd857f9cb4c8e23ac7a9568f0deca5cf30ddd5f3e6db6306c8d507a0
+Filename: enigma2-plugin-extensions-pictureplayer_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 38014
+MD5Sum: 7f4d65c514a63dc352d81757cb59f5f4
+SHA256sum: bc6d017695e1634ad429108310fe969e04daa5f022932063b7cc0d4c3557415a
 
 Package: enigma2-plugin-font-wqy-microhei
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
  Font wqy-microhei add support for China EPG
 Section: base
@@ -933,10 +933,10 @@ Architecture: xconn
 OE: enigma2
 Homepage: https://www.openbh.net
 Source: enigma2.bb
-Filename: enigma2-plugin-font-wqy-microhei_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 2009684
-MD5Sum: 0b926012046d70947725f57529bde921
-SHA256sum: 6c0f4bc38f7230a0e232f3da48c6b7e7098ea3c7479029f8023746d53e9761a4
+Filename: enigma2-plugin-font-wqy-microhei_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 2009688
+MD5Sum: 0695adc10b32bd4ba0a55faf70ebda97
+SHA256sum: 345273bba066a805a0ad36ffe56945f6fbc4d07e1174d3f21fde04439f08409b
 
 Package: enigma2-plugin-systemplugins-crossepg
 Version: 0.9.1+gitr1+bf4e3330+bf4e333af0-r4
@@ -957,7 +957,7 @@ MD5Sum: 079a4b1fc8611daa4b38ed6450786131
 SHA256sum: b18cd116f963a0ab8a7313b993ff5012aee2a30d8fa9505300a69cecb544dbf9
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: systemplugins-hotplug
  systemplugins-hotplug
 Section: base
@@ -969,13 +969,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-systemplugins-hotplug_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
+Filename: enigma2-plugin-systemplugins-hotplug_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
 Size: 10462
-MD5Sum: f87e9a3e61a86bf954d2f70b68e9e144
-SHA256sum: be03b8dfce1963d707b17505fde2989a856b0ae2563484b54ba1c2a9e02ae33f
+MD5Sum: 807557df4a1c6a518a3f243faa8bce9e
+SHA256sum: fc25cdbf5520368af3fee37c137bcd76038782cb96a236e2dc1f425eebd4131a
 
 Package: enigma2-plugin-systemplugins-obh
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: systemplugins-obh
  systemplugins-obh
 Section: base
@@ -987,13 +987,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-systemplugins-obh_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 183702
-MD5Sum: dcdc80868dc9f765a54c521b2de971bc
-SHA256sum: 81423f0c72d7ac767445a3dfff6b0a5d564815fa33ac2753b3728f5ec6efe202
+Filename: enigma2-plugin-systemplugins-obh_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 183714
+MD5Sum: 69fae76ca9b61581699c57e2838e798e
+SHA256sum: 7b6cfaa1989991381655f3477628f78c51ba131078a2c9cc3be951aacfda77c8
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: systemplugins-positionersetup
  systemplugins-positionersetuphelps you installing a motorized dish.
 Section: base
@@ -1005,13 +1005,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-systemplugins-positionersetup_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 47684
-MD5Sum: d723ff72bc0b073c51144972397f47b7
-SHA256sum: 935ebf24bd26abe3b579f694e8003e7e29436ccf370ab7e941c79ffb48452696
+Filename: enigma2-plugin-systemplugins-positionersetup_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 47686
+MD5Sum: 13fb1207222336ee645a127e07f0091d
+SHA256sum: 92e2c8d7ac85c0d82a6dc5c7cf34fc234d729c6178dba1a4f498370058c9f92a
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: systemplugins-satfinder
  systemplugins-satfinderhelps you to align your dish.
 Section: base
@@ -1023,13 +1023,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-systemplugins-satfinder_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 24692
-MD5Sum: 53486c0f5a1255871b35410f3855ef82
-SHA256sum: c80d51d2c7d224958cadbfe373b8432b7f01de8e80d12f3d9caa271131ff3f5a
+Filename: enigma2-plugin-systemplugins-satfinder_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 24698
+MD5Sum: f8c28741589fb07ebe05df0ddb8d9b65
+SHA256sum: 0ca7a8e526779e0118d9a7664a9807aa198ce3f38062053f794a0a1299d22dba
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: systemplugins-videoenhancement
  systemplugins-videoenhancement
 Section: base
@@ -1041,13 +1041,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-systemplugins-videoenhancement_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 16078
-MD5Sum: 7a9861fa6e234a605397701359d1e001
-SHA256sum: a3c5b6e6dd00ef6af4450de30c66a80cd60d7d3e4ea869f469c07a48e36858f0
+Filename: enigma2-plugin-systemplugins-videoenhancement_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 16082
+MD5Sum: 06be6526328facdf0de35bf6f373c538
+SHA256sum: fbf7650f56003a46215c9a06eba8d466b9ece9eb7bda90749acb9c82557cfac0
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: systemplugins-videotune
  systemplugins-videotune
 Section: base
@@ -1059,13 +1059,13 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2
 Source: enigma2.bb
-Filename: enigma2-plugin-systemplugins-videotune_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 9290
-MD5Sum: 36f4cfce1905d173deda73bee28675d4
-SHA256sum: 8a5df17bb1f84a3f7662b2e9450753ace172e0ea9562283563448507ec51525b
+Filename: enigma2-plugin-systemplugins-videotune_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 9292
+MD5Sum: 2591aa450610f42bd0d3a6e1b12b51cf
+SHA256sum: a7d6ccea3588bd8b87d7661dc52ec58ecc90a3f4dbdf57ecab1e3fd9ad97c5e8
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
 Description: systemplugins-wirelesslan
  systemplugins-wirelesslanhelps you configuring your wireless lan
 Section: base
@@ -1077,10 +1077,10 @@ OE: enigma2
 Homepage: https://www.openbh.net
 Depends: enigma2, python3-wifi, wireless-tools, wpa-supplicant
 Source: enigma2.bb
-Filename: enigma2-plugin-systemplugins-wirelesslan_6.0+git1+b8ee4290+b8ee429ab2-r1_xconn.ipk
-Size: 23116
-MD5Sum: a67c675e2d5bfe30618a553635807ff1
-SHA256sum: 089b2945a60ebc83313067a9a20561ed5258cd8126002d35e8fdc7051c61ca63
+Filename: enigma2-plugin-systemplugins-wirelesslan_6.0+git1+b8ee4290+b8ee429ab2-r1.xc1_xconn.ipk
+Size: 24314
+MD5Sum: b1456c93a9c09258c7f1ca17805c055d
+SHA256sum: 4559cbd757cc30374f12ffb8d7ab81a1f5789fdb1c69c5b0499c9dec3fe8cad8
 
 Package: gstreamer1.0-plugin-subsink
 Version: 1.0+git1+df8f46c0+df8f46cfa5-r0

@@ -9807,6 +9807,25 @@ Size: 18736
 MD5Sum: 5e6f4eb77a9226067f2c1359bee09fff
 SHA256sum: 21dfc7da64c784fe60081a8def39cdc0404929c85555d2ef359c7b57ad57bcd5
 
+Package: xc-addremote-repeat
+Version: 1.0-r0
+Description: Faster held-key repeat for the Add Remote plugin on XC
+ Faster held-key repeat for the Add Remote plugin on XC.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: CLOSED
+Architecture: cortexa55
+OE: xc-addremote-repeat
+Homepage: https://www.openbh.net
+Depends: python3-core
+Recommends: update-rc.d
+Source: xc-addremote-repeat_1.0.bb
+Filename: xc-addremote-repeat_1.0-r0_cortexa55.ipk
+Size: 3038
+MD5Sum: 7d1994e30416c5a5451ccb6a5cb89607
+SHA256sum: 5c3221032123ef89570875a93f0d8e3751db7ed978f3b7690cb134930137891f
+
 Package: xc-audiod
 Version: 0.1-r0
 Description: XC standard DVB audio system backend
@@ -10031,7 +10050,7 @@ MD5Sum: 4226a902d489e904bf8a43c48f3843cb
 SHA256sum: d7a87cd44f0d5cc66dd358806081fef24c7aee4b56773058d6ef118702a1b272
 
 Package: xc-remote-timing
-Version: 0.1-r0
+Version: 0.1-r1
 Description: XC IR remote held-key timing
  XC IR remote held-key timing.
 Section: base
@@ -10041,13 +10060,13 @@ License: CLOSED
 Architecture: cortexa55
 OE: xc-remote-timing
 Homepage: https://www.openbh.net
-Depends: python3-core, python3-fcntl
+Depends: python3-core, python3-fcntl, xc-addremote-repeat
 Recommends: update-rc.d
 Source: xc-remote-timing_0.1.bb
-Filename: xc-remote-timing_0.1-r0_cortexa55.ipk
-Size: 1418
-MD5Sum: 5d26bb90ea83a1cf80770829a2503ff6
-SHA256sum: c91c5e49e7df246f626ae1f2a0fed9c00d254e072584644ae08a60167f79d58a
+Filename: xc-remote-timing_0.1-r1_cortexa55.ipk
+Size: 1722
+MD5Sum: aa43c273d8ae20410d5be7ed21ece496
+SHA256sum: 1f0ac1936d7682d147314e9e00c1aea76d3595ae0facce86cced5961cdaac8a0
 
 Package: xc-screenshot
 Version: 0.1-r0
