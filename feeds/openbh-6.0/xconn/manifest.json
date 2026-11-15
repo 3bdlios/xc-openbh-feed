@@ -4963,11 +4963,11 @@
   },
   {
    "Package": "oe-alliance-branding",
-   "Version": "6.0+git1+84e88a30+84e88a388f-r20261114-xconn",
+   "Version": "6.0+git1+84e88a30+84e88a388f-r20261115-xconn",
    "Architecture": "xconn",
    "License": "GPL-2.0-or-later",
-   "SHA256sum": "ae2c2bc5984bd27d8fba316839b56ab2c6b3e4a3da2dd31fe587fb62cd06a0c4",
-   "Size": 18810
+   "SHA256sum": "bea52963b3d59a1c5320d940e0d0783cfbecd27451314374654e208e58271a9b",
+   "Size": 19010
   },
   {
    "Package": "oe-alliance-feeds-configs",
