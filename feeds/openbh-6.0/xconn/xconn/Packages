@@ -1180,8 +1180,8 @@ MD5Sum: 4b80aa5ee183e73c3146dcca150c1efa
 SHA256sum: d3827d605f2f757e41ec4734b60a818258d395fc40330ea9a541a526b1b4d865
 
 Package: oe-alliance-branding
-Version: 6.0+git1+84e88a30+84e88a388f-r20261115-xconn
-Description: oe-alliance-branding version 6.0+git-r20261115-xconn
+Version: 6.0+git1+84e88a30+84e88a388f-r20261115b-xconn
+Description: oe-alliance-branding version 6.0+git-r20261115b-xconn
  OE-A Branding Lib for OE-A 2.0
 Section: base
 Priority: optional
@@ -1190,12 +1190,12 @@ License: GPL-2.0-or-later
 Architecture: xconn
 OE: oe-alliance-branding
 Homepage: https://www.openbh.net
-Depends: libc6 (>= 2.44+git0+34106fee69), xc-audiod, xc-avahi-shutdown-early, xc-boot-files, xc-boxpic, xc-cam-integration, xc-frontpanel, xc-gst-video, xc-gui-startup, xc-hardware, xc-hdmi-route, xc-ipa-delay-controls, xc-multiboot-menu, xc-package-feed, xc-power-handoff, xc-provenance, xc-remote-timing, xc-screenshot, xc-subtitle-overlay-compat, xc-timeshift-storage, xc-video-route, xc-video-setup, xc-volume-bridge, xc-wifi
+Depends: libc6 (>= 2.44+git0+34106fee69), xc-audiod, xc-avahi-shutdown-early, xc-boot-files, xc-boxpic, xc-cam-integration, xc-frontpanel, xc-ftp-access, xc-gst-video, xc-gui-startup, xc-hardware, xc-hdmi-route, xc-ipa-delay-controls, xc-multiboot-menu, xc-package-feed, xc-power-handoff, xc-provenance, xc-remote-timing, xc-screenshot, xc-subtitle-overlay-compat, xc-timeshift-storage, xc-video-route, xc-video-setup, xc-volume-bridge, xc-wifi
 Source: oe-alliance-branding.bb
-Filename: oe-alliance-branding_6.0+git1+84e88a30+84e88a388f-r20261115-xconn_xconn.ipk
-Size: 19010
-MD5Sum: 7f5944c2f2da72e30a060e939970dd2a
-SHA256sum: bea52963b3d59a1c5320d940e0d0783cfbecd27451314374654e208e58271a9b
+Filename: oe-alliance-branding_6.0+git1+84e88a30+84e88a388f-r20261115b-xconn_xconn.ipk
+Size: 19020
+MD5Sum: c22ccf2b7f389af9dbffb7e46d757e77
+SHA256sum: 99c9d5e518876b8b40693a8c1a6bf55a6ea0d3466da885623624ec6b47331db9
 
 Package: oe-alliance-feeds-configs
 Version: 1.0-r7
@@ -1733,7 +1733,7 @@ MD5Sum: 792a725c39cc2af1afa6d629f937b4ba
 SHA256sum: 4dbe737a3dda3775ec0aced792d2c1d1baee219298a5d9ca198092e1ace6bf81
 
 Package: xc-boot-files
-Version: 1.0-r0
+Version: 1.0-r1
 Description: XC BOOT partition files (boot-wait kernel, boot scripts, boot picture), updated through the package feed
  XC BOOT partition files (boot-wait kernel, boot scripts, boot picture),
  updated through the package feed.
@@ -1745,10 +1745,10 @@ Architecture: xconn
 OE: xc-boot-files
 Homepage: https://www.openbh.net
 Source: xc-boot-files_1.0.bb
-Filename: xc-boot-files_1.0-r0_xconn.ipk
-Size: 25434358
-MD5Sum: 38e3d32edfb939f9e72c0961af5a4bd8
-SHA256sum: 4cfc9d04f31598a330976351c45f865d6d880b7b22ddd7484eed05541ae2c559
+Filename: xc-boot-files_1.0-r1_xconn.ipk
+Size: 25433468
+MD5Sum: 0552bbc7499fcb65dde2d17c8701adc1
+SHA256sum: eee2a8544543ce67401a3d17acfaa44917616eb719bde646e7c3198fb7ecc75f
 
 Package: xc-boxpic
 Version: 0.1-r0

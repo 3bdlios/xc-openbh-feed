@@ -4298,6 +4298,14 @@
    "Size": 10460
   },
   {
+   "Package": "xc-ftp-access",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "5b5813273fdae610fe37d3fe8d7b31d4b2b1d57ef4de9f0e13d2ea03f15c04ec",
+   "Size": 1268
+  },
+  {
    "Package": "xc-gst-video",
    "Version": "0.3.0-r0",
    "Architecture": "cortexa55",
@@ -4395,11 +4403,11 @@
   },
   {
    "Package": "xc-video-route",
-   "Version": "0.1-r0",
+   "Version": "0.1-r1",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "4f2633aa49a227deeb5376be06ae9e4c1c9adbf62c99ac39e657d23e14cd826d",
-   "Size": 1474
+   "SHA256sum": "9be6cb9caf0460ce7df23bf0a0c547e8a16bfa0d4d9679d9c26776f14623cfb2",
+   "Size": 4914
   },
   {
    "Package": "xc-video-setup",
@@ -4963,11 +4971,11 @@
   },
   {
    "Package": "oe-alliance-branding",
-   "Version": "6.0+git1+84e88a30+84e88a388f-r20261115-xconn",
+   "Version": "6.0+git1+84e88a30+84e88a388f-r20261115b-xconn",
    "Architecture": "xconn",
    "License": "GPL-2.0-or-later",
-   "SHA256sum": "bea52963b3d59a1c5320d940e0d0783cfbecd27451314374654e208e58271a9b",
-   "Size": 19010
+   "SHA256sum": "99c9d5e518876b8b40693a8c1a6bf55a6ea0d3466da885623624ec6b47331db9",
+   "Size": 19020
   },
   {
    "Package": "oe-alliance-feeds-configs",
@@ -5203,11 +5211,11 @@
   },
   {
    "Package": "xc-boot-files",
-   "Version": "1.0-r0",
+   "Version": "1.0-r1",
    "Architecture": "xconn",
    "License": "CLOSED",
-   "SHA256sum": "4cfc9d04f31598a330976351c45f865d6d880b7b22ddd7484eed05541ae2c559",
-   "Size": 25434358
+   "SHA256sum": "eee2a8544543ce67401a3d17acfaa44917616eb719bde646e7c3198fb7ecc75f",
+   "Size": 25433468
   },
   {
    "Package": "xc-boxpic",

@@ -9901,6 +9901,25 @@ Size: 10460
 MD5Sum: 71ef80e658eafad960ad60b937e66dbd
 SHA256sum: 89044c23b3b878ac9bee425630bde8929a549bd9ac7e7f1544897f8d1b563aa0
 
+Package: xc-ftp-access
+Version: 1.0-r0
+Description: Start vsftpd at boot and allow passwordless root FTP like telnet/ssh on XC
+ Start vsftpd at boot and allow passwordless root FTP like telnet/ssh on
+ XC.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: CLOSED
+Architecture: cortexa55
+OE: xc-ftp-access
+Homepage: https://www.openbh.net
+Depends: vsftpd
+Source: xc-ftp-access_1.0.bb
+Filename: xc-ftp-access_1.0-r0_cortexa55.ipk
+Size: 1268
+MD5Sum: b44cf322d2b9a6a2c2043686f882149c
+SHA256sum: 5b5813273fdae610fe37d3fe8d7b31d4b2b1d57ef4de9f0e13d2ea03f15c04ec
+
 Package: xc-gst-video
 Version: 0.3.0-r0
 Description: XC Amlogic encoded IPTV GStreamer video output
@@ -10123,9 +10142,9 @@ MD5Sum: 342a947430814e68939ca138eba864c1
 SHA256sum: 54d1bc62c0c346b9738398293b9b40182c48873b4cc518f877e16ad856ba6c28
 
 Package: xc-video-route
-Version: 0.1-r0
-Description: XC deinterlaced video route
- XC deinterlaced video route.
+Version: 0.1-r1
+Description: XC deinterlaced video route and HDMI/OSD binding
+ XC deinterlaced video route and HDMI/OSD binding.
 Section: base
 Priority: optional
 Maintainer: OpenBh
@@ -10133,13 +10152,13 @@ License: CLOSED
 Architecture: cortexa55
 OE: xc-video-route
 Homepage: https://www.openbh.net
-Depends: python3-core
+Depends: python3-core, python3-ctypes, python3-fcntl
 Recommends: update-rc.d
 Source: xc-video-route_0.1.bb
-Filename: xc-video-route_0.1-r0_cortexa55.ipk
-Size: 1474
-MD5Sum: b6eacc9e8ba868b30c0fbf45b9c972ef
-SHA256sum: 4f2633aa49a227deeb5376be06ae9e4c1c9adbf62c99ac39e657d23e14cd826d
+Filename: xc-video-route_0.1-r1_cortexa55.ipk
+Size: 4914
+MD5Sum: 9587933ddebdff0388bb614bd8b546f7
+SHA256sum: 9be6cb9caf0460ce7df23bf0a0c547e8a16bfa0d4d9679d9c26776f14623cfb2
 
 Package: xc-video-setup
 Version: 0.1-r0
