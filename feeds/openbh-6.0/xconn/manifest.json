@@ -2923,11 +2923,11 @@
   },
   {
    "Package": "odhcp6c",
-   "Version": "git1+f2521b20+f2521b296b-4",
+   "Version": "git1+f2521b20+f2521b296b-4.xc1",
    "Architecture": "cortexa55",
    "License": "GPL-2.0-or-later",
-   "SHA256sum": "6108c000c8a92c63f21a95e5a8a420c503ecc3af0d2272b6bd5ead063c4ff930",
-   "Size": 32958
+   "SHA256sum": "a495b08c16c6de9ca335a8ab0118a1b89614419d7b5fedd82397019475ffd3c9",
+   "Size": 32962
   },
   {
    "Package": "oe-alliance-botfeed-configs",
@@ -4290,6 +4290,14 @@
    "Size": 1670
   },
   {
+   "Package": "xc-dhcp-last-ip",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "0a9178924759254d1e37fcf7ae8acfc74f310c9c49bb8db62b7309a039dc012a",
+   "Size": 1232
+  },
+  {
    "Package": "xc-frontpanel",
    "Version": "0.1-r0",
    "Architecture": "cortexa55",
@@ -4379,11 +4387,11 @@
   },
   {
    "Package": "xc-screenshot",
-   "Version": "0.1-r0",
+   "Version": "0.1-r1",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "784df84a3516eb4af431b079a3805acc2fc1078ce2b2edfbba0b6d1f27d8d3ec",
-   "Size": 3370
+   "SHA256sum": "d7633906b8dca88bb6b19b85f4ee95e636684adac89f9bd875dd5b4af16522f3",
+   "Size": 3462
   },
   {
    "Package": "xc-stale-py-cleanup",
@@ -4392,6 +4400,14 @@
    "License": "CLOSED",
    "SHA256sum": "9f56df963677c87783f5c91567fb3a9e43b1fbe00052930090a28f55724340c2",
    "Size": 1694
+  },
+  {
+   "Package": "xc-storage-hdd",
+   "Version": "1.0-r0",
+   "Architecture": "cortexa55",
+   "License": "CLOSED",
+   "SHA256sum": "9d2d49837ad618e3c26c6958734b8524ab50d48984a025ca25438bf9a8e226af",
+   "Size": 1326
   },
   {
    "Package": "xc-subtitle-overlay-compat",
@@ -4411,19 +4427,19 @@
   },
   {
    "Package": "xc-video-route",
-   "Version": "0.1-r1",
+   "Version": "0.1-r2",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "9be6cb9caf0460ce7df23bf0a0c547e8a16bfa0d4d9679d9c26776f14623cfb2",
-   "Size": 4914
+   "SHA256sum": "971bde002c6ebdca6d4799719e75b7956de521d620afb9b791e10e5d732d07a5",
+   "Size": 5990
   },
   {
    "Package": "xc-video-setup",
-   "Version": "0.1-r0",
+   "Version": "0.1-r1",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "7c5d0c5680e5eed0f78dc9ff34282f4b820d7f2b5ad6c8708d9850c5285f504f",
-   "Size": 2898
+   "SHA256sum": "803f95c7930a5954d700d43b060a66f4c3adb3234d5090cf7c9af86dbac25a6d",
+   "Size": 3898
   },
   {
    "Package": "xc-volume-bridge",
@@ -4979,11 +4995,11 @@
   },
   {
    "Package": "oe-alliance-branding",
-   "Version": "6.0+git1+84e88a30+84e88a388f-r20261115c-xconn",
+   "Version": "6.0+git1+84e88a30+84e88a388f-r20261117-xconn",
    "Architecture": "xconn",
    "License": "GPL-2.0-or-later",
-   "SHA256sum": "2962beba9c967ff5e1aa23b0135cc69ef6c2a361c6ed223b474522841f43b750",
-   "Size": 19028
+   "SHA256sum": "2ffa01834417783b3ca200012bd4e2f260d75fca26167161bc480817a55a9e68",
+   "Size": 19044
   },
   {
    "Package": "oe-alliance-feeds-configs",

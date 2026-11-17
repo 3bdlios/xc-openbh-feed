@@ -6634,7 +6634,7 @@ MD5Sum: e707a4808afc846326b674d22f434730
 SHA256sum: e03166f987e45f30fbd911fbb9fb2b1a96be9e4b1e1620403036cfcce036c9bf
 
 Package: odhcp6c
-Version: git1+f2521b20+f2521b296b-4
+Version: git1+f2521b20+f2521b296b-4.xc1
 Description: Openwrt DHCPv6 Client
  Openwrt DHCPv6 Client.
 Section: base
@@ -6648,10 +6648,10 @@ Depends: libc6 (>= 2.44+git0+34106fee69)
 Replaces: ndisc6-rdnssd
 Conflicts: ndisc6-rdnssd
 Source: odhcp6c.bb
-Filename: odhcp6c_git1+f2521b20+f2521b296b-4_cortexa55.ipk
-Size: 32958
-MD5Sum: 141c3951866efdeb23e8ac130abf813d
-SHA256sum: 6108c000c8a92c63f21a95e5a8a420c503ecc3af0d2272b6bd5ead063c4ff930
+Filename: odhcp6c_git1+f2521b20+f2521b296b-4.xc1_cortexa55.ipk
+Size: 32962
+MD5Sum: 7c3f7ee33ed547807ae2d18c7eca4fab
+SHA256sum: a495b08c16c6de9ca335a8ab0118a1b89614419d7b5fedd82397019475ffd3c9
 
 Package: oe-alliance-botfeed-configs
 Version: 1.0-r1
@@ -9881,6 +9881,25 @@ Size: 1670
 MD5Sum: 30fb615124538951b9e1dae4150ce8e2
 SHA256sum: dd5f43b2577de46d4ae69cdce5118b28659aa4fbf3a24591ad30d3b96d972487
 
+Package: xc-dhcp-last-ip
+Version: 1.0-r0
+Description: Ask the DHCP server for the address the box had last time, so the IP survives expired leases
+ Ask the DHCP server for the address the box had last time, so the IP
+ survives expired leases.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: CLOSED
+Architecture: cortexa55
+OE: xc-dhcp-last-ip
+Homepage: https://www.openbh.net
+Depends: busybox-udhcpc
+Source: xc-dhcp-last-ip_1.0.bb
+Filename: xc-dhcp-last-ip_1.0-r0_cortexa55.ipk
+Size: 1232
+MD5Sum: 22fb87af190b5e14411f57583cc29556
+SHA256sum: 0a9178924759254d1e37fcf7ae8acfc74f310c9c49bb8db62b7309a039dc012a
+
 Package: xc-frontpanel
 Version: 0.1-r0
 Description: XC front panel display: boot counter, channel, menus and clock on the 4-digit 7-segment panel
@@ -10088,7 +10107,7 @@ MD5Sum: aa43c273d8ae20410d5be7ed21ece496
 SHA256sum: 1f0ac1936d7682d147314e9e00c1aea76d3595ae0facce86cced5961cdaac8a0
 
 Package: xc-screenshot
-Version: 0.1-r0
+Version: 0.1-r1
 Description: XC OpenWebif screenshot: Amlogic video capture (amvideocap0) plus OSD framebuffer
  XC OpenWebif screenshot: Amlogic video capture (amvideocap0) plus OSD
  framebuffer.
@@ -10101,10 +10120,10 @@ OE: xc-screenshot
 Homepage: https://www.openbh.net
 Depends: enigma2-plugin-extensions-openwebif, python3-core, python3-ctypes, python3-fcntl, python3-pillow
 Source: xc-screenshot_0.1.bb
-Filename: xc-screenshot_0.1-r0_cortexa55.ipk
-Size: 3370
-MD5Sum: 9662ead78240b2aecb5675ea76311ba2
-SHA256sum: 784df84a3516eb4af431b079a3805acc2fc1078ce2b2edfbba0b6d1f27d8d3ec
+Filename: xc-screenshot_0.1-r1_cortexa55.ipk
+Size: 3462
+MD5Sum: 6334f3bbcfd2de4810c8c2197ee07d34
+SHA256sum: d7633906b8dca88bb6b19b85f4ee95e636684adac89f9bd875dd5b4af16522f3
 
 Package: xc-stale-py-cleanup
 Version: 1.0-r0
@@ -10123,6 +10142,25 @@ Filename: xc-stale-py-cleanup_1.0-r0_cortexa55.ipk
 Size: 1694
 MD5Sum: 30f27e9dc048f7287a19d47ca5a05e8e
 SHA256sum: 9f56df963677c87783f5c91567fb3a9e43b1fbe00052930090a28f55724340c2
+
+Package: xc-storage-hdd
+Version: 1.0-r0
+Description: Use the XC STORAGE partition as /media/hdd (recordings, timeshift, HDD in Enigma2)
+ Use the XC STORAGE partition as /media/hdd (recordings, timeshift, HDD in
+ Enigma2).
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: CLOSED
+Architecture: cortexa55
+OE: xc-storage-hdd
+Homepage: https://www.openbh.net
+Recommends: update-rc.d
+Source: xc-storage-hdd_1.0.bb
+Filename: xc-storage-hdd_1.0-r0_cortexa55.ipk
+Size: 1326
+MD5Sum: 0fbea7ff0c59ab5fb7702892ecab9cf5
+SHA256sum: 9d2d49837ad618e3c26c6958734b8524ab50d48984a025ca25438bf9a8e226af
 
 Package: xc-subtitle-overlay-compat
 Version: 0.1-r0
@@ -10160,7 +10198,7 @@ MD5Sum: 342a947430814e68939ca138eba864c1
 SHA256sum: 54d1bc62c0c346b9738398293b9b40182c48873b4cc518f877e16ad856ba6c28
 
 Package: xc-video-route
-Version: 0.1-r1
+Version: 0.1-r2
 Description: XC deinterlaced video route and HDMI/OSD binding
  XC deinterlaced video route and HDMI/OSD binding.
 Section: base
@@ -10173,13 +10211,13 @@ Homepage: https://www.openbh.net
 Depends: python3-core, python3-ctypes, python3-fcntl
 Recommends: update-rc.d
 Source: xc-video-route_0.1.bb
-Filename: xc-video-route_0.1-r1_cortexa55.ipk
-Size: 4914
-MD5Sum: 9587933ddebdff0388bb614bd8b546f7
-SHA256sum: 9be6cb9caf0460ce7df23bf0a0c547e8a16bfa0d4d9679d9c26776f14623cfb2
+Filename: xc-video-route_0.1-r2_cortexa55.ipk
+Size: 5990
+MD5Sum: 4ffff502a18703ee88f10b1b90b716d4
+SHA256sum: 971bde002c6ebdca6d4799719e75b7956de521d620afb9b791e10e5d732d07a5
 
 Package: xc-video-setup
-Version: 0.1-r0
+Version: 0.1-r1
 Description: XC video output: resolution from the TV's DRM modes (applied at boot) and HDR output policy
  XC video output: resolution from the TV's DRM modes (applied at boot) and
  HDR output policy.
@@ -10192,10 +10230,10 @@ OE: xc-video-setup
 Homepage: https://www.openbh.net
 Depends: python3-core
 Source: xc-video-setup_0.1.bb
-Filename: xc-video-setup_0.1-r0_cortexa55.ipk
-Size: 2898
-MD5Sum: a148ac44bd7767ce38d00811f2ec8ebc
-SHA256sum: 7c5d0c5680e5eed0f78dc9ff34282f4b820d7f2b5ad6c8708d9850c5285f504f
+Filename: xc-video-setup_0.1-r1_cortexa55.ipk
+Size: 3898
+MD5Sum: 6911a74b4a5108e9d7965bdfae4db913
+SHA256sum: 803f95c7930a5954d700d43b060a66f4c3adb3234d5090cf7c9af86dbac25a6d
 
 Package: xc-volume-bridge
 Version: 0.1-r0
