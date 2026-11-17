@@ -9,6 +9,7 @@ DEPLOY=$BUILD/builds/openbh/release/xconn/tmp/deploy
 LAYER=$BUILD/meta-oe-alliance/meta-brands/meta-xconn
 MANIFEST=$(ls -t $DEPLOY/images/xconn/*.manifest | head -1)
 EXTRA=$(ls $LAYER/recipes-bsp | grep '^xc-' | tr '\n' ',')openbh-bootlogo
+EXTRA=$EXTRA,$(grep -v '^#' "$(dirname "$0")/extra-packages.txt" | grep . | tr '\n' ',')
 
 # Compare against what is published (origin/main), never against a previous local run.
 cd $REPO

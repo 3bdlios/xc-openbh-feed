@@ -682,6 +682,30 @@
    "Size": 798364
   },
   {
+   "Package": "enigma2-plugin-softcams-ncam",
+   "Version": "1.30+git1+25671bf0+25671bffc8-r1",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "d06ef741e298a22da44034bd3b34301937b28ef28df0c06eabf8871bcfd93413",
+   "Size": 891120
+  },
+  {
+   "Package": "enigma2-plugin-softcams-oscam-emu",
+   "Version": "0.0-git1+ad7588c0+ad7588c6dd-r5",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "79fad2d1b20ae447db3bea145c5f94bf3844ad199b81d7135f978e283bf7a88c",
+   "Size": 865012
+  },
+  {
+   "Package": "enigma2-plugin-softcams-oscam-latest",
+   "Version": "0.0-git1+59051090+5905109ea7-r6",
+   "Architecture": "cortexa55",
+   "License": "GPL-3.0-only",
+   "SHA256sum": "051483015aa48cbdda56d25b455906e5412c80a5eb02d8da933784ac2d9ef768",
+   "Size": 807388
+  },
+  {
    "Package": "enigma2-plugin-systemplugins-autobouquetsmaker",
    "Version": "0.0-git1+a2d198b0+a2d198b510-r0",
    "Architecture": "cortexa55",
@@ -1720,6 +1744,14 @@
    "License": "GPL-2.0-or-later",
    "SHA256sum": "1752ff0d19c730792866556fa64e9cde3776d8fb269057b98e6b6b95556f87ad",
    "Size": 67880
+  },
+  {
+   "Package": "libdvbcsa1",
+   "Version": "1.2.0+git1+79d8f4b0+79d8f4bd0c-r0",
+   "Architecture": "cortexa55",
+   "License": "GPL-2.0-or-later",
+   "SHA256sum": "d3bd286a1c9d7422168f812b4866a1cf270568d01484be3ca039f641ac2c332b",
+   "Size": 28572
   },
   {
    "Package": "libdvbsi++1",

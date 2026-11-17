@@ -1039,6 +1039,78 @@ Size: 798364
 MD5Sum: e1624060a9f4cc8943e365029b5a2ed5
 SHA256sum: 03a7d0a262d36cd9d9e434bd61a4c03a6d65190b8c577064407d0128680f9ac3
 
+Package: enigma2-plugin-softcams-ncam
+Version: 1.30+git1+25671bf0+25671bffc8-r1
+Description: NCam 1.30+git1+25671bf0+25671bffc8 (IPv6/IPv4 Dual-Stack support)
+ NCam Open Source Softcam
+ - latest git revision
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: Raed - fairbird
+License: GPL-3.0-only
+Architecture: cortexa55
+OE: enigma2-plugin-softcams-ncam
+Homepage: https://www.openbh.net
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git1+79d8f4b0+79d8f4bd0c), libssl4 (>= 4.1.0), libusb1, softcam-support
+Provides: ncam
+Replaces: ncam-ipv4
+Conflicts: ncam-ipv4
+Source: enigma2-plugin-softcams-ncam.bb
+Filename: enigma2-plugin-softcams-ncam_1.30+git1+25671bf0+25671bffc8-r1_cortexa55.ipk
+Size: 891120
+MD5Sum: 7022377f9b046f9a0aa20fceeeccbf85
+SHA256sum: d06ef741e298a22da44034bd3b34301937b28ef28df0c06eabf8871bcfd93413
+
+Package: enigma2-plugin-softcams-oscam-emu
+Version: 0.0-git1+ad7588c0+ad7588c6dd-r5
+Description: OSCam-emu 0.0-git1+ad7588c0+ad7588c6dd (IPv6/IPv4 Dual-Stack support)
+ OSCam Open Source Softcam
+ - with emu support
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: oscam-emu
+License: GPL-3.0-only
+Architecture: cortexa55
+OE: enigma2-plugin-softcams-oscam-emu
+Homepage: https://www.openbh.net
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git1+79d8f4b0+79d8f4bd0c), libssl4 (>= 4.1.0), libusb-1.0-0 (>= 1.0.30), softcam-support
+Provides: enigma2-plugin-softcams-oscam-openvix-emu, oscam-emu
+Replaces: enigma2-plugin-softcams-oscam-openvix-emu, oscam-emu-ipv4
+Conflicts: enigma2-plugin-softcams-oscam-openvix-emu, oscam-emu-ipv4
+Source: enigma2-plugin-softcams-oscam-emu.bb
+Filename: enigma2-plugin-softcams-oscam-emu_0.0-git1+ad7588c0+ad7588c6dd-r5_cortexa55.ipk
+Size: 865012
+MD5Sum: 67e7efc040eaf6e89c280eb68a642bab
+SHA256sum: 79fad2d1b20ae447db3bea145c5f94bf3844ad199b81d7135f978e283bf7a88c
+
+Package: enigma2-plugin-softcams-oscam-latest
+Version: 0.0-git1+59051090+5905109ea7-r6
+Description: OSCam-latest 0.0-git1+59051090+5905109ea7 (IPv6/IPv4 Dual-Stack support)
+ OSCam Open Source Softcam
+ - latest trunk
+ - IPv6 support
+ This version can connect to servers using IPv6 and/or IPv4.
+Section: base
+Priority: optional
+Maintainer: oscam
+License: GPL-3.0-only
+Architecture: cortexa55
+OE: enigma2-plugin-softcams-oscam-latest
+Homepage: https://www.openbh.net
+Depends: libc6 (>= 2.44+git0+34106fee69), libcrypto4 (>= 4.1.0), libdvbcsa1 (>= 1.2.0+git1+79d8f4b0+79d8f4bd0c), libssl4 (>= 4.1.0), libusb-1.0-0 (>= 1.0.30), softcam-support
+Provides: enigma2-plugin-softcams-oscam-openvix, oscam-latest
+Replaces: enigma2-plugin-softcams-oscam-openvix, oscam-latest-ipv4
+Conflicts: enigma2-plugin-softcams-oscam-openvix, oscam-latest-ipv4
+Source: enigma2-plugin-softcams-oscam-latest.bb
+Filename: enigma2-plugin-softcams-oscam-latest_0.0-git1+59051090+5905109ea7-r6_cortexa55.ipk
+Size: 807388
+MD5Sum: 25f274541c571a1d95ad61df4459c86d
+SHA256sum: 051483015aa48cbdda56d25b455906e5412c80a5eb02d8da933784ac2d9ef768
+
 Package: enigma2-plugin-systemplugins-autobouquetsmaker
 Version: 0.0-git1+a2d198b0+a2d198b510-r0
 Description: systemplugins-autobouquetsmaker
@@ -3557,6 +3629,26 @@ Filename: libdreamdvd0_1.1+git1+975333a0+975333a755-r0_cortexa55.ipk
 Size: 67880
 MD5Sum: 0a37d71fa5589d53cfe3fd6ad93578c3
 SHA256sum: 1752ff0d19c730792866556fa64e9cde3776d8fb269057b98e6b6b95556f87ad
+
+Package: libdvbcsa1
+Version: 1.2.0+git1+79d8f4b0+79d8f4bd0c-r0
+Description: Open implementation of the DVB Common Scrambling Algorithm, encrypt and decrypt 
+ Open implementation of the DVB Common Scrambling Algorithm, encrypt and
+ decrypt .
+Section: libs/multimedia
+Priority: optional
+Maintainer: OpenBh
+License: GPL-2.0-or-later
+Architecture: cortexa55
+OE: libdvbcsa
+Homepage: https://www.openbh.net
+Depends: libc6 (>= 2.44+git0+34106fee69)
+Provides: libdvbcsa
+Source: libdvbcsa_git.bb
+Filename: libdvbcsa1_1.2.0+git1+79d8f4b0+79d8f4bd0c-r0_cortexa55.ipk
+Size: 28572
+MD5Sum: e9e06d845191764b665f4552761c76fa
+SHA256sum: d3bd286a1c9d7422168f812b4866a1cf270568d01484be3ca039f641ac2c332b
 
 Package: libdvbsi++1
 Version: 0.3.9+git1+f3c40ea0+f3c40ea6da-r0
