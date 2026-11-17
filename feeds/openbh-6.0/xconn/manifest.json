@@ -4299,11 +4299,11 @@
   },
   {
    "Package": "xc-audiod",
-   "Version": "0.1-r0",
+   "Version": "0.1-r1",
    "Architecture": "cortexa55",
    "License": "GPL-2.0-or-later",
-   "SHA256sum": "b137cd3e6009b3d0167f89586f73b000ae4627b422f330965cbb1f9e0dcca883",
-   "Size": 8090
+   "SHA256sum": "54c621aa04cecbf7b089f5787400f634706f8dcbfe803c5da696d28b682369be",
+   "Size": 8108
   },
   {
    "Package": "xc-avahi-shutdown-early",
@@ -4475,11 +4475,11 @@
   },
   {
    "Package": "xc-volume-bridge",
-   "Version": "0.1-r0",
+   "Version": "0.1-r1",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "a63ca0eb93ca806853e39f37fc89cbce28ad140d84669d5620923037c6218cf4",
-   "Size": 1802
+   "SHA256sum": "ae011a5fd374a740f831a499888757ba675002e5df90c55002a7e4adf3ac11fa",
+   "Size": 1926
   },
   {
    "Package": "xc-wifi",

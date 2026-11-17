@@ -9919,7 +9919,7 @@ MD5Sum: 7d1994e30416c5a5451ccb6a5cb89607
 SHA256sum: 5c3221032123ef89570875a93f0d8e3751db7ed978f3b7690cb134930137891f
 
 Package: xc-audiod
-Version: 0.1-r0
+Version: 0.1-r1
 Description: XC standard DVB audio system backend
  XC standard DVB audio system backend.
 Section: base
@@ -9932,10 +9932,10 @@ Homepage: https://www.openbh.net
 Depends: libasound2 (>= 1.2.16.1), libavcodec63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), libswresample7 (>= 9.0.2)
 Recommends: update-rc.d
 Source: xc-audiod_0.1.bb
-Filename: xc-audiod_0.1-r0_cortexa55.ipk
-Size: 8090
-MD5Sum: b46772efe9d8a54630d80c5761477db5
-SHA256sum: b137cd3e6009b3d0167f89586f73b000ae4627b422f330965cbb1f9e0dcca883
+Filename: xc-audiod_0.1-r1_cortexa55.ipk
+Size: 8108
+MD5Sum: dc49cbc13579738191c713366a1404b9
+SHA256sum: 54c621aa04cecbf7b089f5787400f634706f8dcbfe803c5da696d28b682369be
 
 Package: xc-avahi-shutdown-early
 Version: 0.1-r0
@@ -10328,7 +10328,7 @@ MD5Sum: 6911a74b4a5108e9d7965bdfae4db913
 SHA256sum: 803f95c7930a5954d700d43b060a66f4c3adb3234d5090cf7c9af86dbac25a6d
 
 Package: xc-volume-bridge
-Version: 0.1-r0
+Version: 0.1-r1
 Description: XC: mirror Enigma2 volume/mute to the ALSA softvol used by IPTV/GStreamer and other ALSA clients
  XC: mirror Enigma2 volume/mute to the ALSA softvol used by IPTV/GStreamer
  and other ALSA clients.
@@ -10342,10 +10342,10 @@ Homepage: https://www.openbh.net
 Depends: alsa-state, alsa-utils-amixer, python3-core
 Recommends: update-rc.d
 Source: xc-volume-bridge_0.1.bb
-Filename: xc-volume-bridge_0.1-r0_cortexa55.ipk
-Size: 1802
-MD5Sum: c1387fd394899d060ca0ddce3bbdee6c
-SHA256sum: a63ca0eb93ca806853e39f37fc89cbce28ad140d84669d5620923037c6218cf4
+Filename: xc-volume-bridge_0.1-r1_cortexa55.ipk
+Size: 1926
+MD5Sum: 4c2ec6887d2157af0354947b2baf0702
+SHA256sum: ae011a5fd374a740f831a499888757ba675002e5df90c55002a7e4adf3ac11fa
 
 Package: xc-wifi
 Version: 0.1-r0
