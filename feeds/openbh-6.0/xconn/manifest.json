@@ -4419,11 +4419,11 @@
   },
   {
    "Package": "xc-report",
-   "Version": "1.0-r1",
+   "Version": "1.0-r2",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "7f6ba827b827c0042d98597f8d587e16d6cc0b036be0768af3605ecb60aa03d9",
-   "Size": 30754
+   "SHA256sum": "e9d44332bb52b6b7cceeaf5496360d2738df1e831d391074b0d54dba6db7d2e3",
+   "Size": 30766
   },
   {
    "Package": "xc-screenshot",
