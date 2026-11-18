@@ -10198,6 +10198,25 @@ Size: 1722
 MD5Sum: aa43c273d8ae20410d5be7ed21ece496
 SHA256sum: 1f0ac1936d7682d147314e9e00c1aea76d3595ae0facce86cced5961cdaac8a0
 
+Package: xc-report
+Version: 1.0-r1
+Description: XC support report: diagnostic report (with screenshot) sent to the support repository
+ XC support report: diagnostic report (with screenshot) sent to the
+ support repository.
+Section: base
+Priority: optional
+Maintainer: OpenBh
+License: CLOSED
+Architecture: cortexa55
+OE: xc-report
+Homepage: https://www.openbh.net
+Depends: enigma2-plugin-extensions-openwebif, python3-compression, python3-core, python3-json, python3-netclient, python3-threading
+Source: xc-report_1.0.bb
+Filename: xc-report_1.0-r1_cortexa55.ipk
+Size: 30754
+MD5Sum: bbfcf11336feebd90d538a7bf0e2c037
+SHA256sum: 7f6ba827b827c0042d98597f8d587e16d6cc0b036be0768af3605ecb60aa03d9
+
 Package: xc-screenshot
 Version: 0.1-r1
 Description: XC OpenWebif screenshot: Amlogic video capture (amvideocap0) plus OSD framebuffer
