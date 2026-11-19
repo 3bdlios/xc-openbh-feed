@@ -10199,7 +10199,7 @@ MD5Sum: aa43c273d8ae20410d5be7ed21ece496
 SHA256sum: 1f0ac1936d7682d147314e9e00c1aea76d3595ae0facce86cced5961cdaac8a0
 
 Package: xc-report
-Version: 1.0-r2
+Version: 1.0-r5
 Description: XC support report: diagnostic report (with screenshot) sent to the support repository
  XC support report: diagnostic report (with screenshot) sent to the
  support repository.
@@ -10212,10 +10212,10 @@ OE: xc-report
 Homepage: https://www.openbh.net
 Depends: enigma2-plugin-extensions-openwebif, python3-compression, python3-core, python3-json, python3-netclient, python3-threading
 Source: xc-report_1.0.bb
-Filename: xc-report_1.0-r2_cortexa55.ipk
-Size: 30766
-MD5Sum: 3da28dbf428a498b44378b27c120aa75
-SHA256sum: e9d44332bb52b6b7cceeaf5496360d2738df1e831d391074b0d54dba6db7d2e3
+Filename: xc-report_1.0-r5_cortexa55.ipk
+Size: 33046
+MD5Sum: 08b7438f1c0f2e7d9b353c04432089f0
+SHA256sum: 469c5723e86d2648e2893b4ae1042ffb287f5ebcc0221640bc73d09adb1baab7
 
 Package: xc-screenshot
 Version: 0.1-r1

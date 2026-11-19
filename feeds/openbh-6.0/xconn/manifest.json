@@ -4419,11 +4419,11 @@
   },
   {
    "Package": "xc-report",
-   "Version": "1.0-r2",
+   "Version": "1.0-r5",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "e9d44332bb52b6b7cceeaf5496360d2738df1e831d391074b0d54dba6db7d2e3",
-   "Size": 30766
+   "SHA256sum": "469c5723e86d2648e2893b4ae1042ffb287f5ebcc0221640bc73d09adb1baab7",
+   "Size": 33046
   },
   {
    "Package": "xc-screenshot",
@@ -4547,11 +4547,11 @@
   },
   {
    "Package": "enigma2",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc1",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc3",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "7eb857119511db4da0e416d9ad33f04be300625d44be8f53cc16850117c3af09",
-   "Size": 3947274
+   "SHA256sum": "813be56c8a9962f5fabfd3ae5f972ecd6e5d114f3f29b2f0b56d757ebba29384",
+   "Size": 3947972
   },
   {
    "Package": "enigma2-fonts",
