@@ -4299,11 +4299,11 @@
   },
   {
    "Package": "xc-audiod",
-   "Version": "0.1-r1",
+   "Version": "0.1-r2",
    "Architecture": "cortexa55",
    "License": "GPL-2.0-or-later",
-   "SHA256sum": "54c621aa04cecbf7b089f5787400f634706f8dcbfe803c5da696d28b682369be",
-   "Size": 8108
+   "SHA256sum": "27702b9b50b9e2c45121128b68e8d82b43b918076e9fd7ddb46328086f989f50",
+   "Size": 8186
   },
   {
    "Package": "xc-avahi-shutdown-early",
