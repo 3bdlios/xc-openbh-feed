@@ -4299,10 +4299,10 @@
   },
   {
    "Package": "xc-audiod",
-   "Version": "0.1-r2",
+   "Version": "0.1-r3",
    "Architecture": "cortexa55",
    "License": "GPL-2.0-or-later",
-   "SHA256sum": "27702b9b50b9e2c45121128b68e8d82b43b918076e9fd7ddb46328086f989f50",
+   "SHA256sum": "cd4cbcf3ad73f743f438787286e7f9b8a1debb5d6e0f10c9685f6ab09999de83",
    "Size": 8186
   },
   {
@@ -4467,11 +4467,11 @@
   },
   {
    "Package": "xc-video-route",
-   "Version": "0.1-r2",
+   "Version": "0.1-r4",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "971bde002c6ebdca6d4799719e75b7956de521d620afb9b791e10e5d732d07a5",
-   "Size": 5990
+   "SHA256sum": "6720be52c6ffb3979df69ff0a19e662234ee9c2e472a93e87c07c615f8a0a6d4",
+   "Size": 6418
   },
   {
    "Package": "xc-video-setup",
@@ -4547,11 +4547,11 @@
   },
   {
    "Package": "enigma2",
-   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc3",
+   "Version": "6.0+git1+b8ee4290+b8ee429ab2-r1.xc7",
    "Architecture": "xconn",
    "License": "GPL-2.0-only",
-   "SHA256sum": "813be56c8a9962f5fabfd3ae5f972ecd6e5d114f3f29b2f0b56d757ebba29384",
-   "Size": 3947972
+   "SHA256sum": "7a14cc16065a2a2cb1ed12ecb5dac09d50fd8c340ce695c3e240b5293b05f177",
+   "Size": 3947800
   },
   {
    "Package": "enigma2-fonts",

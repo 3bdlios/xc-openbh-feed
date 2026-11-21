@@ -9919,7 +9919,7 @@ MD5Sum: 7d1994e30416c5a5451ccb6a5cb89607
 SHA256sum: 5c3221032123ef89570875a93f0d8e3751db7ed978f3b7690cb134930137891f
 
 Package: xc-audiod
-Version: 0.1-r2
+Version: 0.1-r3
 Description: XC standard DVB audio system backend
  XC standard DVB audio system backend.
 Section: base
@@ -9932,10 +9932,10 @@ Homepage: https://www.openbh.net
 Depends: libasound2 (>= 1.2.16.1), libavcodec63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), libswresample7 (>= 9.0.2)
 Recommends: update-rc.d
 Source: xc-audiod_0.1.bb
-Filename: xc-audiod_0.1-r2_cortexa55.ipk
+Filename: xc-audiod_0.1-r3_cortexa55.ipk
 Size: 8186
-MD5Sum: c009061774837656ff218abff69557cc
-SHA256sum: 27702b9b50b9e2c45121128b68e8d82b43b918076e9fd7ddb46328086f989f50
+MD5Sum: bcbb5a7ef8c6fa3e9aa9bb7112d32074
+SHA256sum: cd4cbcf3ad73f743f438787286e7f9b8a1debb5d6e0f10c9685f6ab09999de83
 
 Package: xc-avahi-shutdown-early
 Version: 0.1-r0
@@ -10309,7 +10309,7 @@ MD5Sum: 342a947430814e68939ca138eba864c1
 SHA256sum: 54d1bc62c0c346b9738398293b9b40182c48873b4cc518f877e16ad856ba6c28
 
 Package: xc-video-route
-Version: 0.1-r2
+Version: 0.1-r4
 Description: XC deinterlaced video route and HDMI/OSD binding
  XC deinterlaced video route and HDMI/OSD binding.
 Section: base
@@ -10322,10 +10322,10 @@ Homepage: https://www.openbh.net
 Depends: python3-core, python3-ctypes, python3-fcntl
 Recommends: update-rc.d
 Source: xc-video-route_0.1.bb
-Filename: xc-video-route_0.1-r2_cortexa55.ipk
-Size: 5990
-MD5Sum: 4ffff502a18703ee88f10b1b90b716d4
-SHA256sum: 971bde002c6ebdca6d4799719e75b7956de521d620afb9b791e10e5d732d07a5
+Filename: xc-video-route_0.1-r4_cortexa55.ipk
+Size: 6418
+MD5Sum: eef90fc65bedfe412a59c22709d0f4c4
+SHA256sum: 6720be52c6ffb3979df69ff0a19e662234ee9c2e472a93e87c07c615f8a0a6d4
 
 Package: xc-video-setup
 Version: 0.1-r1

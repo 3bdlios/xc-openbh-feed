@@ -74,7 +74,7 @@ MD5Sum: 6440ad672dfa58895546af1039dfb5b0
 SHA256sum: dc6884534125be0479b3ca5c70aaf0048f78e833a3b5c04926887168b5799ae0
 
 Package: enigma2
-Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc3
+Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc7
 Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions
  Enigma2 is an experimental, but useful framebuffer-based frontend for DVB
  functions.
@@ -88,10 +88,10 @@ Homepage: https://www.openbh.net
 Depends: alsa-conf, enigma2-fonts, enigma2-plugin-font-wqy-microhei, enigma2-plugin-skins-mxslimlinenp, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.28.8), libavahi-client3 (>= 0.9~rc5), libavahi-common3 (>= 0.9~rc5), libbluray, libc6 (>= 2.44+git0+34106fee69), libcrypt2 (>= 4.5.2), libcrypto4 (>= 4.1.0), libdreamdvd0 (>= 1.1+git1+975333a0+975333a755), libdvbsi++1 (>= 0.3.9+git1+f3c40ea0+f3c40ea6da), libfreetype6 (>= 2.15.0), libfribidi0 (>= 1.0.17), libgcc1 (>= 16.2.0), libgif7 (>= 6.1.3), libglib-2.0-0 (>= 2.90.0), libgomp1 (>= 16.2.0), libgstpbutils-1.0-0 (>= 1.28.8), libjpeg62 (>= 3.2.0), libpng16-16 (>= 1.6.59), libpython3.14-1.0 (>= 3.14.9), libsigc-3.0-0 (>= 3.6.0), libssl4 (>= 4.1.0), libstdc++6 (>= 16.2.0), libtuxtxt0 (>= 2.0+git1+9319ad40+9319ad4058), libtuxtxt32bpp0 (>= 2.0+git1+9319ad40+9319ad4058), libudfread3 (>= 1.2.0+git1+139a2190+139a219452), libxml2 (>= 2.15.4), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-email, python3-fcntl, python3-image, python3-mime, python3-mmap, python3-netclient, python3-netifaces, python3-netserver, python3-pickle, python3-pillow, python3-process, python3-pyusb, python3-shell, python3-six, python3-threading, python3-treq, python3-twisted-core, python3-twisted-web, python3-wifi, python3-xml, python3-zopeinterface, wireless-tools, wpa-supplicant, xc-cam-integration, xc-video-setup
 Recommends: glib-networking, glibc-gconv-utf-16, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss, shellinabox
 Source: enigma2.bb
-Filename: enigma2_6.0+git1+b8ee4290+b8ee429ab2-r1.xc3_xconn.ipk
-Size: 3947972
-MD5Sum: a731cb977ebbe21cfdd03dbdc075409e
-SHA256sum: 813be56c8a9962f5fabfd3ae5f972ecd6e5d114f3f29b2f0b56d757ebba29384
+Filename: enigma2_6.0+git1+b8ee4290+b8ee429ab2-r1.xc7_xconn.ipk
+Size: 3947800
+MD5Sum: 50a376f1c0aea8a1d8aa7793f475c9a2
+SHA256sum: 7a14cc16065a2a2cb1ed12ecb5dac09d50fd8c340ce695c3e240b5293b05f177
 
 Package: enigma2-fonts
 Version: 6.0+git1+b8ee4290+b8ee429ab2-r1.xc1
