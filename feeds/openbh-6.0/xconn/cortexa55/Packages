@@ -9919,7 +9919,7 @@ MD5Sum: 7d1994e30416c5a5451ccb6a5cb89607
 SHA256sum: 5c3221032123ef89570875a93f0d8e3751db7ed978f3b7690cb134930137891f
 
 Package: xc-audiod
-Version: 0.1-r3
+Version: 0.1-r13
 Description: XC standard DVB audio system backend
  XC standard DVB audio system backend.
 Section: base
@@ -9932,10 +9932,10 @@ Homepage: https://www.openbh.net
 Depends: libasound2 (>= 1.2.16.1), libavcodec63 (>= 9.0.2), libavutil61 (>= 9.0.2), libc6 (>= 2.44+git0+34106fee69), libswresample7 (>= 9.0.2)
 Recommends: update-rc.d
 Source: xc-audiod_0.1.bb
-Filename: xc-audiod_0.1-r3_cortexa55.ipk
-Size: 8186
-MD5Sum: bcbb5a7ef8c6fa3e9aa9bb7112d32074
-SHA256sum: cd4cbcf3ad73f743f438787286e7f9b8a1debb5d6e0f10c9685f6ab09999de83
+Filename: xc-audiod_0.1-r13_cortexa55.ipk
+Size: 9910
+MD5Sum: b73039009ddb55b882dce704874b5e9c
+SHA256sum: 13034f5af74542a8cb35a0bd2f9b44afbbfedbe84c78a9a9aa08e9ecab1ecebb
 
 Package: xc-avahi-shutdown-early
 Version: 0.1-r0
