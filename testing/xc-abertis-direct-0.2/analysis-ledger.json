@@ -1,0 +1,25 @@
+{
+  "artifact": "EX ex-abertis from enigmax-os-20261107c",
+  "sha256": "df1c57ee3f27b9df2cd579e8cb6e4fe30be50402d349c4410d86c8c503a02aec",
+  "evidence": {
+    "usage": "ev_56f704ae6ddf5e47a2f30158c15ec4b12f9d34170f1304bb76ca1b20c456e345",
+    "main": "ev_2826fedc5d1130ca1767b1c6c7d180a23737b3c402989ffa14b561516e640041",
+    "source_open": "ev_4da1d96eb23105984c1600cfc9f041a9887065f1aac8967570986b96dcc73a43"
+  },
+  "observed_static": [
+    "direct dvr/demux PID filtering",
+    "--fd passthrough",
+    "--program selection",
+    "--keyfile option"
+  ],
+  "observed_receiver": [
+    "loader dependency check passed",
+    "usage with invalid pid returns exit 2"
+  ],
+  "unresolved": [
+    "RF lock on Hispasat",
+    "inner TS extraction with real feed",
+    "XC picture/audio output and switching",
+    "full scan/update parity with EX"
+  ]
+}
