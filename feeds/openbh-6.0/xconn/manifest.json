@@ -18,6 +18,14 @@
    "Size": 112360
   },
   {
+   "Package": "enigma2-plugin-extensions-addremote",
+   "Version": "0.3.3",
+   "Architecture": "all",
+   "License": "",
+   "SHA256sum": "71e1202496a3828bedba437acf154c70ab382d300eb6461cad017b1389374c52",
+   "Size": 32164
+  },
+  {
    "Package": "enigma2-plugin-settings-defaultsat",
    "Version": "6.0+git1+6b809e40+6b809e4e4d-r0",
    "Architecture": "all",
@@ -4291,11 +4299,11 @@
   },
   {
    "Package": "xc-addremote-repeat",
-   "Version": "1.0-r0",
+   "Version": "1.0-r1",
    "Architecture": "cortexa55",
    "License": "CLOSED",
-   "SHA256sum": "5c3221032123ef89570875a93f0d8e3751db7ed978f3b7690cb134930137891f",
-   "Size": 3038
+   "SHA256sum": "9a7adadc5049abdad698650dfbda9f209189d14fc4f1ba73e39fe4e7c295f9e0",
+   "Size": 8872
   },
   {
    "Package": "xc-audiod",
