@@ -38,3 +38,5 @@ tail -60 /tmp/xc-abertis-direct.log
 tail -40 /tmp/xc-abertis-extractor.log
 
 شكر للمشروع الأصلي EX Abertis وأصحاب أدوات Abertis؛ أداة EX ومكتبتها من الصورة التي أرفقها المستخدم، لا من Astra.
+
+الإصدار 0.3: تصميم محسّن وتحديث مفاتيح بالخلفية من مصادر المستخدم مع نسخة رجوع. رابط install.sh نفسه يثبت 0.3.
