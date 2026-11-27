@@ -3,9 +3,11 @@
 #  - XC Recovery plugin: the recovery screen inside OpenBH, its operations without a restart
 #  - recovery update: "Install online" in the recovery screen, DNS/HTTPS fix for network installs
 #  - kernel-xc.img with the PiP fix (active after a reboot)
+#  - AudioShift RAM video delay: device-mapper modules (xc-dm-modules) and OpenATV timeshift
+#    setting names on OpenBH (xc-timeshift-compat), so no "stop timeshift?" question on zap
 # Usage: wget https://raw.githubusercontent.com/3bdlios/xc-openbh-feed/main/testing/xc-recovery-test/install.sh -O - | /bin/sh
 URL=https://raw.githubusercontent.com/3bdlios/xc-openbh-feed/main/testing/xc-recovery-test
-FILES="e2fsprogs-resize2fs_1.47.4-r0.0_cortexa55.ipk gptfdisk_1.0.10-r0_cortexa55.ipk xc-recovery-live_1.0-r0_cortexa55.ipk xc-boot-files_1.0-r4_xconn.ipk"
+FILES="e2fsprogs-resize2fs_1.47.4-r0.0_cortexa55.ipk gptfdisk_1.0.10-r0_cortexa55.ipk xc-recovery-live_1.0-r0_cortexa55.ipk xc-boot-files_1.0-r4_xconn.ipk xc-dm-modules_5.15.196-r2_xconn.ipk xc-timeshift-compat_1.0-r0_cortexa55.ipk"
 echo '>>> XC Recovery test'
 [ "$(id -u)" = 0 ] || { echo 'Run as root'; exit 1; }
 grep -q '^box_type=xconn\|xconn' /etc/hostname /etc/image-version 2>/dev/null || { echo 'XCONN X-CYBER only'; exit 1; }
@@ -17,8 +19,10 @@ done
 (cd /tmp && sha256sum -c - ) <<SUMS || { echo 'Checksum mismatch'; rm -f /tmp/*.ipk; exit 1; }
 d47b2cb253be977a3653bc7904ea9029b978c2f36b1aa53c358f80cb49f99f0f  e2fsprogs-resize2fs_1.47.4-r0.0_cortexa55.ipk
 07d2e46bb7029df1ec0bee6eb7c4556c0f133976ed913dc79602c2485e213f97  gptfdisk_1.0.10-r0_cortexa55.ipk
-b1566dd398dc132f48bb37fda0c7b55c5995649ae22baed601360c2d3794e8d4  xc-boot-files_1.0-r4_xconn.ipk
 53a28bbfb7124886bb483ab858de86c4cd9e7ca3c05d6c66e226b3f39377e4f6  xc-recovery-live_1.0-r0_cortexa55.ipk
+b1566dd398dc132f48bb37fda0c7b55c5995649ae22baed601360c2d3794e8d4  xc-boot-files_1.0-r4_xconn.ipk
+fbf4cb39032b2763ca25a6c4b5f2072686cd0cfe1cf6b69275af2f11c735a74a  xc-dm-modules_5.15.196-r2_xconn.ipk
+551b94f6e0c0395556553f91c1666a84c63c6a8ee7feddc6c65644e9b6c80c72  xc-timeshift-compat_1.0-r0_cortexa55.ipk
 SUMS
 opkg update >/dev/null 2>&1
 echo '>>> Installing'
