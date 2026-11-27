@@ -3,11 +3,11 @@
  "images": [
   {
    "name": "OpenATV",
-   "version": "8.0.1 (test 20261126)",
+   "version": "8.0.1",
    "model": "XCONN-Forever-X-CYBER",
-   "url": "https://github.com/3bdlios/xc-openbh-feed/releases/download/images-openatv-8.0.1-20261126/OpenATV-8.0.1-X-CYBER-SLOT-20261126.tar.gz",
-   "size": 147358164,
-   "sha256": "4fa03c648aa576e73bcca60add44cb4094fb19641f3f3641a0ce3c69fbb5bad5"
+   "url": "https://github.com/3bdlios/xc-openbh-feed/releases/download/images-openatv-8.0.1-20261127/OpenATV-8.0.1.tar.gz",
+   "size": 173442295,
+   "sha256": "63696dc76630da6c2cfcfad28a821bdb6263ac5d724ac5bdb01941598157ea74"
   }
  ]
 }
